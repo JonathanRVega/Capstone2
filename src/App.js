@@ -7,10 +7,9 @@ import AttractionList from "./components/attractions-list.component";
 
 function App() {
   return (
-    <Router>
-      <Navbar />
-      <Route path="/" component={AttractionList} />
-    </Router>
+    <div>
+      a
+    </div>
   );
 }
 
