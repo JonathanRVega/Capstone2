@@ -20,10 +20,10 @@ connection.once('open', () => {
 })
 
 const attractionRouter = require('./routes/attractions');
-const userRouter = require('./routes/users');
+const mailRouter = require('./routes/mail');
 
 app.use('/attractions', attractionRouter);
-app.use('/users', userRouter);
+app.use('/mail', mailRouter);
 
 app.listen(port, () => {
     console.log(`Server is running on port: ${port}`);
