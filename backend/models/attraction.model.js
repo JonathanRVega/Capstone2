@@ -6,7 +6,7 @@ const attractionSchema = new Schema({
     name: { type:String, required: true },
     description: { type: String, required: true },
     address: { type: String, required: true },
-    zipcode: { type: Number, required: true, min: 10000, max: 99999},
+    zipcode: { type: Number, required: [true, 'The zipcode has to be 5 numbers'], min: 10000, max: 99999},
     website: { 
         type: String,
         validate: {

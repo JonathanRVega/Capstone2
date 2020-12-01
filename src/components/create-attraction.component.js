@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import axios from 'axios';
 
 export default class CreateAttraction extends Component {
     constructor(props) {  
@@ -22,11 +23,15 @@ export default class CreateAttraction extends Component {
       }
 
       componentDidMount() {
-        this.setState({ 
-          name: 'test user',
-          website: 'test user',
-          attractions: ['test user']
-        });
+            axios.get('http://localhost:5000/attractions/')
+            .then(response => {
+                if(response.data.length > 0){
+                    this.setState({
+                        attractions: response.data.map(names => names.name),
+                        name: response.data[0].name
+                    })
+                }
+            })
       }
 
       onChangeName(e) {  
@@ -61,7 +66,16 @@ export default class CreateAttraction extends Component {
           website: this.state.website
         };
       console.log(attraction);
+
+      try {
+      axios.post('http://localhost:5000/attractions/add', attraction)
+      .then(res => console.log(res.data));
+
       window.location = '/';
+      }
+      catch (err) {
+          console.log(err);
+      }
       }
 
     render() {
