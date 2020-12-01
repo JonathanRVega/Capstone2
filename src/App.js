@@ -4,11 +4,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Navbar from "./components/navbar.component";
 import AttractionList from "./components/attractions-list.component";
+import CreateAttraction from "./components/create-attraction.component"
 
 function App() {
   return (
     <div>
-      a
+      <CreateAttraction />
     </div>
   );
 }
