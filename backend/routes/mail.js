@@ -21,7 +21,7 @@ router.route('/add').post((req, res) => {
     });
 
     newMail.save()
-    .then(() => res.json('Mail submitted!'))
+    .then(() => res.json('Mail sent!'))
     .catch(err => res.status(400).json('Error: '+err));
 });
 

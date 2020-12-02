@@ -3,6 +3,7 @@ import { Component } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from "./components/navbar.component";
+import Home from './components/FrontEndComponents/Home'
 import ThingsToDo from './components/Things.component';
 import Blog from './components/Blogs.component.js';
 import About from './components/About.component';
@@ -15,11 +16,11 @@ class App extends Component {
         <div className="App">
           <Navbar/>
           <Switch>
-            <Route exact path='/'/>
-            <Route exact path='/thingsToDo' component={ ThingsToDo } />
-            <Route exact path='/blog' component={ Blog } />
-            <Route exact path='/about' component={ About } />
-            <Route exact path='/contact' component={ Contact } />
+            <Route exact path='/' component={ Home }/>
+            <Route path='/thingsToDo' component={ ThingsToDo } />
+            <Route path='/blog' component={ Blog } />
+            <Route path='/about' component={ About } />
+            <Route path='/contact' component={ Contact } />
           </Switch>
         </div>
       </BrowserRouter>

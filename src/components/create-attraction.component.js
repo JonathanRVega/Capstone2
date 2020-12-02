@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
+import '../index.css';
 
 export default class CreateAttraction extends Component {
     constructor(props) {  
@@ -16,7 +17,7 @@ export default class CreateAttraction extends Component {
           name: '',  
           description: '',  
           address: '',  
-          zipcode: 0,  
+          zipcode: '',  
           website: '',
           attractions: []
         }  
@@ -28,7 +29,6 @@ export default class CreateAttraction extends Component {
                 if(response.data.length > 0){
                     this.setState({
                         attractions: response.data.map(names => names.name),
-                        name: response.data[0].name
                     })
                 }
             })
@@ -62,7 +62,7 @@ export default class CreateAttraction extends Component {
           name: this.state.name,
           description: this.state.description,
           address: this.state.address,
-          zipcode: this.state.zipcode,
+          zipcode: parseInt(this.state.zipcode, 10),
           website: this.state.website
         };
       console.log(attraction);
@@ -81,51 +81,56 @@ export default class CreateAttraction extends Component {
     render() {
         return (
             <div className="submitAttractionContainer">
-            <h3>Add a new attraction!</h3>
+            <div className="testContainer2">
+            <h3 className="attractionHeader">Add a new attraction!</h3>
+            <p>Make sure the zipcode is 5 numbers and the website has www. at the beginning.</p>
+            </div>
             <form onSubmit={this.onSubmit}>
               <div className="testContainer my-3"> 
                 <input  type="text"
                     required
-                    className="form-control"
+                    className="form-control formtextAttraction"
                     value={this.state.name}
                     onChange={this.onChangeName}
+                    placeholder="Name"
                     />
                 <input  type="text"
                     required
-                    className="form-control"
+                    className="form-control formtextAttraction"
                     value={this.state.Description}
-                    onChange={this.onChangeDescription}
-                    placeholder="Describe this attraction"
+                    onChange={this.onChangeWebsite}
+                    placeholder="Website"
                     />
               </div>
-              <div className="testContainer">
+              <div className="testContainer my-3">
                 <input 
                     type="text" 
-                    className="form-control"
+                    className="form-control formtextAttraction"
                     value={this.state.address}
                     onChange={this.onChangeAddress}
-                    placeholder="Address of the attraction"
+                    placeholder="Address"
                     />
                 <input 
-                    type="text" 
-                    className="form-control"
+                    type="number" 
+                    className="form-control formtextAttraction"
                     value={this.state.zipcode}
                     onChange={this.onChangeZipcode}
+                    placeholder="Zipcode"
                     />
               </div>
-              <div className="form-group">
+              <div className="testContainer my-0">
                 <input 
                     type="text" 
-                    className="form-control"
-                    value={this.state.website}
-                    onChange={this.onChangeWebsite}
-                    placeholder=""
+                    className="form-control formtextAttractionBig"
+                    value={this.state.description}
+                    onChange={this.onChangeDescription}
+                    placeholder="Tell us more about this place"
                     />
               </div>
     
     
               <div className="buttonAttraction">
-                <input type="submit" value="Create New Attraction" className="w-100 btn btn-primary" />
+                <input type="submit" value="Create New Attraction" className="w-100 btn p-1" />
               </div>
             </form>
           </div>
