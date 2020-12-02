@@ -12,7 +12,7 @@ body {
 
 /* global css */
 .btn {
-    border: 0.2rem solid #555555;
+    border: 0.2rem solid #ffffff;
     border-radius: 2rem;
     font-size: 1.6rem;
     font-weight: bold;
@@ -20,7 +20,7 @@ body {
     text-transform: uppercase;
     margin: 1rem 0;
     background-color: transparent;
-    color: #555555;
+    color: #ffffff;
 }
 .btn:hover {
     /* transform: translateY(-3px); */
@@ -32,7 +32,7 @@ body {
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
 }
 
-.cta:hover::after {
+.btn:hover::after {
     transform: scaleX(1.4) scaleY(1.6);
     opacity: 0;
 }
@@ -95,12 +95,28 @@ body {
 }
 
 /* Header section */
-.header-section {
+#header-section {
     /* position: relative; */
+    background-image: linear-gradient( 
+        to right bottom,
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4)),
+    url("./assets/downtown/matt-koffel-_W8p_1OBkAw-unsplash.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top center;
+    height: 85vh;
+    border-bottom-left-radius: 50% 20%;
+    border-bottom-right-radius: 50% 20%;
 }
 
 .header-text-container {
-    margin-top: 10%;
+    padding-top: 10%;
+    color: #ffffff;
+}
+.header-text-container .line {
+    border-top: 2px solid #ffffff;
+    width: 5rem;
 }
 .header-text-container h1 {
     font-size: 3rem;
