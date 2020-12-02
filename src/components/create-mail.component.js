@@ -15,7 +15,7 @@ export default class CreateMail extends Component {
           firstname: '',  
           lastname: '',  
           emailaddress: '',  
-          description: 0,  
+          description: '',  
           mail: []
         }  
       }
@@ -74,24 +74,28 @@ export default class CreateMail extends Component {
             <div>
                 <h4>Questions?</h4>
                 <h3>Contact Us</h3>
-                <form onSubmit={this.onSubmit}>
+                <form className="formToRight" onSubmit={this.onSubmit}>
                     <div className="form-group"> 
-                        <input  type="text"
-                            required
-                            className="form-control"
-                            placeholder="First Name"
-                            value={this.state.firstname}
-                            onChange={this.onChangeFirstName}
-                            />
-                    </div>
-                    <div className="form-group"> 
-                        <input  type="text"
-                            required
-                            className="form-control"
-                            placeholder="Last Name"
-                            value={this.state.lastname}
-                            onChange={this.onChangeLastName}
-                            />
+                        <div className="row">
+                            <div className="col">
+                                <input  type="text"
+                                required
+                                className="form-control"
+                                placeholder="First Name"
+                                value={this.state.firstname}
+                                onChange={this.onChangeFirstName}
+                                />
+                            </div>
+                            <div className="col">
+                                <input  type="text"
+                                required
+                                className="form-control"
+                                placeholder="Last Name"
+                                value={this.state.lastname}
+                                onChange={this.onChangeLastName}
+                                />
+                            </div>
+                        </div>
                     </div>
                     <div className="form-group">
                         <input 
@@ -103,7 +107,6 @@ export default class CreateMail extends Component {
                             />
                     </div>
                     <div className="form-group">
-                        <label>Zipcode: </label>
                         <input 
                             type="text" 
                             className="form-control"
