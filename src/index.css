@@ -129,3 +129,21 @@ body {
     line-height: 2.5rem;
     font-weight: lighter;
 }
+
+
+/* Contact Form Section */
+
+.formToRight {
+    width: 40rem;
+    margin: 0 10rem;
+    float: right;
+}
+
+.form-control {
+    font-size:2rem;
+}
+
+textarea.form-description {
+    height:20rem;
+    resize:none;
+}
