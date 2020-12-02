@@ -16,10 +16,10 @@ class App extends Component {
           <Navbar/>
           <Switch>
             <Route exact path='/' />
-            <Route exact path='/thingsToDo' Component={ ThingsToDo } />
-            <Route exact path='/blog' Component={ Blog } />
-            <Route exact path='/about' Component={ About } />
-            <Route exact path='/contact' Component={ Contact } />
+            <Route path='/thingsToDo' component={ ThingsToDo } />
+            <Route path='/blog' component={ Blog } />
+            <Route path='/about' component={ About } />
+            <Route path='/contact' component={ Contact } />
           </Switch>
         </div>
       </BrowserRouter>
