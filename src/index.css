@@ -1,14 +1,45 @@
+/* CSS Resets */
 html {
+    /* changed font to the percentage below so it would be easier to use REMs. 
+    62.5% = 10px and 10px = 1rem */
+    font-size: 62.5%;
     box-sizing: border-box;
 }
 body {
     color: #555555;
+    font-size: 1.6rem;
+}
+
+/* global css */
+.btn {
+    border: 0.2rem solid #555555;
+    border-radius: 2rem;
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding: 0.4rem 3rem;
+    text-transform: uppercase;
+    margin: 1rem 0;
+    background-color: transparent;
+    color: #555555;
+}
+.btn:hover {
+    /* transform: translateY(-3px); */
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, .2);
+}
+
+.btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
+}
+
+.cta:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
 }
 
 /* Navbar section */
-
 .navbar-nav .nav-item {
-    padding: 0 10px;
+    padding: 0 1rem;
 }
 .navbar-nav .nav-link {
     color: #555555;
@@ -17,6 +48,26 @@ body {
     color: #232323;
 }
 .navbar-nav .search {
-    font-size: 25px;
-    margin-top: 10px;
+    font-size: 2.5rem;
+    margin-top: 1rem;
+}
+
+/* Header section */
+.header-section {
+    /* position: relative; */
+}
+
+.header-text-container {
+    margin-top: 10%;
+}
+.header-text-container h1 {
+    font-size: 3rem;
+    line-height: 5.5rem;
+}
+.header-text-container h1 span {
+    font-size: 5.5rem;
+}
+.header-text-container p {
+    line-height: 2.5rem;
+    font-weight: lighter;
 }
