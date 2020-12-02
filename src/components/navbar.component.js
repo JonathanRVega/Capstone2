@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import {UncontrolledDropdown,DropdownToggle,DropdownMenu, DropdownItem,} from 'reactstrap';
+import Logo from '../assets/logo/Capstone logo3-01.png'
 import '../index.css';
 
 const Navbar = () => {
@@ -10,7 +11,9 @@ const Navbar = () => {
             <nav className="navbar navbar-expand-lg">
                 <div className="container">
                     {/* logo */}
-                    <div className="navbar-brand">Logo</div>
+                    <div className="navbar-brand">
+                        {/* <img src={Logo} alt="logo"/> */}
+                    </div>
                     <button className="navbar-toggler" type="button" data-toggle="collapse"     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"      aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
@@ -25,6 +28,9 @@ const Navbar = () => {
                                     Things To Do
                                 </DropdownToggle>
                                 <DropdownMenu right>
+                                    <DropdownItem>
+                                        Things To Do
+                                    </DropdownItem>
                                     <DropdownItem>
                                         Eat
                                     </DropdownItem>

@@ -38,11 +38,19 @@ body {
 }
 
 /* Navbar section */
+.navbar-brand .logo img {
+    width: 3rem;
+    height: auto;
+}
 .navbar-nav .nav-item {
     padding: 0 1rem;
 }
 .navbar-nav .nav-link {
-    color: #555555;
+    color: #ffffff;
+}
+.navbar-nav .active {
+    color: #fe5000;
+    font-weight: bold;
 }
 .navbar-nav .nav-link:hover {
     color: #232323;
@@ -50,6 +58,7 @@ body {
 .navbar-nav .search {
     font-size: 2.5rem;
     margin-top: 1rem;
+    color: #ffffff;
 }
 
 /* Header section */
@@ -63,7 +72,7 @@ body {
     background-attachment: fixed;
     background-size: cover;
     background-position: top center;
-    height: 85vh;
+    height: 90vh;
     border-bottom-left-radius: 50% 20%;
     border-bottom-right-radius: 50% 20%;
 }
@@ -81,9 +90,16 @@ body {
     line-height: 5.5rem;
 }
 .header-text-container h1 span {
+    letter-spacing: 0.3rem;
     font-size: 5.5rem;
+    color: #fe5000;
 }
 .header-text-container p {
     line-height: 2.5rem;
     font-weight: lighter;
+}
+
+/* facts section */
+.facts {
+    margin-top: 10rem;
 }
