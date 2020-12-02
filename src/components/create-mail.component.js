@@ -23,7 +23,6 @@ export default class CreateMail extends Component {
     componentDidMount() {
         this.setState({
             mail: ['test mail'],
-            firstname: 'test firstname'
         })
     }
 
@@ -63,7 +62,11 @@ export default class CreateMail extends Component {
 
         console.log(mail);
 
-        window.location = '/';
+        axios.post('http://localhost:5000/mail/add', mail)
+            .then(res => console.log(res.data));
+            
+
+        // window.location = '/';
     }
 
     render() {
