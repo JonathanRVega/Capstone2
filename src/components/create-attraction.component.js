@@ -129,10 +129,12 @@ export default class CreateAttraction extends Component {
               </div>
     
     
-              <div className="buttonAttraction">
-                <input type="submit" value="Create New Attraction" className="w-100 btn p-1" />
+              <div className="mx-3">
+                <input type="submit" value="Create New Attraction" className="w-100 btn-dark p-1" />
               </div>
             </form>
+            <br/>
+            <br/>
           </div>
         )
     }
