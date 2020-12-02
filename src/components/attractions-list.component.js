@@ -43,9 +43,9 @@ export default class AttractionList extends Component {
                 <tr>
                     <th>Username</th>
                     <th>Description</th>
-                    <th>Duration</th>
-                    <th>Date</th>
-                    <th>Actions</th>
+                    <th>Address</th>
+                    <th>Zipcode</th>
+                    <th>website</th>
                 </tr>
                 </thead>
                 <tbody>

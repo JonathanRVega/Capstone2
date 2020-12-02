@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
+import '../index.css';
 
 export default class CreateAttraction extends Component {
     constructor(props) {  
@@ -16,7 +17,7 @@ export default class CreateAttraction extends Component {
           name: '',  
           description: '',  
           address: '',  
-          zipcode: 0,  
+          zipcode: '',  
           website: '',
           attractions: []
         }  
@@ -28,7 +29,6 @@ export default class CreateAttraction extends Component {
                 if(response.data.length > 0){
                     this.setState({
                         attractions: response.data.map(names => names.name),
-                        name: response.data[0].name
                     })
                 }
             })
@@ -62,7 +62,7 @@ export default class CreateAttraction extends Component {
           name: this.state.name,
           description: this.state.description,
           address: this.state.address,
-          zipcode: this.state.zipcode,
+          zipcode: parseInt(this.state.zipcode, 10),
           website: this.state.website
         };
       console.log(attraction);
@@ -80,58 +80,57 @@ export default class CreateAttraction extends Component {
 
     render() {
         return (
-            <div>
-            <h3>Add a new attraction!</h3>
+            <div className="submitAttractionContainer">
+            <div className="testContainer2">
+            <h3 className="attractionHeader">Add a new attraction!</h3>
+            <p>Make sure the zipcode is 5 numbers and the website has www. at the beginning.</p>
+            </div>
             <form onSubmit={this.onSubmit}>
-              <div className="form-group"> 
-                <label>Attraction name: </label>
+              <div className="testContainer my-3"> 
                 <input  type="text"
                     required
-                    className="form-control"
+                    className="form-control formtextAttraction"
                     value={this.state.name}
                     onChange={this.onChangeName}
+                    placeholder="Name"
                     />
-              </div>
-              <div className="form-group"> 
-                <label>Description: </label>
                 <input  type="text"
                     required
-                    className="form-control"
+                    className="form-control formtextAttraction"
                     value={this.state.Description}
-                    onChange={this.onChangeDescription}
+                    onChange={this.onChangeWebsite}
+                    placeholder="Website"
                     />
               </div>
-              <div className="form-group">
-                <label>Address: </label>
+              <div className="testContainer my-3">
                 <input 
                     type="text" 
-                    className="form-control"
+                    className="form-control formtextAttraction"
                     value={this.state.address}
                     onChange={this.onChangeAddress}
+                    placeholder="Address"
                     />
-              </div>
-              <div className="form-group">
-                <label>Zipcode: </label>
                 <input 
-                    type="text" 
-                    className="form-control"
+                    type="number" 
+                    className="form-control formtextAttraction"
                     value={this.state.zipcode}
                     onChange={this.onChangeZipcode}
+                    placeholder="Zipcode"
                     />
               </div>
-              <div className="form-group">
-                <label>Website: </label>
+              <div className="testContainer my-0">
                 <input 
                     type="text" 
-                    className="form-control"
-                    value={this.state.website}
-                    onChange={this.onChangeWebsite}
+                    className="form-control formtextAttractionBig"
+                    value={this.state.description}
+                    onChange={this.onChangeDescription}
+                    placeholder="Tell us more about this place"
                     />
               </div>
     
     
-              <div className="form-group">
-                <input type="submit" value="Create New Attraction" className="btn btn-primary" />
+              <div className="buttonAttraction">
+                <input type="submit" value="Create New Attraction" className="w-100 btn p-1" />
               </div>
             </form>
           </div>
