@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import {UncontrolledDropdown,DropdownToggle,DropdownMenu, DropdownItem,} from 'reactstrap';
+import '../index.css';
 
 const Navbar = () => {
     
@@ -16,16 +18,25 @@ const Navbar = () => {
                     <div className="collapse navbar-collapse d-flex justify-content-end"    id="navbarSupportedContent">
                         <ul className="navbar-nav">
                             <li className="nav-item">
-                                <Link to='/' className="nav-link">Home</Link>
+                                <Link to='/' className="nav-link active">Home</Link>
                             </li>
-                            <li className="nav-item dropdown">
-                                <Link to='/thingsToDo' className="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Things To Do</Link>
-                                <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    <a className="dropdown-item" href="/eat">Eat</a>
-                                    <a className="dropdown-item" href="/shop">Shop</a>
-                                    <a className="dropdown-item" href="/play">Play</a>
-                                </div>
-                            </li>
+                            <UncontrolledDropdown nav inNavbar>
+                                <DropdownToggle nav caret>
+                                    Things To Do
+                                </DropdownToggle>
+                                <DropdownMenu right>
+                                    <DropdownItem>
+                                        Eat
+                                    </DropdownItem>
+                                    <DropdownItem>
+                                        Shop
+                                    </DropdownItem>
+                                    <DropdownItem />
+                                    <DropdownItem>
+                                        Play
+                                 </DropdownItem>
+                                </DropdownMenu>
+                             </UncontrolledDropdown>
                             <li className="nav-item">
                                 <Link to='/blog' className="nav-link">Blog</Link>
                             </li>
@@ -36,7 +47,7 @@ const Navbar = () => {
                                 <Link to='/contact' className="nav-link">Contact</Link>
                             </li>
                             <li className='nav-item'>
-                                <i className="fas fa-search"></i>
+                                <i className="fas fa-search search"></i>
                             </li>
                         </ul>
                     </div>
