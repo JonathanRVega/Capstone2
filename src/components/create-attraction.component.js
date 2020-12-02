@@ -80,38 +80,32 @@ export default class CreateAttraction extends Component {
 
     render() {
         return (
-            <div>
+            <div className="submitAttractionContainer">
             <h3>Add a new attraction!</h3>
             <form onSubmit={this.onSubmit}>
-              <div className="form-group"> 
-                <label>Attraction name: </label>
+              <div className="testContainer my-3"> 
                 <input  type="text"
                     required
                     className="form-control"
                     value={this.state.name}
                     onChange={this.onChangeName}
                     />
-              </div>
-              <div className="form-group"> 
-                <label>Description: </label>
                 <input  type="text"
                     required
                     className="form-control"
                     value={this.state.Description}
                     onChange={this.onChangeDescription}
+                    placeholder="Describe this attraction"
                     />
               </div>
-              <div className="form-group">
-                <label>Address: </label>
+              <div className="testContainer">
                 <input 
                     type="text" 
                     className="form-control"
                     value={this.state.address}
                     onChange={this.onChangeAddress}
+                    placeholder="Address of the attraction"
                     />
-              </div>
-              <div className="form-group">
-                <label>Zipcode: </label>
                 <input 
                     type="text" 
                     className="form-control"
@@ -120,18 +114,18 @@ export default class CreateAttraction extends Component {
                     />
               </div>
               <div className="form-group">
-                <label>Website: </label>
                 <input 
                     type="text" 
                     className="form-control"
                     value={this.state.website}
                     onChange={this.onChangeWebsite}
+                    placeholder=""
                     />
               </div>
     
     
-              <div className="form-group">
-                <input type="submit" value="Create New Attraction" className="btn btn-primary" />
+              <div className="buttonAttraction">
+                <input type="submit" value="Create New Attraction" className="w-100 btn btn-primary" />
               </div>
             </form>
           </div>
