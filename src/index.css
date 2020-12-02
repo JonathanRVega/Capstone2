@@ -133,6 +133,10 @@ body {
 
 /* Contact Form Section */
 
+.contact-header-container {
+    padding-top:10%;
+}
+
 .formToRight {
     width: 40rem;
     margin: 0 10rem;
@@ -146,4 +150,9 @@ body {
 textarea.form-description {
     height:20rem;
     resize:none;
+}
+
+.contactSubmit {
+    background-color:rgba(254,80,0,1);
+    color:white;
 }
