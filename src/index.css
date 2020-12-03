@@ -377,6 +377,21 @@ textarea.form-description {
   height: 260px;
   border-radius: 20%;
 }
+.shop-img{
+  width: 500px;
+  height: 260px;
+  border-radius: 20%;
+}
+.eat-img{
+  width: 500px;
+  height: 260px;
+  border-radius: 20%;
+}
+.play-img{
+  width: 500px;
+  height: 260px;
+  border-radius: 20%;
+}
 
 /* #smol{
   height: 100px;
