@@ -345,33 +345,3 @@ textarea::placeholder{
 .airport-info .text-box {
     padding: 3rem 2rem;
 }
-
-
-/* Contact Form Section */
-
-.contact-header-container {
-    padding-top:10%;
-}
-
-.formToRight {
-    width: 40rem;
-    margin: 0 10rem;
-    float: right;
-}
-
-.form-control {
-    font-size:2rem;
-}
-
-textarea.form-description {
-    height:20rem;
-    resize:none;
-<<<<<<< HEAD
-=======
-}
-
-.contactSubmit {
-    background-color:rgba(254,80,0,1);
-    color:white;
->>>>>>> e77431088b241d7ca8ffaf7312aaca44d1b29af9
-}
