@@ -38,16 +38,27 @@ body {
 }
 
 /* Navbar section */
+.navbar .navbar-brand img {
+    width: 6rem;
+    height: auto;
+}
 .navbar-nav .nav-item {
     padding: 0 1rem;
 }
 .navbar-nav .nav-link {
-    color: #555555;
+    color: #ffffff;
+}
+.navbar-nav .active {
+    color: #fe5000;
+    font-weight: bold;
 }
 .navbar-nav .nav-link:hover {
     color: #232323;
 }
 .navbar-nav .search {
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    color: #ffffff;
     font-size: 25px;
     margin-top: 10px;
 }
@@ -250,7 +261,7 @@ textarea::placeholder{
     background-attachment: fixed;
     background-size: cover;
     background-position: top center;
-    height: 85vh;
+    height: 90vh;
     border-bottom-left-radius: 50% 20%;
     border-bottom-right-radius: 50% 20%;
 }
@@ -260,7 +271,7 @@ textarea::placeholder{
     color: #ffffff;
 }
 .header-text-container .line {
-    border-top: 2px solid #ffffff;
+    border-top: 0.2rem solid #ffffff;
     width: 5rem;
 }
 .header-text-container h1 {
@@ -268,11 +279,71 @@ textarea::placeholder{
     line-height: 5.5rem;
 }
 .header-text-container h1 span {
+    letter-spacing: 0.3rem;
     font-size: 5.5rem;
+    color: #fe5000;
 }
 .header-text-container p {
     line-height: 2.5rem;
     font-weight: lighter;
+}
+
+/* facts section */
+.facts {
+    margin-top: 10rem;
+}
+.facts-text-box .line {
+    border-top: 0.2rem solid #fe5000;
+    width: 5rem;
+}
+.facts-text-box h2 {
+    font-size: 2.2rem;
+    color: #041e42;
+}
+.facts-text-box h2 span {
+    font-size: 3rem;
+}
+.facts .box .hotels {
+    margin-right: 4.4rem;
+}
+.facts .box {
+    display: inline-block;
+}
+.facts .icons {
+    width: 6rem;
+}
+.fact-info {
+    display: inline-block;
+    font-size: 1.8rem;
+    padding: 1rem 1rem;
+    color: #041e42;
+}
+
+/* Map section */
+.airpot-map-section {
+    margin-top: 10rem;
+    position: relative;
+}
+.airport-info {
+    width: 35rem;
+    height: 45rem;
+    position: absolute;
+    left: 20%;
+    top: 40%;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+    background-color: #ffffff;
+}
+.airport-info img {
+    width: 35rem;
+}
+.airport-info .text-box {
+    padding: 3rem 2rem;
 }
 
 
@@ -295,9 +366,12 @@ textarea::placeholder{
 textarea.form-description {
     height:20rem;
     resize:none;
+<<<<<<< HEAD
+=======
 }
 
 .contactSubmit {
     background-color:rgba(254,80,0,1);
     color:white;
+>>>>>>> e77431088b241d7ca8ffaf7312aaca44d1b29af9
 }
