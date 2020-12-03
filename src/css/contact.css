@@ -92,3 +92,7 @@ textarea.form-description {
     justify-content: center;
     align-items: center;
 }
+
+.map-section {
+    margin-top: 10rem;
+}

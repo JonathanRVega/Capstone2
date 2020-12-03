@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { Nav } from 'react-bootstrap';
 import {UncontrolledDropdown,DropdownToggle,DropdownMenu, DropdownItem,} from 'reactstrap';
 import Logo from '../assets/logo/new-logo.png'
 import '../index.css';
@@ -29,17 +30,17 @@ const Navbar = () => {
                                 </DropdownToggle>
                                 <DropdownMenu right>
                                     <DropdownItem>
-                                        Things To Do
+                                        <Nav.Link href="/todo">Things To Do</Nav.Link>
                                     </DropdownItem>
                                     <DropdownItem>
-                                        Eat
+                                        <Nav.Link href="/eat">Eat</Nav.Link>
                                     </DropdownItem>
                                     <DropdownItem>
-                                        Shop
+                                        <Nav.Link href="/shop">Shop</Nav.Link>
                                     </DropdownItem>
                                     <DropdownItem />
                                     <DropdownItem>
-                                        Play
+                                        <Nav.Link href="/play">Play</Nav.Link>
                                  </DropdownItem>
                                 </DropdownMenu>
                              </UncontrolledDropdown>
