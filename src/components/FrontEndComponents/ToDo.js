@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Navbar from "../navbar.component";
-import '../../index.css';
+import '../../things.css'
 import Waterview from '../../assets/downtown/waterview.jpg';
 import NadaOutside from '../../assets/nada/Nada_Exterior.jpg';
 import TKGodzilla from '../../assets/tokyokitty/godzilla.jpg';
