@@ -366,12 +366,9 @@ textarea::placeholder{
 textarea.form-description {
     height:20rem;
     resize:none;
-<<<<<<< HEAD
-=======
 }
 
 .contactSubmit {
     background-color:rgba(254,80,0,1);
     color:white;
->>>>>>> e77431088b241d7ca8ffaf7312aaca44d1b29af9
 }
