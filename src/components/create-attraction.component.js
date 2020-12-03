@@ -119,18 +119,19 @@ export default class CreateAttraction extends Component {
                     />
               </div>
               <div className="testContainer my-0">
-                <input 
+                <textarea
                     type="text" 
                     className="form-control formtextAttractionBig"
                     value={this.state.description}
                     onChange={this.onChangeDescription}
                     placeholder="Tell us more about this place"
+                    rows="5"
                     />
               </div>
     
     
-              <div className="mx-3">
-                <input type="submit" value="Create New Attraction" className="w-100 btn-dark p-1" />
+              <div className="text-center mx-3">
+                <input type="submit" value="Submit" className="w-50 btn attractionSubmit" />
               </div>
             </form>
             <br/>
