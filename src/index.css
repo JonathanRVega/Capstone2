@@ -152,14 +152,14 @@ textarea::placeholder{
     color: #fff;
     font-size: 20px;
   }
-  .weather-card .top .wrapper .mynav .lnr-chevron-left {
-    display: inline-block;
-    float: left;
-  }
-  .weather-card .top .wrapper .mynav .lnr-cog {
-    display: inline-block;
-    float: right;
-  }
+  /* .weather-card .top .wrapper .mynav .lnr-chevron-left { */
+    /* display: inline-block; */
+    /* float: left; */
+  /* } */
+  /* .weather-card .top .wrapper .mynav .lnr-cog { */
+    /* display: inline-block; */
+    /* float: right; */
+  /* }  */
   .weather-card .top .wrapper .heading {
     margin-top: 20px;
     font-size: 35px;
@@ -432,6 +432,21 @@ textarea::placeholder{
 /* ToDos */
 
 .todo-img{
+  width: 500px;
+  height: 260px;
+  border-radius: 20%;
+}
+.shop-img{
+  width: 500px;
+  height: 260px;
+  border-radius: 20%;
+}
+.eat-img{
+  width: 500px;
+  height: 260px;
+  border-radius: 20%;
+}
+.play-img{
   width: 500px;
   height: 260px;
   border-radius: 20%;
