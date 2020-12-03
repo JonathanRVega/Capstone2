@@ -287,25 +287,25 @@ textarea::placeholder{
   }
 
   .weather-card.three .top {
-    background: url("./assets/food/16-bit-bar-arcade-classic.jpg") no-repeat;
+    background: url("./assets/food/16bit.jpg") no-repeat;
     background-size: cover;
     background-position: center center;
   }
 
   .weather-card.four .top {
-    background: url("./assets/food/rhinegeistReception.jpg") no-repeat;
+    background: url("./assets/food/rhinegeist.jpg") no-repeat;
     background-size: cover;
     background-position: center center;
   }
 
   .weather-card.five .top {
-    background: url("./assets/places/American_Sign_Museum_\(8669465949\).jpg") no-repeat;
+    background: url("./assets/places/asm.jpg") no-repeat;
     background-size: cover;
     background-position: center center;
   }
 
   .weather-card.six .top {
-    background: url("./assets/places/CenterForContemporaryArtCorner.jpg") no-repeat;
+    background: url("./assets/places/contempArt.jpg") no-repeat;
     background-size: cover;
     background-position: center center;
   }
