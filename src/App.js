@@ -3,7 +3,7 @@ import { Component } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './components/FrontEndComponents/Home'
-import ThingsToDo from './components/ToDo.component';
+import ThingsToDo from './components/FrontEndComponents/ToDo';
 import Blog from './components/Blogs.component.js';
 import About from './components/About.component';
 import Contact from './components/Contact.component';

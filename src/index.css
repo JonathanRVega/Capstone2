@@ -372,3 +372,15 @@ textarea.form-description {
     background-color:rgba(254,80,0,1);
     color:white;
 }
+.todo-img{
+  width: 500px;
+  height: 260px;
+  border-radius: 20%;
+}
+
+/* #smol{
+  height: 100px;
+  width: 500px;
+} */
+
+
