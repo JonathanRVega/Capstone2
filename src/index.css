@@ -135,10 +135,16 @@ textarea::placeholder{
     height: 570px;
     width: 100%;
     overflow: hidden;
-    background: url("/src/assets/tokyokitty/484150.jpg") no-repeat;
+    background: url("") no-repeat;
     background-size: cover;
     background-position: center center;
     text-align: center;
+  }
+  .weatherImg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
   }
   .weather-card .top .wrapper {
     padding: 30px;
