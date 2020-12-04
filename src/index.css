@@ -38,6 +38,12 @@ body {
 }
 
 /* Navbar section */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
 .navbar .navbar-brand img {
     width: 6rem;
     height: auto;
@@ -61,6 +67,12 @@ body {
     color: #ffffff;
     font-size: 25px;
     margin-top: 10px;
+}
+#scroll {
+  background-color: #003087;
+}
+#nav-bar {
+  background-color: transparent;
 }
 
 /* Blog page */
@@ -310,6 +322,17 @@ textarea::placeholder{
     height: 90vh;
     border-bottom-left-radius: 50% 20%;
     border-bottom-right-radius: 50% 20%;
+  background-image: linear-gradient( 
+      to right bottom,
+       rgba(0, 0, 0, 0.4),
+       rgba(0, 0, 0, 0.4)),
+  url("./assets/downtown/matt-koffel-_W8p_1OBkAw-unsplash.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: top center;
+  height: 90vh;
+  border-bottom-left-radius: 50% 20%;
+  border-bottom-right-radius: 50% 20%;
 }
 
 .header-text-container {
