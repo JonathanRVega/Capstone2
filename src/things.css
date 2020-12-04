@@ -192,3 +192,7 @@ textarea.form-description {
     background-color:rgba(254,80,0,1);
     color:white;
 }
+.navbar .navbar-brand img {
+    width: 6rem;
+    height: auto;
+}
