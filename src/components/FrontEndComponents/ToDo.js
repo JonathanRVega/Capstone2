@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Navbar from "../navbar.component";
-import '../../index.css';
+import '../../things.css'
 import Waterview from '../../assets/downtown/waterview.jpg';
 import NadaOutside from '../../assets/nada/Nada_Exterior.jpg';
 import TKGodzilla from '../../assets/tokyokitty/godzilla.jpg';
@@ -49,7 +49,14 @@ import Reds from '../../assets/ballpark/reds.png';
                 </section>
                 <section className="facts container">
                      <div className="row">
-                        <div className="col-lg-6 facts-text-box">
+                     
+
+                        <div className="col-lg-6" id='smol'>
+                           
+                                    <img className="todo-img" src={ Reds } alt="Great American Ball Park" />
+                                    </div>  
+
+                                         <div className="col-lg-6 facts-text-box">
                             <div className="line"></div>
                                <h1>Shop<br/>The City Life</h1>
                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel dui vel lectus efficitur rutrum.<br/>
@@ -57,12 +64,7 @@ import Reds from '../../assets/ballpark/reds.png';
                                   Nulla non tincidunt metus, ac lobortis libero. Suspendisse dictum ante eu enim iaculis, <br/>
                                   eget ultrices est hendrerit.
                                </p>
-                              </div>
-
-                        <div className="col-lg-6" id='smol'>
-                           
-                                    <img className="todo-img" src={ Reds } alt="Great American Ball Park" />
-                                    </div>                                
+                              </div>                            
                                 </div>                                           
                 </section>
                 <section className="facts container">
@@ -85,7 +87,13 @@ import Reds from '../../assets/ballpark/reds.png';
                 </section>
                 <section className="facts container">
                      <div className="row">
-                        <div className="col-lg-6 facts-text-box">
+                       
+                        <div className="col-lg-6" id='smol'>
+                           
+                                    <img className="todo-img" src={ TKGodzilla } alt="Karoke Room at Tokyo Kitty" />
+                                    </div> 
+
+                                      <div className="col-lg-6 facts-text-box">
                             <div className="line"></div>
                                <h1>Play<br/>The City Life</h1>
                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel dui vel lectus efficitur rutrum.<br/>
@@ -94,11 +102,7 @@ import Reds from '../../assets/ballpark/reds.png';
                                   eget ultrices est hendrerit.
                                </p>
                               </div>
-
-                        <div className="col-lg-6" id='smol'>
-                           
-                                    <img className="todo-img" src={ TKGodzilla } alt="Karoke Room at Tokyo Kitty" />
-                                    </div>                                
+                              
                                 </div>                                           
                 </section>
 
