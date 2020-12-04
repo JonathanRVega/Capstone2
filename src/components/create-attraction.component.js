@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import '../index.css';
+import {BACKEND_URL} from './config';
 
 export default class CreateAttraction extends Component {
     constructor(props) {  
@@ -11,6 +12,8 @@ export default class CreateAttraction extends Component {
         this.onChangeAddress = this.onChangeAddress.bind(this);
         this.onChangeZipcode = this.onChangeZipcode.bind(this);
         this.onChangeWebsite = this.onChangeWebsite.bind(this);
+        this.onChangeImageUrl = this.onChangeImageUrl.bind(this);
+
         this.onSubmit = this.onSubmit.bind(this);    
 
         this.state = {  
@@ -19,7 +22,8 @@ export default class CreateAttraction extends Component {
           address: '',  
           zipcode: '',  
           website: '',
-          attractions: []
+          imageUrl: '',
+          attractions: [],
         }  
       }
 
@@ -53,7 +57,12 @@ export default class CreateAttraction extends Component {
       }onChangeWebsite(e) {  
         this.setState({  
           website: e.target.value  
-        });  
+        });
+      }
+      onChangeImageUrl(e) {  
+        this.setState({  
+          imageUrl: e.target.value  
+        });
       }
       
       onSubmit(e) {
@@ -63,7 +72,8 @@ export default class CreateAttraction extends Component {
           description: this.state.description,
           address: this.state.address,
           zipcode: parseInt(this.state.zipcode, 10),
-          website: this.state.website
+          website: this.state.website,
+          imageUrl: this.state.imageUrl,
         };
       console.log(attraction);
 
@@ -71,7 +81,7 @@ export default class CreateAttraction extends Component {
       axios.post('http://localhost:5000/attractions/add', attraction)
       .then(res => console.log(res.data));
 
-      window.location = '/';
+      window.location = '/blog';
       }
       catch (err) {
           console.log(err);
@@ -116,6 +126,15 @@ export default class CreateAttraction extends Component {
                     value={this.state.zipcode}
                     onChange={this.onChangeZipcode}
                     placeholder="Zipcode"
+                    />
+              </div>
+              <div className="testContainer my-3">
+                <input 
+                    type="text" 
+                    className="form-control formtextAttraction"
+                    value={this.state.imageUrl}
+                    onChange={this.onChangeImageUrl}
+                    placeholder="ImageUrl"
                     />
               </div>
               <div className="testContainer my-0">
