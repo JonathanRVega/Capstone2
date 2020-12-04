@@ -7,22 +7,23 @@ import Restaurants from '../../assets/icons/food.png';
 import Airport from '../../assets/places/cvg.png';
 import VideoBg from '../../assets/downtown/bg-video.mp4';
 import Carousels from '../StayCarousel';
-import '../../index.css';
+import '../../css/Home.css';
 
 export default class Home extends Component {
     render() {
         return (
             <div>
                 {/* start of header section - cc */}
-                <header id="header-section">
+                <header id="header-home-section">
 
                     <video id="videobcg" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
                         <source src={ VideoBg } type="video/mp4"/>
                         <source src="movie.webm" type="video/webm"/>Sorry, your browser does not support HTML5 video.
                     </video>
 
+                    {/* navbar component */}
                     <Navbar />
-                    <div className="header-text-container container">
+                    <div className="header-home-text-container container">
                         <div className="line"></div>
                         <h1>Explore<br/><span>Cincinnati</span></h1>
                         <p>
@@ -111,6 +112,8 @@ export default class Home extends Component {
                         <li>Clifton</li>
                         <li>Hyde park</li>
                     </ul>
+                    
+                    {/* carousel component */}
                     <Carousels/>
                 </section>
                 {/* end of stay section - cc */}
@@ -149,8 +152,24 @@ export default class Home extends Component {
                 <section className="newsletter-section">
                     <div className="container">
                         <div className="row">
-                            
+                            <div className="newsletter-info-box col-lg-6">
+                            <div className="line"></div>
+                                <h2>Subcribe to our<br/><span>Newsletter</span></h2>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus aperiam ducimus, ratione aut eveniet facere tenetur veritatis assumenda ipsum accusamus!
+                                </p>
+                            </div>
+                            <div className="newsletter-form col-lg-6">
+                                <form id="newsletter-form">
+                                    <input className="mr-4" type="text" placeholder="First Name" />
+                                    <input type="text" placeholder="Last Name" />
+                                    <br/>
+                                    <input className="mt-4 email-input" type="email" placeholder="Enter Your Email Address" />
+                                </form>
+                                <button className="submit form-btn">Submit</button>
+                            </div>
                         </div>
+                        
                     </div>
                 </section>
                 {/* end of newsletter section - cc */}

@@ -1,0 +1,100 @@
+/* CSS Resets */
+html {
+    /* changed font to the percentage below so it would be easier to use REMs. 
+    62.5% = 10px and 10px = 1rem */
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+body {
+    color: #555555;
+    font-size: 1.6rem;
+}
+
+/* global css */
+.btn {
+    border: 0.2rem solid #ffffff;
+    border-radius: 2rem;
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding: 0.4rem 3rem;
+    text-transform: uppercase;
+    margin: 1rem 0;
+    background-color: transparent;
+    color: #ffffff;
+}
+.btn:hover {
+    /* transform: translateY(-3px); */
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, .2);
+}
+
+.btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
+}
+
+.btn:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+
+/* Navbar section */
+.navbar .navbar-brand img {
+    width: 6rem;
+    height: auto;
+}
+.navbar-nav .nav-item {
+    padding: 0 1rem;
+}
+.navbar-nav .nav-link {
+    color: #ffffff;
+}
+.navbar-nav .active {
+    color: #fe5000;
+    font-weight: bold;
+}
+.navbar-nav .nav-link:hover {
+    color: #232323;
+}
+.navbar-nav .search {
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    color: #ffffff;
+    font-size: 25px;
+    margin-top: 10px;
+}
+/* Header section */
+#header-about-section {
+    background-image: linear-gradient( 
+        to right bottom,
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4)),
+    url("../assets/downtown/matt-koffel-_W8p_1OBkAw-unsplash.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top center;
+    height: 90vh;
+    border-bottom-left-radius: 50% 20%;
+    border-bottom-right-radius: 50% 20%;
+    padding-bottom: 200px;
+}
+.header-about-text {
+    padding-top: 10%;
+    color: #ffffff;
+}
+.header-about-text .line {
+    border-top: 0.2rem solid #ffffff;
+    width: 5rem;
+}
+.header-about-text h1 {
+    font-size: 3rem;
+    line-height: 5.5rem;
+}
+.header-about-text h1 span {
+    letter-spacing: 0.3rem;
+    font-size: 5.5rem;
+    color: #fe5000;
+}
+.header-about-text p {
+    line-height: 2.5rem;
+    font-weight: lighter;
+}

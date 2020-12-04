@@ -78,8 +78,11 @@ export default class CreateMail extends Component {
             <div>
                 <div className="contact-header-container container" id="container">
                 <div className="line"></div>
-                    <h2 className="text-center">Questions?</h2>
-                    <h1 style={{color:'#FE5000'}} className="text-center mb-5">Contact Us</h1>
+                    <h1 className="text-center mb-5">
+                        Questions?
+                        <br/>
+                        <span>Contact Us</span>
+                    </h1>
                     <p className="text-center mb-5 mt-5">Aliqua occaecat ea laborum culpa deserunt Lorem sint.</p>
                     <div className="row mb-5 text-center">
                         <div className="col">
@@ -139,7 +142,7 @@ export default class CreateMail extends Component {
                                 />
                             </div>
                     
-                            <div className="form-group">
+                            <div className="form-group text-center">
                                 <input type="submit" value="Submit" className="btn w-50 contactSubmit" />
                             </div>
                         </form>

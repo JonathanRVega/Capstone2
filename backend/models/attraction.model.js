@@ -16,7 +16,8 @@ const attractionSchema = new Schema({
             },
             message: props => `${props.value} is not a valid website address!`
         },
-    }
+    },
+    imageUrl: { type: String} 
     }, {
     timestamps: true,
 });

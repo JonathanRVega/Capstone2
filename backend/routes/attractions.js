@@ -13,13 +13,15 @@ router.route('/add').post((req, res) => {
     const address = req.body.address;
     const zipcode = Number(req.body.zipcode);
     const website = req.body.website;
+    const imageUrl = req.body.imageUrl;
 
     const newAttraction = new Attraction({
         name,
         description,
         address,
         zipcode,
-        website
+        website,
+        imageUrl
     });
 
     newAttraction.save()
@@ -47,6 +49,7 @@ router.route('/update/:id').post((req, res) => {
         attraction.address = req.body.address;
         attraction.zipcode = Number(req.body.zipcode);
         attraction.website = req.body.website;
+        attraction.imageUrl = req.body.imageUrl;
 
         attraction.save()
         .then(() => res.json('Attraction updated!'))
