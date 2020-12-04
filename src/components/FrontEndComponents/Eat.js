@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Navbar from "../navbar.component";
-import '../../index.css';
+import '../../things.css'
 import Arcade from '../../assets/food/16bit.jpg';
 import Nada from '../../assets/nada/huge.jpg';
 import Taste from '../../assets/food/taste.jpg';

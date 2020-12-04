@@ -51,9 +51,15 @@
     width: 5rem;
 }
 
+.contact-header-container span {
+    letter-spacing: 0.3rem;
+    font-size: 5.5rem;
+    color: #fe5000;
+}
+
 .formBackground{
     padding: 25rem 0;
-    background: url('../assets/downtown/jake-blucker-wbNsWMNauMs-unsplash.jpg');
+    background: url('../assets/downtown/contact-downtown.jpg');
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -90,4 +96,8 @@ textarea.form-description {
     color:white;
     justify-content: center;
     align-items: center;
+}
+
+.map-section {
+    margin-top: 10rem;
 }

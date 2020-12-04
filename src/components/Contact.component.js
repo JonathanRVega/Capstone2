@@ -12,7 +12,7 @@ export default class Contact extends Component {
 
                     {/* navbar component */}
                     <Navbar />
-                    <div className="header-home-text-container container">
+                    <div className="header-text-contact-container container">
                         <div className="line"></div>
                         <h1>Explore<br/><span>Cincinnati</span></h1>
                         <p>

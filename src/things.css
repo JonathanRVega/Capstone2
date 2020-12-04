@@ -1,70 +1,11 @@
- /* CSS Resets */
-html {
-    /* changed font to the percentage below so it would be easier to use REMs. 
-    62.5% = 10px and 10px = 1rem */
-    font-size: 62.5%;
-    box-sizing: border-box;
-}
-body {
-    color: #555555;
-    font-size: 1.6rem;
-}
-
-/* global css */
-.btn {
-    border: 0.2rem solid #ffffff;
-    border-radius: 2rem;
-    font-size: 1.6rem;
-    font-weight: bold;
-    padding: 0.4rem 3rem;
-    text-transform: uppercase;
-    margin: 1rem 0;
-    background-color: transparent;
-    color: #ffffff;
-}
-.btn:hover {
-    /* transform: translateY(-3px); */
-    box-shadow: 0 1rem 2rem rgba(0, 0, 0, .2);
-}
-
-.btn:active {
-    transform: translateY(-1px);
-    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
-}
-
-.btn:hover::after {
-    transform: scaleX(1.4) scaleY(1.6);
-    opacity: 0;
-}
-
-/* Navbar section */
-.navbar .navbar-brand img {
-    width: 6rem;
-    height: auto;
-}
-.navbar-nav .nav-item {
-    padding: 0 1rem;
-}
-.navbar-nav .nav-link {
-    color: #ffffff;
-}
-.navbar-nav .active {
-    color: #fe5000;
-    font-weight: bold;
-}
-.navbar-nav .nav-link:hover {
-    color: #232323;
-}
-.navbar-nav .search {
-    font-size: 2.5rem;
-    margin-top: 1rem;
-    color: #ffffff;
-    font-size: 25px;
-    margin-top: 10px;
-}
-
-/* Header section */
-#header-home-section {
+#header-section {
+   position: relative; 
+    background-image: linear-gradient( 
+        to right bottom,
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4)),
+    url("./assets/downtown/matt-koffel-_W8p_1OBkAw-unsplash.jpg");
+    background-attachment: fixed; 
     background-size: cover;
     background-position: top center;
     height: 90vh;
@@ -72,37 +13,25 @@ body {
     border-bottom-right-radius: 50% 20%;
     padding-bottom: 200px;
 }
-#videobcg {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 90vh;
-    border-bottom-left-radius: 50% 20%;
-    border-bottom-right-radius: 50% 20%;
-    z-index: -100;
-    object-fit: cover;
-}
 
-.header-home-text-container {
+.header-text-container {
     padding-top: 10%;
     color: #ffffff;
-    animation: appear 18s ease-in; 
 }
-.header-home-text-container .line {
+.header-text-container .line {
     border-top: 0.2rem solid #ffffff;
     width: 5rem;
 }
-.header-home-text-container h1 {
+.header-text-container h1 {
     font-size: 3rem;
     line-height: 5.5rem;
 }
-.header-home-text-container h1 span {
+.header-text-container h1 span {
     letter-spacing: 0.3rem;
     font-size: 5.5rem;
     color: #fe5000;
 }
-.header-home-text-container p {
+.header-text-container p {
     line-height: 2.5rem;
     font-weight: lighter;
 }
@@ -206,7 +135,7 @@ body {
         to right bottom,
         rgba(0, 48, 135, 0.7),
         rgba(0, 48, 135, 0.7)),
-    url("../assets/downtown/matt-koffel-_W8p_1OBkAw-unsplash.jpg");
+    url("./assets/downtown/matt-koffel-_W8p_1OBkAw-unsplash.jpg");
     background-attachment: fixed;
     background-size: cover;
     background-position: top center;
@@ -228,63 +157,42 @@ body {
     font-weight: lighter;
 }
 
-/* newsletter sectio */
-.newsletter-section {
-    margin-top: 10rem;
+.todo-img{
+  width: 500px;
+  height: 260px;
+  border-radius: 20%;
 }
-.newsletter-section .line {
-    border-top: 0.2rem solid #fe5000;
-    width: 5rem;
+.shop-img{
+  width: 500px;
+  height: 260px;
+  border-radius: 20%;
 }
-.newsletter-section h2 {
-    font-size: 2.2rem;
-    color: #041e42;
+.eat-img{
+  width: 500px;
+  height: 260px;
+  border-radius: 20%;
 }
-.newsletter-section h2 span {
-    font-size: 3rem;
-    text-transform: uppercase;
+.play-img{
+  width: 500px;
+  height: 260px;
+  border-radius: 20%;
 }
-.newsletter-section input {
-   width: 25rem;
-   height: 4.5rem;
-   padding-left: 2rem;
+
+/* #smol{
+  height: 100px;
+  width: 500px;
+} */
+
+textarea.form-description {
+    height:20rem;
+    /* resize:none; */
 }
-.newsletter-section .email-input {
-    width: 52rem;
-    height: 4.5rem;
- }
- .newsletter-section ::placeholder {
-     color: #cccccc;
- }
- .newsletter-section .form-btn {
-    width: 52rem;
-    height: 4.5rem;
-    border: none;
-    background-color: #041e42;
-    color: #fe5000;
-    font-weight: bold;
-    text-transform: uppercase;
- }
 
- /* header animation */
- @keyframes appear {
-     0% {
-         opacity: 0;
-     }
-
-     50% {
-         opacity: 0;
-     }
-
-     80% {
-        opacity: 0;
-    }
-
-    90% {
-        opacity: 0.5;
-    }
-
-    100% {
-         opacity: 1;
-     }
- }
+.contactSubmit {
+    background-color:rgba(254,80,0,1);
+    color:white;
+}
+.navbar .navbar-brand img {
+    width: 6rem;
+    height: auto;
+}

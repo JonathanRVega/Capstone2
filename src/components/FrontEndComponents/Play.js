@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Navbar from "../navbar.component";
-import '../../index.css';
+import '../../things.css'
 import Tokyo from '../../assets/tokyokitty/mainroom.jpg';
 import Taft from '../../assets/taft/gallery.jpg';
 import Zoo from '../../assets/zoo/kangaroo.jpg';
