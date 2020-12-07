@@ -1,0 +1,140 @@
+/* Header section */
+#header-blog-section {
+  background-image: linear-gradient( 
+      to right bottom,
+       rgba(0, 0, 0, 0.4),
+       rgba(0, 0, 0, 0.4)),
+  url("../assets/downtown/matt-koffel-_W8p_1OBkAw-unsplash.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: top center;
+  height: 85vh;
+  border-bottom-left-radius: 50% 20%;
+  border-bottom-right-radius: 50% 20%;
+}
+.header-blog-text {
+    padding-top: 15%;
+    color: #ffffff;
+}
+.header-blog-text .line {
+    border-top: 0.2rem solid #ffffff;
+    width: 5rem;
+    margin: 0 auto;
+}
+.header-blog-text h1 {
+    font-size: 3rem;
+    line-height: 5.5rem;
+}
+.header-blog-text h1 span {
+    letter-spacing: 0.3rem;
+    font-size: 5.5rem;
+    color: #fe5000;
+}
+.header-blog-text p {
+    line-height: 2.5rem;
+    font-weight: lighter;
+}
+
+
+/* blog section */
+.blog-section .line {
+    margin: 0 auto;
+    border-top: 2px solid #fe5000;
+    width: 5rem;
+}
+.blog-section {
+    margin-top: 13rem;
+    margin-bottom: 10rem;
+}
+.blog-article-container .blog-author {
+    font-size: 1.4rem;
+    font-weight: lighter;
+}
+.blog-article-container h2 {
+    color: #041e42;
+    font-size: 2.2rem;
+}
+.blog-article-container img {
+    width: 55rem;
+    height: auto;
+}
+.blog-article-container .letter {
+    display: inline-block;
+    font-size: 22rem;
+    color: #041e42;
+}
+.blog-article-container .text {
+    width: 80%;
+    line-height: 1.8;
+    text-align: justify;
+    display: inline-block;
+    font-weight: lighter;
+}
+.blog-article-container .text2 {
+    width: 90%;
+    line-height: 1.8;
+    text-align: justify;
+    margin: auto;
+    font-weight: lighter;
+}
+
+
+/* Attraction section */
+.submitAttractionContainer{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.testContainer{
+    width: 50rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.testContainer2{
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.formtextAttraction {
+    font-size: 1rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+.formtextAttraction::-webkit-outer-spin-button, .formtextAttraction::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.formtextAttractionBig {
+    font-size: 1rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    resize: none;
+}
+input::placeholder{
+    font-size: 1.5rem;
+}
+
+textarea::placeholder{
+    font-size: 1.5rem;
+}
+
+.attractionHeader{
+    font-size: 3.5rem;
+    color:rgba(254,80,0,1);
+}
+
+.attractionSubmit{
+    background-color:rgba(254,80,0,1) !important;
+    color:white;
+    justify-content: center;
+    align-items: center;
+}

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import { BACKEND_URL } from './config';
 import TokyoKitty from '../assets/tokyokitty/484150.jpg';
+import Footer from './FrontEndComponents/Footer';
 
 export default class AttractionList extends Component {
     constructor(props) {
