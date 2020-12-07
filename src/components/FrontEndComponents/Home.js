@@ -35,7 +35,7 @@ export default class Home extends Component {
                 {/* end of header section - cc */}
 
                 {/* start of facts section - cc */}
-                <section className="facts container">
+                <section className="facts-section container">
                     <div className="row">
                         <div className="col-lg-6 facts-text-box">
                             <div className="line"></div>
