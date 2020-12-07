@@ -87,7 +87,7 @@ body {
 .header-home-text-container {
     padding-top: 10%;
     color: #ffffff;
-    animation: appear 18s ease-in; 
+    animation: appear 14s ease-in; 
 }
 .header-home-text-container .line {
     border-top: 0.2rem solid #ffffff;
