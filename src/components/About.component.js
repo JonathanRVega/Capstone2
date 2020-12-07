@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Footer from '../components/FrontEndComponents/Footer';
 import '../css/About.css';
 import Navbar from '../components/navbar.component';
 import marchOfDimes from '../assets/charities/1280px-March_of_Dimes_logo.svg.png';
@@ -69,6 +70,7 @@ import wholeAgain from '../assets/charities/WholeAgainlogotaglineRGB-web-logo.pn
                         <a href="https://www.whole-again.org/"><img id="aboutLogos" src={wholeAgain}/></a>
                      </div>
                   </div>
+                  <Footer />
             </div>
         )
     }
