@@ -123,6 +123,10 @@ body {
     z-index:2;
 }
 
+#aboutLogos {
+    width: 20rem;
+}
+
 #aboutImage1 {
     background: url('../assets/downtown/aboutPageCincinnati1.png');
     background-size: cover;
@@ -135,4 +139,28 @@ body {
 
 .charitiesBackground {
     background: #ddd;
+}
+
+@media screen and (max-width:767px) {
+    .aboutImage {
+        width:20.83rem;
+        height:25rem;
+    }
+    
+    .aboutImageBackground {
+        width:20.83rem;
+        height:25rem;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .aboutImage {
+        width:16.67rem;
+        height:20rem;
+    }
+    
+    .aboutImageBackground {
+        width:16.67rem;
+        height:20rem;
+    }
 }
