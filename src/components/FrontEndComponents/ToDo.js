@@ -33,9 +33,9 @@ import Reds from '../../assets/ballpark/reds.png';
                         <div className="col-lg-6 facts-text-box">
                             <div className="line"></div>
                                <h1>Explore<br/>The City Life</h1>
-                               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel dui vel lectus efficitur rutrum.<br/>
-                                  Nullam facilisis lorem in enim bibendum interdum. <br/>
-                                  Nulla non tincidunt metus, ac lobortis libero. Suspendisse dictum ante eu enim iaculis, <br/>
+                               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel dui vel lectus efficitur rutrum.
+                                  Nullam facilisis lorem in enim bibendum interdum.
+                                  Nulla non tincidunt metus, ac lobortis libero. Suspendisse dictum ante eu enim iaculis,
                                   eget ultrices est hendrerit.
                                </p>
                               </div>
@@ -59,9 +59,9 @@ import Reds from '../../assets/ballpark/reds.png';
                                          <div className="col-lg-6 facts-text-box">
                             <div className="line"></div>
                                <h1>Shop<br/>The City Life</h1>
-                               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel dui vel lectus efficitur rutrum.<br/>
-                                  Nullam facilisis lorem in enim bibendum interdum. <br/>
-                                  Nulla non tincidunt metus, ac lobortis libero. Suspendisse dictum ante eu enim iaculis, <br/>
+                               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel dui vel lectus efficitur rutrum.
+                                  Nullam facilisis lorem in enim bibendum interdum.
+                                  Nulla non tincidunt metus, ac lobortis libero. Suspendisse dictum ante eu enim iaculis,
                                   eget ultrices est hendrerit.
                                </p>
                               </div>                            
@@ -72,9 +72,9 @@ import Reds from '../../assets/ballpark/reds.png';
                         <div className="col-lg-6 facts-text-box">
                             <div className="line"></div>
                                <h1>Eat<br/>The City Life</h1>
-                               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel dui vel lectus efficitur rutrum.<br/>
-                                  Nullam facilisis lorem in enim bibendum interdum. <br/>
-                                  Nulla non tincidunt metus, ac lobortis libero. Suspendisse dictum ante eu enim iaculis, <br/>
+                               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel dui vel lectus efficitur rutrum.
+                                  Nullam facilisis lorem in enim bibendum interdum.
+                                  Nulla non tincidunt metus, ac lobortis libero. Suspendisse dictum ante eu enim iaculis,
                                   eget ultrices est hendrerit.
                                </p>
                               </div>
@@ -96,9 +96,9 @@ import Reds from '../../assets/ballpark/reds.png';
                                       <div className="col-lg-6 facts-text-box">
                             <div className="line"></div>
                                <h1>Play<br/>The City Life</h1>
-                               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel dui vel lectus efficitur rutrum.<br/>
-                                  Nullam facilisis lorem in enim bibendum interdum. <br/>
-                                  Nulla non tincidunt metus, ac lobortis libero. Suspendisse dictum ante eu enim iaculis, <br/>
+                               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel dui vel lectus efficitur rutrum.
+                                  Nullam facilisis lorem in enim bibendum interdum.
+                                  Nulla non tincidunt metus, ac lobortis libero. Suspendisse dictum ante eu enim iaculis,
                                   eget ultrices est hendrerit.
                                </p>
                               </div>

@@ -6,14 +6,15 @@ import Logo from '../assets/logo/new-logo.png'
 import '../index.css';
 
 const Navbar = () => {
-
+    
+    // const variables for collapse navbar
     const [isOpen, setIsOpen] = useState(false);
 
     const toggle = () => setIsOpen(!isOpen);
     
         return (
             // start of navbar - cc
-            <nav className="navbar navbar-expand-lg">
+            <nav className="navbar navbar-expand-lg" id="nav-bar scroll">
                 <div className="container">
                     {/* logo */}
                     <div className="navbar-brand">
