@@ -15,26 +15,6 @@ import Shop from './components/FrontEndComponents/Shop';
 
 class App extends Component {
 
-  // change bg navbar color on scroll
-        
-  // componentDidMount() {
-  //     window.addEventListener("scroll", this.handleScroll);
-  // }
-  // componentWillUnmount() {
-  //     window.removeEventListener("scroll", this.handleScroll);
-  // }
-  
-  // handleScroll = () => {
-  //     if (window.scrollY > 40) {
-  //       document.getElementById("navbar").className = "nav-bar scroll";
-  //     } else {
-  //       document.getElementById("navbar").className = "nav-bar";
-  //     }
-  //   };
-
-
-
-
   render() {
     return (
       <BrowserRouter>

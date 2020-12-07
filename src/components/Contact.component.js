@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import CreateMail from './create-mail.component'
 import Navbar from "../components/navbar.component";
+import Footer from "../components/FrontEndComponents/Footer";
 import '../css/contact.css'
 
 export default class Contact extends Component {
@@ -22,6 +23,7 @@ export default class Contact extends Component {
                 </header>
                 {/* end of header section - cc */}
                 <CreateMail />
+                <Footer />
             </div>
         )
     }

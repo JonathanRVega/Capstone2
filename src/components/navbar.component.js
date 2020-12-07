@@ -7,26 +7,33 @@ import '../index.css';
 
 const Navbar = () => {
     
-    // const variables for collapse navbar
+    // const variables for collapse navbar - cc
     const [isOpen, setIsOpen] = useState(false);
-
     const toggle = () => setIsOpen(!isOpen);
+
+    // change bg navbar color on scroll - cc
+    const [navbar, setNavbar] = useState(false);
+
+    const changeNavBackground = () => {
+        if(window.scrollY >= 40) {
+            setNavbar(true);
+        } else {
+            setNavbar(false);
+        }
+    }
+
+    window.addEventListener('scroll', changeNavBackground);
     
         return (
             // start of navbar - cc
-            <nav className="navbar navbar-expand-lg" id="nav-bar scroll">
-                <div className="container">
+            <nav className="navbar" className={navbar ? 'navbar scroll' : 'navbar'}>
+                <div className="container navbar-expand-lg">
                     {/* logo */}
                     <div className="navbar-brand">
                         <img src={Logo} alt="logo"/>
                     </div>
                     <NavbarToggler onClick={toggle} />
                     <Collapse isOpen={isOpen} navbar>
-
-                        <button className="navbar-toggler" type="button" data-toggle="collapse"     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"      aria-label="Toggle navigation">
-                            <span className="navbar-toggler-icon"></span>
-                        </button>
-
                         <div className="collapse navbar-collapse d-flex justify-content-end"    id="navbarSupportedContent">
                             <ul className="navbar-nav">
                                 <li className="nav-item">
@@ -62,7 +69,12 @@ const Navbar = () => {
                                     <Link to='/contact' className="nav-link">Contact</Link>
                                 </li>
                                 <li className='nav-item'>
-                                    <i className="fas fa-search search"></i>
+                                    <div className="search-box">
+                                        <input className="search-text" type="text"      placeholder="Type to search" />
+                                        <a className="search-btn" href="#">
+                                            <i className="fas fa-search search"></i>
+                                        </a>
+                                    </div>
                                 </li>
                             </ul>
                         </div>

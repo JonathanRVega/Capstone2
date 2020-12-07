@@ -9,7 +9,7 @@
     background-attachment: fixed;
     background-size: cover;
     background-position: top center;
-    height: 90vh;
+    height: 85vh;
     border-bottom-left-radius: 50% 20%;
     border-bottom-right-radius: 50% 20%;
     padding-bottom: 200px;
@@ -100,4 +100,43 @@ textarea.form-description {
 
 .map-section {
     margin-top: 10rem;
+}
+
+@media screen and (max-width:767px) {
+    .contactForm {
+        width: 32rem;
+        margin: 0 4rem;
+    }
+
+    .formBackground{
+        padding: 20rem 0;
+    }
+    
+    .formOutline {
+        margin:-35rem 0;
+        width:40rem;
+        height:auto;
+        background: #fff;
+        box-shadow: 0 1px 38px rgba(0, 0, 0, 0.15), 0 5px 12px rgba(0, 0, 0, 0.25);
+        z-index:3;
+    }
+}
+@media screen and (max-width:567px) {
+    .contactForm {
+        width: 32rem;
+        margin: 0 4rem;
+    }
+
+    .formBackground{
+        padding: 20rem 0;
+    }
+    
+    .formOutline {
+        margin:-35rem 0;
+        width:40rem;
+        height:auto;
+        background: #fff;
+        box-shadow: 0 1px 38px rgba(0, 0, 0, 0.15), 0 5px 12px rgba(0, 0, 0, 0.25);
+        z-index:3;
+    }
 }

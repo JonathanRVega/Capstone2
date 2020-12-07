@@ -8,25 +8,25 @@ import Twitter from '../../assets/social/twitter.png';
     render() {
         return (
             <div>
-            <div className="col-sm-3 row">
-            <img src={ Facebook } alt="Facebook" />
-            <img src={ Instagram } alt="Instagram" />
-            <img src={ Youtube } alt="Youtube" />
-            <img src={ Twitter } alt="Twitter" />
+                <div className="text-center">
+                    <img className="icons" src={ Facebook } alt="Facebook" />
+                    <img className="icons" src={ Instagram } alt="Instagram" />
+                    <img className="icons" src={ Youtube } alt="Youtube" />
+                    <img className="icons" src={ Twitter } alt="Twitter" />
+                </div>
+
+                <div className="center icons">
+                        <div className="navbar-brand">
+                            <img className="icons" src={Logo} alt="logo"/>
+                        </div>
+                <div className="line text-center"></div>
+                <h1 className="text-center"><span>Explore Cincinnati</span></h1>
             </div>
 
-            <div className="center">
-                    <div className="navbar-brand">
-                        <img src={Logo} alt="logo"/>
-                    </div>
-            <div className="line"></div>
-                <h1><span>Explore Cincinnati</span></h1>
-            </div>
 
-
-            <span>
-            <p>Terms & Conditions | Privacy Policy</p>
-            </span>
+                <span>
+                    <p className="text-center">Terms & Conditions | Privacy Policy</p>
+                </span>
             </div>
         )
     }
