@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import '../index.css';
-import {BACKEND_URL} from './config';
 
 export default class CreateAttraction extends Component {
     constructor(props) {  
