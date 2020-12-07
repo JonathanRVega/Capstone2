@@ -99,7 +99,7 @@ class CreateMail extends Component {
                         </div>
                     </div>
                     <div className="formBackground"></div>
-                    <div className="formOutline mr-5 pt-4 float-right">
+                    <div className="formOutline mr-sm-5 pt-5 float-right">
                         <form className="contactForm" onSubmit={this.onSubmit}>
                             <div className="form-group"> 
                                 <div className="row">
