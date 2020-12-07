@@ -13,7 +13,7 @@ app.use(express.json());
 //app.use(bodyParser.urlencoded({ extended: true}));
 
 const uri = process.env.ATLAS_URI;
-mongoose.connect(uri, { useNewUrlParser: true, useCreateIndex: true }
+mongoose.connect(uri || 'mongodb://localhost/cincinnati', { useNewUrlParser: true, useCreateIndex: true }
 );
 
 const connection = mongoose.connection;
@@ -27,6 +27,9 @@ const { request } = require('express');
 
 app.use('/attractions', attractionRouter);
 app.use('/mail', mailRouter);
+
+
+if (process.env.NODE_ENV === 'production')
 
 app.listen(port, () => {
     console.log(`Server is running on port: ${port}`);
