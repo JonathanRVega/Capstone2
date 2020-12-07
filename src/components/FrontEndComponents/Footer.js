@@ -15,7 +15,7 @@ import Twitter from '../../assets/social/twitter.png';
             <img src={ Twitter } alt="Twitter" />
             </div>
 
-            <div className="center">
+            <div className="center icons">
                     <div className="navbar-brand">
                         <img src={Logo} alt="logo"/>
                     </div>
