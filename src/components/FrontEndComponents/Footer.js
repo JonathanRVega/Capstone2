@@ -8,7 +8,7 @@ import Twitter from '../../assets/social/twitter.png';
     render() {
         return (
             <div>
-            <div className="col-sm-3 row">
+            <div className="icons">
             <img src={ Facebook } alt="Facebook" />
             <img src={ Instagram } alt="Instagram" />
             <img src={ Youtube } alt="Youtube" />

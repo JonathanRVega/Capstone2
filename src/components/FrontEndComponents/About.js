@@ -3,16 +3,7 @@ import React, { Component } from 'react'
  class About extends Component {
     render() {
         return (
-            <div>
-            <h2>About Us</h2><br/>
-               <h1>Cincinnati</h1> 
-               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel dui vel lectus efficitur rutrum.<br/>
-               Nullam facilisis lorem in enim bibendum interdum. <br/>
-               Nulla non tincidunt metus, ac lobortis libero. Suspendisse dictum ante eu enim iaculis, <br/>
-               eget ultrices est hendrerit.</p>
-            
-            
-            
+            <div>               
             <h2>Our</h2><br/>
                <h1>Mission</h1> 
                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel dui vel lectus efficitur rutrum.<br/>

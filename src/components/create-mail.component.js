@@ -5,7 +5,7 @@ import email from '../assets/icons/mail.png'
 import location from '../assets/icons/location.png'
 import '../css/contact.css'
 
-export default class CreateMail extends Component {
+class CreateMail extends Component {
     constructor(props) {  
         super(props); 
         
@@ -155,3 +155,5 @@ export default class CreateMail extends Component {
         )
     }
 }
+
+export default CreateMail
