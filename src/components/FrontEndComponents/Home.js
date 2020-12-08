@@ -37,14 +37,14 @@ export default class Home extends Component {
                 {/* start of facts section - cc */}
                 <section className="facts-section container">
                     <div className="row">
-                        <div className="col-lg-6 facts-text-box">
+                        <div className="col-lg-6 col-md-12 facts-text-box">
                             <div className="line"></div>
                             <h2>Here's<br/><span>Some Facts</span></h2>
                             <p>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus aperiam ducimus, ratione aut eveniet facere tenetur veritatis assumenda ipsum accusamus!
                             </p>
                         </div>
-                        <div className="col-lg-6 d-flex justify-content-end">
+                        <div className="col-lg-6 col-md-12 d-flex justify-content-end">
                             <div className="row ">
                                 <div className="col-lg-6 d-flex justify-content-end">
                                     <div className="box">

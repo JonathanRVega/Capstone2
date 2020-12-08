@@ -65,6 +65,9 @@ body {
 .navbar-nav .nav-link:hover {
     color: #fe5000;
 }
+ .dropdown-menu {
+  background-color: #041e42;
+}
 /* search bar */
 .navbar-nav .search {
     font-size: 2rem;
