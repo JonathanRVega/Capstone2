@@ -37,18 +37,18 @@ import wholeAgain from '../assets/charities/WholeAgainlogotaglineRGB-web-logo.pn
                            Nulla non tincidunt metus, ac lobortis libero. Suspendisse dictum ante eu enim iaculis, <br/>
                            eget ultrices est hendrerit.</p>
                      </div>
-                     <div className="col-md-2 .d-none .d-sm-none .d-md-block"></div>
-                     <div className="col-sm-12 col-md-4">
+                     <div className="col-md-2 d-none d-sm-block"></div>
+                     <div className="col-10 col-sm-12 col-md-4">
                         <div className="aboutImageBackground ml-5 float-sm-right"></div>
-                        <div className="aboutImage mr-5 float-sm-right" id="aboutImage1"></div>
+                        <div className="aboutImage mr-md-5 float-sm-right" id="aboutImage1"></div>
                      </div>
                   </div>
                   <div className="row mt-5">   
-                     <div className="col-sm-12 col-md-4">
+                     <div className="col-10 col-sm-12 col-md-4">
                         <div className="aboutImageBackground"></div>
-                        <div className="aboutImage ml-5" id="aboutImage2"></div>
+                        <div className="aboutImage ml-md-5" id="aboutImage2"></div>
                      </div>
-                     <div className="col-md-2 .d-none .d-sm-none .d-md-block"></div>
+                     <div className="col-md-2 d-none d-sm-block"></div>
                      <div className="col-sm-12 col-md-6 mt-5">
                         <div className="line"></div>
                         <h2>Meet</h2><br/>

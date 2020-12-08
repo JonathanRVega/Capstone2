@@ -84,16 +84,16 @@ class CreateMail extends Component {
                         <span>Contact Us</span>
                     </h1>
                     <p className="text-center mb-5 mt-5">Aliqua occaecat ea laborum culpa deserunt Lorem sint.</p>
-                    <div className="row mb-5 text-center">
-                        <div className="col">
+                    <div className="row mb-sm-5 text-center">
+                        <div className="col-12 col-sm-3 mb-4 mb-sm-0">
                             <img className="mr-2" style={{width:'3rem'}}src={phone}/>
                             <h4 style={{display: 'inline-block'}}>1-800-555-3692</h4>
                         </div>
-                        <div className="col">
+                        <div className="col-12 col-sm-6 mb-4 mb-sm-0">
                             <img className="mr-2" style={{width:'3rem'}}src={email}/>
                             <h4 style={{display: 'inline-block'}}>Explorecincy@explore.com</h4>
                         </div>
-                        <div className="col">
+                        <div className="col-12 col-sm-3">
                             <img className="mr-2" style={{width:'3rem'}}src={location}/>
                             <h4 style={{display: 'inline-block'}}>Cincinnati, Ohio</h4>
                         </div>
