@@ -122,18 +122,24 @@ textarea.form-description {
     }
 }
 @media screen and (max-width:567px) {
+    #container {
+        text-align: center;
+    }
+
     .contactForm {
         width: 32rem;
-        margin: 0 4rem;
+        margin: auto;
     }
 
     .formBackground{
+        background:none;
         padding: 20rem 0;
     }
     
     .formOutline {
+        text-align: center;
         margin:-35rem 0;
-        width:40rem;
+        width:100%;
         height:auto;
         background: #fff;
         box-shadow: 0 1px 38px rgba(0, 0, 0, 0.15), 0 5px 12px rgba(0, 0, 0, 0.25);

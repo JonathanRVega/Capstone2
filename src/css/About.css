@@ -118,24 +118,23 @@ body {
 
 @media screen and (max-width:767px) {
     .aboutImage {
-        width:20.83rem;
-        height:25rem;
+        position:static;
+        width:100%;
+        height:60rem;
+        margin-bottom:4rem;
     }
     
     .aboutImageBackground {
-        width:20.83rem;
-        height:25rem;
+        display:none;
+        width:0;
+        height:0;
     }
 }
 
 @media screen and (max-width:576px) {
-    .aboutImage {
-        width:16.67rem;
-        height:20rem;
-    }
-    
     .aboutImageBackground {
-        width:16.67rem;
-        height:20rem;
+        display:none;
+        width:0;
+        height:0;
     }
 }
