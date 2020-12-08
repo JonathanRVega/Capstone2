@@ -1,109 +1,88 @@
 import React, { Component } from 'react';
 import Navbar from "../navbar.component";
-import '../../things.css'
+import '../../css/Eat.css';
 import Arcade from '../../assets/food/16bit.jpg';
 import Nada from '../../assets/nada/huge.jpg';
 import Taste from '../../assets/food/taste.jpg';
 import Rhinegiest from '../../assets/food/rhinegeist.jpg';
+import FoodPoster from '../../assets/food/eats5.png';
 
 
  class Eat extends Component {
     render() {
         return (
             <div>
-              <header id="header-section">
+              <header id="header-eat-section">
                     <Navbar />
-                    <div className="header-text-container container">
+                    <div className="header-eat-text-container container">
                         <div className="line"></div>
-                        <h1>Eat good food in<br/><span>Cincinnati</span></h1>
+                        <h1>Eat Good In<br/><span>Cincinnati</span></h1>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. <br/> Autem illo doloribus vero hic adipisci suscipit itaque porro saepe <br/> iure culpa? utem illo doloribus vero hic adipisci suscipit itaque porro <br/> saepe iure culpa.
                         </p>   
-                        <button className="btn">Shop</button>
-                        <button className="btn">Eat</button>             
-                        <button className="btn">Play</button>
-                        </div>
-                     
-                    
-                    
-                </header>
+                     </div>
+               </header>
                
-                <section className="facts container">
-                     <div className="row">
-                        <div className="col-lg-6 facts-text-box">
-                            <div className="line"></div>
-                               <h1>Eat at<br/>Nada</h1>
-                               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel dui vel lectus efficitur rutrum.<br/>
-                                  Nullam facilisis lorem in enim bibendum interdum. <br/>
-                                  Nulla non tincidunt metus, ac lobortis libero. Suspendisse dictum ante eu enim iaculis, <br/>
-                                  eget ultrices est hendrerit.
-                               </p>
-                              </div>
-
-                        <div className="col-lg-6" id='smol'>
-                           
-                                    <img className="eat-img" src={ Nada } alt="Nada's Enterance" />
-                                    </div>                                
-                                </div>                               
-                                                                              
+                <section className="place-to-eat-section container">
+                  <div className="row">
+                     <div className="col-lg-6 img">
+                        <img src={FoodPoster} atl="bourbon country bbq" />
+                     </div>
+                     <div className="col-lg-6 text">
+                        <p>
+                        Many Chicagoans aren't aware of how close they are to another of the Midwest’s most vibrant and historic cities. In less than five hours via car, you can be in Cincinnati, a city filled with destination dining. Perched along the Ohio River on the Kentucky border, Cincinnati was poised to become the Midwestern mega-city until train lines were routed primarily through Chicago. But that hasn’t stopped the Ohio city from booming in its own right, especially when it comes to restaurants and bars, thanks to its bountiful location in the heart of America’s breadbasket and at the edge of bourbon country. Well worth the day trip or weekend excursion, here are nine must-try restaurants and bars in Cincinnati.<a href="https://www.zagat.com/b/9-must-try-restaurants-in-cincinnati"> Read More</a>
+                        </p>
+                     </div>
+                  </div>                                                        
                 </section>
-                <section className="facts container">
-                     <div className="row">
-                     <div className="col-lg-6" id='smol'>
-                        
-                             <img className="eat-img" src={ Arcade } alt="16 Bit Arcade and Bar" />
-                                    </div>      
 
-                        <div className="col-lg-6 facts-text-box">
+                <h2 className="text-center title">Some of our favorite places</h2>
+                <section className="eats-section">
+                  <div className="row eats-container">
+                     <div className="col-lg-6 align-self-center">
                            <div className="line"></div>
-                               <h1>Eat at<br/>The 16 Bit Arcade</h1>
-                               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel dui vel lectus efficitur rutrum.<br/>
-                                  Nullam facilisis lorem in enim bibendum interdum. <br/>
-                                  Nulla non tincidunt metus, ac lobortis libero. Suspendisse dictum ante eu enim iaculis, <br/>
-                                  eget ultrices est hendrerit.
-                               </p>
-                              </div>
+                           <h2>Eat At<br/><span>16 Bit Arcade</span></h2>
+                           <p>
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit.      Etiam vel dui vel lectus efficitur rutru. Nullam facilisis lorem in enim bibendum interdum. Nulla non tincidunt metus, ac lobortis libero. Suspendisse dictum ante eu enim iaculis, eget ultrices est hendrerit.
+                           </p>
+                     </div>
+                     <div className="col-lg-6 img d-flex justify-content-center">
+                        <img src={ Arcade } alt="16 Bit Arcade and Bar" />
+                     </div> 
                                                              
-                                </div>                                           
-                </section>
-                <section className="facts container">
-                     <div className="row">
-                        <div className="col-lg-6 facts-text-box">
-                            <div className="line"></div>
-                               <h1>Eat at<br/>The Taste of Cincinnati</h1>
-                               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel dui vel lectus efficitur rutrum.<br/>
-                                  Nullam facilisis lorem in enim bibendum interdum. <br/>
-                                  Nulla non tincidunt metus, ac lobortis libero. Suspendisse dictum ante eu enim iaculis, <br/>
-                                  eget ultrices est hendrerit.
-                               </p>
-                              </div>
-
-                        <div className="col-lg-6" id='smol'>
-                           
-                                    <img className="eat-img" src={ Taste } alt="Taste of Cincinnati" />
-                                    </div>                                
-                                </div>                                           
-                </section>
-                <section className="facts container">
-                     <div className="row">
-                       
-                        <div className="col-lg-6" id='smol'>
-                                 <img className="eat-img" src={ Rhinegiest } alt="Rhinegiest Brewery" />
-                                    </div>    
-                                    <div className="col-lg-6 facts-text-box">
-                            <div className="line"></div>
-                               <h1>Drink at<br/>Rhinegiest</h1>
-                               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel dui vel lectus efficitur rutrum.<br/>
-                                  Nullam facilisis lorem in enim bibendum interdum. <br/>
-                                  Nulla non tincidunt metus, ac lobortis libero. Suspendisse dictum ante eu enim iaculis, <br/>
-                                  eget ultrices est hendrerit.
-                               </p>
-                              </div>                             
-                                </div>                                           
+                  </div>                                           
                 </section>
 
+                <section className="eats-section eat-right">
+                  <div className="row eats-container">
+                     <div className="col-lg-6 img d-flex justify-content-center">
+                        <img src={ Taste } alt="16 Bit Arcade and Bar" />
+                     </div> 
+                     <div className="col-lg-6 align-self-center">
+                           <div className="line"></div>
+                           <h2>Eat At<br/><span>Taste Of Cincinnati</span></h2>
+                           <p>
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit.      Etiam vel dui vel lectus efficitur rutru. Nullam facilisis lorem in enim bibendum interdum. Nulla non tincidunt metus, ac lobortis libero. Suspendisse dictum ante eu enim iaculis, eget ultrices est hendrerit.
+                           </p>
+                     </div>                                                             
+                  </div>                                           
+                </section>
 
-           </div> 
+                <section className="eats-section d-inline-block">
+                  <div className="row eats-container">
+                     <div className="col-lg-6 align-self-center">
+                           <div className="line"></div>
+                           <h2>Eat At<br/><span>16 Bit Arcade</span></h2>
+                           <p>
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit.      Etiam vel dui vel lectus efficitur rutru. Nullam facilisis lorem in enim bibendum interdum. Nulla non tincidunt metus, ac lobortis libero. Suspendisse dictum ante eu enim iaculis, eget ultrices est hendrerit.
+                           </p>
+                     </div>
+                     <div className="col-lg-6 img d-flex justify-content-center">
+                        <img src={ Arcade } alt="16 Bit Arcade and Bar" />
+                     </div>                                     
+                  </div>                                           
+                </section>
+               </div> 
         )
     }
 } 
