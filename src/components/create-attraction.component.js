@@ -22,6 +22,7 @@ export default class CreateAttraction extends Component {
           zipcode: '',  
           website: '',
           imageUrl: '',
+
           attractions: [],
         }  
       }
@@ -36,7 +37,7 @@ export default class CreateAttraction extends Component {
                 }
             })
       }
-
+      
       onChangeName(e) {  
         this.setState({  
           name: e.target.value  
@@ -146,8 +147,7 @@ export default class CreateAttraction extends Component {
                     rows="5"
                     />
               </div>
-    
-    
+  
               <div className="text-center mx-3">
                 <input type="submit" value="Submit" className="w-50 btn attractionSubmit" />
               </div>
