@@ -46,19 +46,19 @@ import Asm from '../../assets/places/asm.jpg';
                               <div className="col-8">
                               <div class="gallery">
                               <figure class="gallery__item gallery__item--1">
-                                 <img src={TokyoKitty} class="gallery__img" alt="Image 1"></img>
+                                 <img src={TokyoKitty} class="gallery__img" alt="Tokyo Kitty"></img>
                               </figure>
                               <figure class="gallery__item gallery__item--2">
-                                 <img src={Taste} class="gallery__img" alt="Image 2"></img>
+                                 <img src={Taste} class="gallery__img" alt="Taste"></img>
                               </figure>
                               <figure class="gallery__item gallery__item--3">
-                                 <img src={Waterview} class="gallery__img" alt="Image 3"></img>
+                                 <img src={Waterview} class="gallery__img" alt="Waterview"></img>
                               </figure>
                               <figure class="gallery__item gallery__item--4">
-                                 <img src={Zoo} class="gallery__img" alt="Image 4"></img>
+                                 <img src={Zoo} class="gallery__img" alt="Zoo of Cincinnati"></img>
                               </figure>
                               <figure class="gallery__item gallery__item--6">
-                                 <img src={Asm} class="gallery__img" alt="Image 6"></img>
+                                 <img src={Asm} class="gallery__img" alt="ASM"></img>
                               </figure>
                               </div>
                               </div>  

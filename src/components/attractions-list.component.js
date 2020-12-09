@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import { BACKEND_URL } from './config';
-import TokyoKitty from '../assets/tokyokitty/484150.jpg';
 
 export default class AttractionList extends Component {
     constructor(props) {
@@ -65,7 +64,7 @@ export default class AttractionList extends Component {
         return (
 			
             <div className="container">
-				<div className="row">
+				<div className="row card992px">
 					{this.displayAttractionPosts(this.state.attractions)}
 				</div>
 			</div>
