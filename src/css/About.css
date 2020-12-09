@@ -132,10 +132,6 @@ body {
 }
 
 @media screen and (max-width:576px) {
-    .aboutImage {
-        width:100%;
-    }
-
     .aboutImageBackground {
         display:none;
         width:0;
