@@ -30,6 +30,8 @@
     letter-spacing: 0.3rem;
     font-size: 5.5rem;
     color: #fe5000;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
 }
 .header-text-container p {
     line-height: 2.5rem;
@@ -212,7 +214,7 @@ textarea.form-description {
     background-color:rgba(254,80,0,1);
     color:white;
 }
-.navbar .navbar-brand img {
+/* .navbar .navbar-brand img {
     width: 6rem;
     height: auto;
 }
@@ -221,7 +223,7 @@ textarea.form-description {
     width: 50px;
     height: 50px;
     display: inline;
-}
+} */
 
 .gallery {
     display: grid;

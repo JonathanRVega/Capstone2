@@ -72,14 +72,14 @@ body {
 .navbar-nav .search {
     font-size: 2rem;
     margin-top: 1rem;
-    color: #fe5000;
+    color: #ffffff;
     font-size: 25px;
     margin-top: 10px;
 }
 .search-box {
-  background-color: #041e42;
+  /* background-color: #041e42;
   height: 4rem;
-  border-radius: 4rem;
+  border-radius: 4rem; */
 }
 .search-btn {
   width: 4.5rem;
@@ -105,6 +105,8 @@ body {
 .search-box:hover > .search-text{
   width: 20rem;
   padding: 0 1rem;
+  background-color: #041e42;
+  border-radius: 4rem;
 }
 
 /* Header section */

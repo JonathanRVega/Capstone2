@@ -1,0 +1,47 @@
+/* Header section */
+#header-shop-section {
+    background-image: linear-gradient( 
+        to right bottom,
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4)),
+    url("../assets/places/shop1.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 85vh;
+    border-bottom-left-radius: 50% 20%;
+    border-bottom-right-radius: 50% 20%;
+}
+.header-shop-text-container {
+    padding-top: 13%;
+    color: #ffffff;
+}
+.header-shop-text-container .line {
+    border-top: 0.2rem solid #ffffff;
+    width: 5rem;
+}
+.header-shop-text-container h1 {
+    font-size: 3rem;
+    line-height: 5.5rem;
+}
+.header-shop-text-container h1 span {
+    letter-spacing: 0.3rem;
+    font-size: 5.5rem;
+    color: #fe5000;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+}
+.header-shop-text-container p {
+    line-height: 2.5rem;
+    font-weight: lighter;
+    text-align: justify;
+}
+.shopping-section {
+    margin-top: 12rem;
+}
+.shop-grid {
+    display: grid;
+}
+.shop-grid .box1, .box2, .box3, .box4, .box5, .box6 {
+    border: 2px solid #555;
+}
