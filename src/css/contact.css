@@ -32,6 +32,8 @@
     letter-spacing: 0.3rem;
     font-size: 5.5rem;
     color: #fe5000;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
 }
 .header-text-contact-container p {
     line-height: 2.5rem;

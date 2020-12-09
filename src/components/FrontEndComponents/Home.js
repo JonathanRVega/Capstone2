@@ -8,6 +8,7 @@ import Airport from '../../assets/places/cvg.png';
 import VideoBg from '../../assets/downtown/bg-video.mp4';
 import Carousels from '../StayCarousel';
 import '../../css/Home.css';
+import Footer from '../FrontEndComponents/Footer'
 
 export default class Home extends Component {
     render() {
@@ -173,7 +174,7 @@ export default class Home extends Component {
                     </div>
                 </section>
                 {/* end of newsletter section - cc */}
-
+                <Footer />
             </div>
         )
     }

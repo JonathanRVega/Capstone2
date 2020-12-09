@@ -50,7 +50,6 @@ body {
     height: 90vh;
     border-bottom-left-radius: 50% 20%;
     border-bottom-right-radius: 50% 20%;
-    padding-bottom: 200px;
 }
 .header-about-text {
     padding-top: 10%;
@@ -68,6 +67,8 @@ body {
     letter-spacing: 0.3rem;
     font-size: 5.5rem;
     color: #fe5000;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
 }
 .header-about-text p {
     line-height: 2.5rem;
