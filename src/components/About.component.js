@@ -38,13 +38,13 @@ import wholeAgain from '../assets/charities/WholeAgainlogotaglineRGB-web-logo.pn
                            eget ultrices est hendrerit.</p>
                      </div>
                      <div className="col-md-2 d-none d-sm-block"></div>
-                     <div className="col-10 col-sm-12 col-md-4">
+                     <div className="col-12 col-sm-12 col-md-4">
                         <div className="aboutImageBackground ml-5 float-sm-right"></div>
                         <div className="aboutImage mr-md-5 float-sm-right" id="aboutImage1"></div>
                      </div>
                   </div>
                   <div className="row mt-5">   
-                     <div className="col-10 col-sm-12 col-md-4">
+                     <div className="col-12 col-sm-12 col-md-4">
                         <div className="aboutImageBackground"></div>
                         <div className="aboutImage ml-md-5" id="aboutImage2"></div>
                      </div>
