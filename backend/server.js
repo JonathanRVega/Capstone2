@@ -1,12 +1,12 @@
 const express = require('express');
 const cors = require('cors');
 const mongoose = require('mongoose');
-//const bodyParser = require('body-parser');
+
 
 require('dotenv').config();
 
 const app = express();
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 5000;
 
 app.use(cors());
 app.use(express.json());
@@ -28,7 +28,7 @@ const { request } = require('express');
 app.use('/attractions', attractionRouter);
 app.use('/mail', mailRouter);
 
-
+//Gets ready for production
 if (process.env.NODE_ENV === 'production'){
     app.use(express.static('build'));
 }

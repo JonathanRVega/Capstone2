@@ -5,6 +5,7 @@ import {UncontrolledDropdown,DropdownToggle,DropdownMenu, DropdownItem, NavbarTo
 import Logo from '../assets/logo/new-logo.png'
 import '../index.css';
 
+
 const Navbar = () => {
     
     // const variables for collapse navbar - cc
@@ -23,6 +24,7 @@ const Navbar = () => {
     }
 
     window.addEventListener('scroll', changeNavBackground);
+    
     
         return (
             // start of navbar - cc

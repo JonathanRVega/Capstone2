@@ -120,7 +120,7 @@ body {
 @media screen and (max-width:767px) {
     .aboutImage {
         position:static;
-        width:100%;
+        width:51rem;
         height:60rem;
         margin-bottom:4rem;
     }

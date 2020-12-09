@@ -38,13 +38,13 @@ import wholeAgain from '../assets/charities/WholeAgainlogotaglineRGB-web-logo.pn
                            eget ultrices est hendrerit.</p>
                      </div>
                      <div className="col-md-2 d-none d-sm-block"></div>
-                     <div className="col-10 col-sm-12 col-md-4">
+                     <div className="col-12 col-sm-12 col-md-4">
                         <div className="aboutImageBackground ml-5 float-sm-right"></div>
                         <div className="aboutImage mr-md-5 float-sm-right" id="aboutImage1"></div>
                      </div>
                   </div>
                   <div className="row mt-5">   
-                     <div className="col-10 col-sm-12 col-md-4">
+                     <div className="col-12 col-sm-12 col-md-4">
                         <div className="aboutImageBackground"></div>
                         <div className="aboutImage ml-md-5" id="aboutImage2"></div>
                      </div>
@@ -63,11 +63,11 @@ import wholeAgain from '../assets/charities/WholeAgainlogotaglineRGB-web-logo.pn
                <div className="row mt-5">   
                      <div className="col-sm-12 charitiesBackground mt-5 py-5 text-center">
                         <h2>Explore Cincinnati Charities</h2>
-                        <a href="https://www.marchofdimes.org/"><img style={{width:'10rem'}} src={marchOfDimes}/></a>
-                        <a href="https://www.sparksfoundation.org/support-us/?gclid=Cj0KCQiAk53-BRD0ARIsAJuNhpsemiNo_z0291QTu9j143jWLNWeTOtoVZCYEHYaxe0Nkz8JKrLtTugaAjKgEALw_wcB"><img id="aboutLogos" src={sparks}/></a>
-                        <a href="https://rmhc-centralohio.org/?gclid=Cj0KCQiAk53-BRD0ARIsAJuNhptorRD_1Vt7lPKqNZGXhXynOGJaaRnFi9m0HMN3cb7DNIyqEkVNjDgaAiLlEALw_wcB"><img id="aboutLogos" src={ronaldMcDonaldHouse}/></a>
-                        <a href="https://www.achildshopefoundation.org/?gclid=Cj0KCQiAk53-BRD0ARIsAJuNhpvOh5HEcgHlzCUOp3cQHkX97fhs5LWAmU9yiBjeNs71OXN1m-6SNOMaAsvZEALw_wcB"><img id="aboutLogos" src={aChildsHope}/></a>
-                        <a href="https://www.whole-again.org/"><img id="aboutLogos" src={wholeAgain}/></a>
+                        <a href="https://www.marchofdimes.org/"><img style={{width:'10rem'}} src={marchOfDimes} alt="March of Dimes"/></a>
+                        <a href="https://www.sparksfoundation.org/support-us/?gclid=Cj0KCQiAk53-BRD0ARIsAJuNhpsemiNo_z0291QTu9j143jWLNWeTOtoVZCYEHYaxe0Nkz8JKrLtTugaAjKgEALw_wcB"><img id="aboutLogos" src={sparks} alt="sparks"/></a>
+                        <a href="https://rmhc-centralohio.org/?gclid=Cj0KCQiAk53-BRD0ARIsAJuNhptorRD_1Vt7lPKqNZGXhXynOGJaaRnFi9m0HMN3cb7DNIyqEkVNjDgaAiLlEALw_wcB"><img id="aboutLogos" src={ronaldMcDonaldHouse} alt="McDonalds"/></a>
+                        <a href="https://www.achildshopefoundation.org/?gclid=Cj0KCQiAk53-BRD0ARIsAJuNhpvOh5HEcgHlzCUOp3cQHkX97fhs5LWAmU9yiBjeNs71OXN1m-6SNOMaAsvZEALw_wcB"><img id="aboutLogos" src={aChildsHope} alt="ChildsHope"/></a>
+                        <a href="https://www.whole-again.org/"><img id="aboutLogos" src={wholeAgain} alt="Whole Again"/></a>
                      </div>
                   </div>
                   <Footer />

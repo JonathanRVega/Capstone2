@@ -17,10 +17,13 @@ const attractionSchema = new Schema({
             message: props => `${props.value} is not a valid website address!`
         },
     },
-    imageUrl: { type: String} 
+    
+    imageUrl: { 
+        type: String} 
     }, {
     timestamps: true,
 });
+
 
 const Attraction = mongoose.model('Attraction', attractionSchema);
 
