@@ -22,6 +22,7 @@ export default class CreateAttraction extends Component {
           zipcode: '',  
           website: '',
           imageUrl: '',
+
           attractions: [],
         }  
       }
@@ -36,7 +37,7 @@ export default class CreateAttraction extends Component {
                 }
             })
       }
-
+      
       onChangeName(e) {  
         this.setState({  
           name: e.target.value  
@@ -92,45 +93,45 @@ export default class CreateAttraction extends Component {
             <div className="submitAttractionContainer">
             <div className="testContainer2">
             <h3 className="attractionHeader">Add a new attraction!</h3>
-            <p>Make sure the zipcode is 5 numbers and the website has www. at the beginning.</p>
+            <p className="addAttractionText">Make sure the zipcode is 5 numbers and the website has www. at the beginning.</p>
             </div>
             <form onSubmit={this.onSubmit}>
-              <div className="testContainer my-3"> 
+              <div className="testContainer"> 
                 <input  type="text"
                     required
-                    className="form-control formtextAttraction"
+                    className="form-control formtextAttraction my-2"
                     value={this.state.name}
                     onChange={this.onChangeName}
                     placeholder="Name"
                     />
                 <input  type="text"
                     required
-                    className="form-control formtextAttraction"
+                    className="form-control formtextAttraction my-2"
                     value={this.state.Description}
                     onChange={this.onChangeWebsite}
                     placeholder="Website"
                     />
               </div>
-              <div className="testContainer my-3">
+              <div className="testContainer">
                 <input 
                     type="text" 
-                    className="form-control formtextAttraction"
+                    className="form-control formtextAttraction my-2"
                     value={this.state.address}
                     onChange={this.onChangeAddress}
                     placeholder="Address"
                     />
                 <input 
                     type="number" 
-                    className="form-control formtextAttraction"
+                    className="form-control formtextAttraction my-2"
                     value={this.state.zipcode}
                     onChange={this.onChangeZipcode}
                     placeholder="Zipcode"
                     />
               </div>
-              <div className="testContainer my-3">
+              <div className="testContainer ">
                 <input 
                     type="text" 
-                    className="form-control formtextAttraction"
+                    className="form-control formtextAttraction my-2"
                     value={this.state.imageUrl}
                     onChange={this.onChangeImageUrl}
                     placeholder="ImageUrl"
@@ -139,15 +140,14 @@ export default class CreateAttraction extends Component {
               <div className="testContainer my-0">
                 <textarea
                     type="text" 
-                    className="form-control formtextAttractionBig"
+                    className="form-control formtextAttractionBig my-2"
                     value={this.state.description}
                     onChange={this.onChangeDescription}
                     placeholder="Tell us more about this place"
                     rows="5"
                     />
               </div>
-    
-    
+  
               <div className="text-center mx-3">
                 <input type="submit" value="Submit" className="w-50 btn attractionSubmit" />
               </div>
