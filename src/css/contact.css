@@ -17,17 +17,20 @@
 
 
 .header-text-contact-container {
-    padding-top: 10%;
+    padding-top: 25%;
     color: #ffffff;
 }
+
 .header-text-contact-container .line {
     border-top: 0.2rem solid #ffffff;
     width: 5rem;
 }
+
 .header-text-contact-container h1 {
     font-size: 3rem;
     line-height: 5.5rem;
 }
+
 .header-text-contact-container h1 span {
     letter-spacing: 0.3rem;
     font-size: 5.5rem;
@@ -35,6 +38,7 @@
     text-transform: uppercase;
     letter-spacing: 0.5rem;
 }
+
 .header-text-contact-container p {
     line-height: 2.5rem;
     font-weight: lighter;
@@ -100,8 +104,12 @@ textarea.form-description {
     align-items: center;
 }
 
-.map-section {
-    margin-top: 10rem;
+
+/* MEDIA QUERIES */
+@media screen and (max-width:991px) {
+    .formOutline {
+        margin: 0 auto;
+    }
 }
 
 @media screen and (max-width:767px) {
@@ -111,11 +119,11 @@ textarea.form-description {
     }
 
     .formBackground{
+        background:none;
         padding: 20rem 0;
     }
     
     .formOutline {
-        margin:-35rem 0;
         width:40rem;
         height:auto;
         background: #fff;
@@ -132,15 +140,9 @@ textarea.form-description {
         width: 32rem;
         margin: auto;
     }
-
-    .formBackground{
-        background:none;
-        padding: 20rem 0;
-    }
     
     .formOutline {
         text-align: center;
-        margin:-35rem 0;
         width:100%;
         height:auto;
         background: #fff;
