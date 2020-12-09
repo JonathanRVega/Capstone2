@@ -272,3 +272,17 @@ textarea.form-description {
     grid-row-start: 3;
     grid-row-end: 9;
 }
+
+@media (max-width: 992px){
+    .gallery {
+        display: grid;
+        width: 140%;
+        height: 550px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .gallery__img {
+        height: 50%;
+        object-fit: cover;
+    }
+}
