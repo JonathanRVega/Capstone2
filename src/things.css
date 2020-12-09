@@ -1,0 +1,290 @@
+#header-section {
+   position: relative; 
+    background-image: linear-gradient( 
+        to right bottom,
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4)),
+    url("./assets/downtown/matt-koffel-_W8p_1OBkAw-unsplash.jpg");
+    background-attachment: fixed; 
+    background-size: cover;
+    background-position: top center;
+    height: 90vh;
+    border-bottom-left-radius: 50% 20%;
+    border-bottom-right-radius: 50% 20%;
+    padding-bottom: 200px;
+}
+
+.header-text-container {
+    padding-top: 10%;
+    color: #ffffff;
+}
+.header-text-container .line {
+    border-top: 0.2rem solid #ffffff;
+    width: 5rem;
+}
+.header-text-container h1 {
+    font-size: 3rem;
+    line-height: 5.5rem;
+}
+.header-text-container h1 span {
+    letter-spacing: 0.3rem;
+    font-size: 5.5rem;
+    color: #fe5000;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+}
+.header-text-container p {
+    line-height: 2.5rem;
+    font-weight: lighter;
+}
+
+/* facts section */
+.facts {
+    margin-top: 10rem;
+}
+.facts-text-box .line {
+    border-top: 0.2rem solid #fe5000;
+    width: 5rem;
+}
+.facts-text-box h2 {
+    font-size: 2.2rem;
+    color: #041e42;
+}
+.facts-text-box h2 span {
+    font-size: 3rem;
+}
+.facts .box .hotels {
+    margin-right: 4.4rem;
+}
+.facts .box {
+    display: inline-block;
+}
+.facts .icons {
+    width: 6rem;
+}
+.fact-info {
+    display: inline-block;
+    font-size: 1.8rem;
+    padding: 1rem 1rem;
+    color: #041e42;
+}
+
+.todoJustify{
+    text-align: justify;
+}
+
+.containerBackground{
+    background-color: whitesmoke;
+    height: 320px;
+    padding-top: 30px;
+}
+
+.containerBackgroundBig{
+    background-color: whitesmoke;
+    width: fit-content;
+    height: 520px;
+    padding-top: 30px;
+}
+/* Map section */
+.airpot-map-section {
+    margin-top: 10rem;
+    position: relative;
+}
+.airport-info {
+    width: 35rem;
+    height: 45rem;
+    position: absolute;
+    left: 20%;
+    top: 40%;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+    background-color: #ffffff;
+}
+.airport-info img {
+    width: 35rem;
+}
+.airport-info .text-box {
+    padding: 3rem 2rem;
+}
+
+/* stay section */
+.stay-section {
+    margin-top: 30rem;
+    text-align: center;
+}
+.stay-section h2 {
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    color: #041e42;
+    padding-top: 1rem;
+}
+.stay-section .line {
+    border-top: 0.2rem solid #fe5000;
+    width: 5rem;
+    margin: 0 auto;
+}
+.stay-section ul {
+    list-style-type: none; 
+    margin: 2rem 0;
+}
+.stay-section ul li {
+    display: inline-block;
+    padding: 0 2.5rem;
+    font-size: 1.8rem;
+    text-transform: capitalize;
+    color: #041e42;
+    font-weight: lighter;
+}
+
+/* carousel */
+.stay-carousel img {
+    height: 40rem;
+    object-fit: cover;
+}
+
+/* things to do section */
+.things-section {
+    background-image: linear-gradient( 
+        to right bottom,
+        rgba(0, 48, 135, 0.7),
+        rgba(0, 48, 135, 0.7)),
+    url("./assets/downtown/matt-koffel-_W8p_1OBkAw-unsplash.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top center;
+    margin-top: 10rem;
+    color: #ffffff;
+    text-align: center;
+    height: 35rem;
+}
+.things-section .info {
+    padding-top: 12rem;
+}
+.things-section h3 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #fe5000;
+    text-transform: uppercase;
+}
+.things-section p {
+    font-weight: lighter;
+}
+
+.todo-img{
+  width: 500px;
+  height: 260px;
+  border-radius: 5%;
+}
+.shop-img{
+  width: 500px;
+  height: 260px;
+  border-radius: 20%;
+}
+.eat-img{
+  width: 500px;
+  height: 260px;
+  border-radius: 20%;
+}
+.play-img{
+  width: 500px;
+  height: 260px;
+  border-radius: 20%;
+}
+
+/* #smol{
+  height: 100px;
+  width: 500px;
+} */
+
+textarea.form-description {
+    height:20rem;
+    /* resize:none; */
+}
+
+.backgroundPadding{
+    padding: 10px;
+}
+
+.contactSubmit {
+    background-color:rgba(254,80,0,1);
+    color:white;
+}
+/* .navbar .navbar-brand img {
+    width: 6rem;
+    height: auto;
+}
+
+.icons{
+    width: 50px;
+    height: 50px;
+    display: inline;
+} */
+
+.gallery {
+    display: grid;
+    width: 100%;
+    height: 450px;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 4.2vw);
+    grid-gap: 15px;
+}
+
+.gallery__img {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+}
+
+.gallery__item--1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+
+.gallery__item--2 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+
+.gallery__item--3 {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+
+.gallery__item--4 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 9;
+}
+
+.gallery__item--6 {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 3;
+    grid-row-end: 9;
+}
+
+@media (max-width: 992px){
+    .gallery {
+        display: grid;
+        width: 140%;
+        height: 550px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .gallery__img {
+        height: 50%;
+        object-fit: cover;
+    }
+}

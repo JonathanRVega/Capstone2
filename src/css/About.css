@@ -1,0 +1,141 @@
+/* CSS Resets */
+html {
+    /* changed font to the percentage below so it would be easier to use REMs. 
+    62.5% = 10px and 10px = 1rem */
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+body {
+    color: #555555;
+    font-size: 1.6rem;
+}
+
+/* global css */
+.btn {
+    border: 0.2rem solid #ffffff;
+    border-radius: 2rem;
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding: 0.4rem 3rem;
+    text-transform: uppercase;
+    margin: 1rem 0;
+    background-color: transparent;
+    color: #ffffff;
+}
+.btn:hover {
+    /* transform: translateY(-3px); */
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, .2);
+}
+
+.btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
+}
+
+.btn:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+
+/* Header section */
+#header-about-section {
+    background-image: linear-gradient( 
+        to right bottom,
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4)),
+    url("../assets/downtown/matt-koffel-_W8p_1OBkAw-unsplash.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top center;
+    height: 90vh;
+    border-bottom-left-radius: 50% 20%;
+    border-bottom-right-radius: 50% 20%;
+}
+.header-about-text {
+    padding-top: 10%;
+    color: #ffffff;
+}
+.header-about-text .line {
+    border-top: 0.2rem solid #ffffff;
+    width: 5rem;
+}
+.header-about-text h1 {
+    font-size: 3rem;
+    line-height: 5.5rem;
+}
+.header-about-text h1 span {
+    letter-spacing: 0.3rem;
+    font-size: 5.5rem;
+    color: #fe5000;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+}
+.header-about-text p {
+    line-height: 2.5rem;
+    font-weight: lighter;
+}
+
+.about .line{
+    margin: 1rem 0;
+    border-top: 0.2rem solid black;
+    width: 5rem;
+}
+
+.aboutImage {
+    position: absolute;
+    width:25rem;
+    height:30rem;
+    margin-bottom: 8rem;
+    box-shadow: 0 1px 38px rgba(0, 0, 0, 0.15), 0 5px 12px rgba(0, 0, 0, 0.25);
+    z-index:3;
+}
+
+.aboutImageBackground {
+    position: absolute;
+    width:25rem;
+    height:30rem;
+    margin-top: 3rem;
+    border: 0.5rem solid #ddd;
+    z-index:2;
+}
+
+#aboutLogos {
+    width: 20rem;
+}
+
+#aboutImage1 {
+    background: url('../assets/downtown/aboutPageCincinnati1.png');
+    background-size: cover;
+}
+
+#aboutImage2 {
+    background: url('../assets/downtown/aboutPageCincinnati2.png');
+    background-size: cover;
+}
+
+.charitiesBackground {
+    background: #ddd;
+}
+
+@media screen and (max-width:767px) {
+    .aboutImage {
+        position:static;
+        width:51rem;
+        height:60rem;
+        margin-bottom:4rem;
+    }
+    
+    .aboutImageBackground {
+        display:none;
+        width:0;
+        height:0;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .aboutImageBackground {
+        display:none;
+        width:0;
+        height:0;
+    }
+}
