@@ -103,6 +103,20 @@ body {
     width: 20rem;
 }
 
+.aboutLogosBackground {
+    width:20rem;
+    height:20rem;
+    border-radius:50%;
+    background:white;
+    z-index:2;
+}
+
+.aboutLogosBackground:hover {
+    background:#fe5000;
+    transition: 0.5s
+}
+
+
 #aboutImage1 {
     background: url('../assets/downtown/aboutPageCincinnati1.png');
     background-size: cover;
