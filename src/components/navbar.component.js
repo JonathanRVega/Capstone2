@@ -32,7 +32,7 @@ const Navbar = () => {
                 <div className="container navbar-expand-lg">
                     {/* logo */}
                     <div className="navbar-brand">
-                        <img src={Logo} alt="logo"/>
+                        <Link to='/' className="nav-link active"><img src={Logo} alt="logo"/></Link>
                     </div>
                     <NavbarToggler onClick={toggle} />
                     <Collapse isOpen={isOpen} navbar>
