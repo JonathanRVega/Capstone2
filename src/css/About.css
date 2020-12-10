@@ -43,7 +43,7 @@ body {
         to right bottom,
         rgba(0, 0, 0, 0.4),
         rgba(0, 0, 0, 0.4)),
-    url("../assets/downtown/matt-koffel-_W8p_1OBkAw-unsplash.jpg");
+    url("../assets/downtown/downtown2.jpg");
     background-attachment: fixed;
     background-size: cover;
     background-position: top center;
@@ -52,7 +52,7 @@ body {
     border-bottom-right-radius: 50% 20%;
 }
 .header-about-text {
-    padding-top: 10%;
+    padding-top: 13%;
     color: #ffffff;
 }
 .header-about-text .line {
@@ -137,5 +137,10 @@ body {
         display:none;
         width:0;
         height:0;
+    }
+
+    .header-about-text {
+        padding-top: 25%;
+        color: #ffffff;
     }
 }
