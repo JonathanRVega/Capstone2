@@ -61,25 +61,25 @@ import wholeAgain from '../assets/charities/whole-again-logo.png';
                   </div>
                </div>
                <div className="row mt-5">   
-                     <div className="col-sm-12 charitiesBackground mt-5 py-5 text-center">
-                        <h2>Explore Cincinnati Charities</h2>
-                        <div className="d-inline-flex">
-                           <div className="aboutLogosBackground mr-4">
+                     <div className="col-md-12 charitiesBackground mt-5 py-5 text-center">
+                        <h1>Explore Cincinnati Charities</h1>
+                        <div className="d-inline-flex flex-column flex-md-row mt-5">
+                           <div className="aboutLogosBackground mb-4 mb-md-0 mr-0 mr-md-4">
                               <a href="https://www.marchofdimes.org/">
                                     <img id="aboutLogos" src={marchOfDimes} alt="March of Dimes"/>
                               </a>
                            </div>
-                           <div className="aboutLogosBackground mr-4">
+                           <div className="aboutLogosBackground mb-4 mb-md-0 mr-0 mr-md-4">
                               <a href="https://www.sparksfoundation.org/support-us/?gclid=Cj0KCQiAk53-BRD0ARIsAJuNhpsemiNo_z0291QTu9j143jWLNWeTOtoVZCYEHYaxe0Nkz8JKrLtTugaAjKgEALw_wcB">
                                  <img id="aboutLogos" src={sparks} alt="sparks"/>
                               </a>
                            </div>
-                           <div className="aboutLogosBackground mr-4">
+                           <div className="aboutLogosBackground mb-4 mb-md-0 mr-0 mr-md-4">
                               <a href="https://rmhc-centralohio.org/?gclid=Cj0KCQiAk53-BRD0ARIsAJuNhptorRD_1Vt7lPKqNZGXhXynOGJaaRnFi9m0HMN3cb7DNIyqEkVNjDgaAiLlEALw_wcB">
                                  <img id="aboutLogos" src={ronaldMcDonaldHouse} alt="McDonalds"/>
                               </a>
                            </div>
-                           <div className="aboutLogosBackground mr-4">
+                           <div className="aboutLogosBackground mb-4 mb-md-0 mr-0 mr-md-4">
                               <a href="https://www.achildshopefoundation.org/?gclid=Cj0KCQiAk53-BRD0ARIsAJuNhpvOh5HEcgHlzCUOp3cQHkX97fhs5LWAmU9yiBjeNs71OXN1m-6SNOMaAsvZEALw_wcB">
                                  <img id="aboutLogos" src={aChildsHope} alt="ChildsHope"/>
                               </a>
