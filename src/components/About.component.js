@@ -7,6 +7,10 @@ import sparks from '../assets/charities/sparks-logo.png'
 import aChildsHope from '../assets/charities/a-childs-hope-logo.png';
 import ronaldMcDonaldHouse from '../assets/charities/ronaldMcdonald-house-logo.png';
 import wholeAgain from '../assets/charities/whole-again-logo.png';
+import courtneyhs from '../assets/about/courtney-hs.jpg';
+import danielhs from '../assets/about/daniel-hs.jpg';
+import derrickhs from '../assets/about/derrick-hs.jpg';
+import jonathanhs from '../assets/about/jonathan-hs.jpg';
 
  class About extends Component {
     render() {
@@ -48,8 +52,12 @@ import wholeAgain from '../assets/charities/whole-again-logo.png';
                   </div>
                   <div className="row mt-5">   
                      <div className="col-12 col-sm-12 col-md-4">
-                        <div className="aboutImageBackground"></div>
-                        <div className="aboutImage ml-md-5" id="aboutImage2"></div>
+                        <div className="aboutImage ml-md-5" id="aboutImage2">
+                           <img id="aboutUsImages" src={courtneyhs} alt="Courtney Headshot"/>
+                           <img id="aboutUsImages" src={danielhs} alt="Daniel Headshot"/>
+                           <img id="aboutUsImages" src={derrickhs} alt="Derrick Headshot"/>
+                           <img id="aboutUsImages" src={jonathanhs} alt="Jonathan Headshot"/>
+                        </div>
                      </div>
                      <div className="col-md-2 d-none d-sm-block"></div>
                      <div className="col-sm-12 col-md-6 mt-5">

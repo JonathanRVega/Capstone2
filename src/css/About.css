@@ -94,6 +94,11 @@ body {
     z-index:3;
 }
 
+#aboutUsImages {
+    width:12.5rem;
+    height:auto;
+}
+
 .aboutImageBackground {
     position: absolute;
     width:25rem;
@@ -134,8 +139,7 @@ body {
 }
 
 #aboutImage2 {
-    background: url('../assets/downtown/aboutPageCincinnati2.png');
-    background-size: cover;
+    width:30rem;
 }
 
 .charitiesBackground {
