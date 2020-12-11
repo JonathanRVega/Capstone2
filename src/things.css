@@ -39,7 +39,7 @@
 }
 
 /* facts section */
-.facts {
+/* .facts {
     margin-top: 10rem;
 }
 .facts-text-box .line {
@@ -94,7 +94,7 @@
     padding: 30px;
 }
 /* Map section */
-.airpot-map-section {
+/* .airpot-map-section {
     margin-top: 10rem;
     position: relative;
 }
@@ -118,10 +118,10 @@
 }
 .airport-info .text-box {
     padding: 3rem 2rem;
-}
+} */ 
 
 /* stay section */
-.stay-section {
+/* .stay-section {
     margin-top: 30rem;
     text-align: center;
 }
@@ -147,16 +147,16 @@
     text-transform: capitalize;
     color: #041e42;
     font-weight: lighter;
-}
+} */
 
 /* carousel */
-.stay-carousel img {
+/* .stay-carousel img {
     height: 40rem;
     object-fit: cover;
-}
+} */
 
 /* things to do section */
-.things-section {
+/* .things-section {
     background-image: linear-gradient( 
         to right bottom,
         rgba(0, 48, 135, 0.7),
@@ -169,7 +169,7 @@
     color: #ffffff;
     text-align: center;
     height: 35rem;
-}
+} */
 .things-section .info {
     padding-top: 12rem;
 }
