@@ -28,81 +28,94 @@ import Reds from '../../assets/ballpark/ballgame.jpg';
                     
                 </header>
                
-                <section className="facts container">
-                     <div className="row">
-                        <div className="col-lg-6 facts-text-box">
-                            <div className="line"></div>
-                               <h1>Play at<br/>Tokyo Kitty</h1>
-                               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel dui vel lectus efficitur rutrum.<br/>
-                                  Nullam facilisis lorem in enim bibendum interdum. <br/>
-                                  Nulla non tincidunt metus, ac lobortis libero. Suspendisse dictum ante eu enim iaculis, <br/>
-                                  eget ultrices est hendrerit.
-                               </p>
-                              </div>
-
-                        <div className="col-lg-6" id='smol'>
-                           
-                                    <img className="play-img" src={ Tokyo } alt="Tokyo Kitty" />
-                                    </div>                                
-                                </div>                               
-                                                                              
-                </section>
-                <section className="facts container">
-                     <div className="row">
-                     <div className="col-lg-6" id='smol'>
-                        
-                             <img className="play-img" src={ Reds } alt="Great American Ball Park" />
-                                    </div>      
-
-                        <div className="col-lg-6 facts-text-box">
-                           <div className="line"></div>
-                               <h1>Play at<br/>The Great American Ball Park</h1>
-                               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel dui vel lectus efficitur rutrum.<br/>
-                                  Nullam facilisis lorem in enim bibendum interdum. <br/>
-                                  Nulla non tincidunt metus, ac lobortis libero. Suspendisse dictum ante eu enim iaculis, <br/>
-                                  eget ultrices est hendrerit.
-                               </p>
-                              </div>
-                                                             
-                                </div>                                           
-                </section>
-                <section className="facts container">
-                     <div className="row">
-                        <div className="col-lg-6 facts-text-box">
-                            <div className="line"></div>
-                               <h1>Play at<br/>The Taft Museum of Art</h1>
-                               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel dui vel lectus efficitur rutrum.<br/>
-                                  Nullam facilisis lorem in enim bibendum interdum. <br/>
-                                  Nulla non tincidunt metus, ac lobortis libero. Suspendisse dictum ante eu enim iaculis, <br/>
-                                  eget ultrices est hendrerit.
-                               </p>
-                              </div>
-
-                        <div className="col-lg-6" id='smol'>
-                           
-                                    <img className="play-img" src={ Taft } alt="Gallery in Taft" />
-                                    </div>                                
-                                </div>                                           
-                </section>
-                <section className="facts container">
-                     <div className="row">
-                       
-                        <div className="col-lg-6" id='smol'>
-                                 <img className="play-img" src={ Zoo } alt="Kangaroo being fed" />
-                                    </div>    
-                                    <div className="col-lg-6 facts-text-box">
-                            <div className="line"></div>
-                               <h1>Play at<br/>The Cincinnati Zoo</h1>
-                               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel dui vel lectus efficitur rutrum.<br/>
-                                  Nullam facilisis lorem in enim bibendum interdum. <br/>
-                                  Nulla non tincidunt metus, ac lobortis libero. Suspendisse dictum ante eu enim iaculis, <br/>
-                                  eget ultrices est hendrerit.
-                               </p>
-                              </div>                             
-                                </div>                                           
+                <section>
+                  <div className="containerRow containerBackground">
+                     <div className="containerColumn">
+                     <img className="todo-img" src={ Tokyo } alt="Great American Ball Park" />
+                     </div>
+                     <div className="containerColumn facts-text-box">
+                     <div className="line"></div>
+                     <h1 className="factsHeader">Play at<br/>Tokyo Kitty</h1>
+                     <p className="todoJustify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel dui vel lectus efficitur rutrum.
+                        Nullam facilisis lorem in enim bibendum interdum.
+                        Nulla non tincidunt metus, ac lobortis libero. Suspendisse dictum ante eu enim iaculis,
+                        eget ultrices est hendrerit.
+                     </p>
+                     </div>
+                  </div>
                 </section>
 
+                <section>                                        
+                  <div className="containerRow containerBackground">
+                     <div className="containerColumn facts-text-box">
+                        <div className="line"></div>
+                        <h1 className="factsHeader">Play at<br/>The Great American Ball Park</h1>
+                        <p className="todoJustify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel dui vel lectus efficitur rutrum.
+                           Nullam facilisis lorem in enim bibendum interdum.
+                           Nulla non tincidunt metus, ac lobortis libero. Suspendisse dictum ante eu enim iaculis,
+                           eget ultrices est hendrerit.
+                        </p>
+                        </div>
+                     <div className="containerColumn">
+                        <img className="todo-img" src={ Reds } alt="NadaExterior" />
+                     </div>
+               </div>
+                </section>
 
+                <section>
+                  <div className="containerRow containerBackground">
+                     <div className="containerColumn">
+                     <img className="todo-img" src={ Taft } alt="Great American Ball Park" />
+                     </div>
+                     <div className="containerColumn facts-text-box">
+                     <div className="line"></div>
+                     <h1 className="factsHeader">Play at<br/>The Taft Museum of Art</h1>
+                     <p className="todoJustify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel dui vel lectus efficitur rutrum.
+                        Nullam facilisis lorem in enim bibendum interdum.
+                        Nulla non tincidunt metus, ac lobortis libero. Suspendisse dictum ante eu enim iaculis,
+                        eget ultrices est hendrerit.
+                     </p>
+                     </div>
+                  </div>
+                </section>
+
+                <section>                                        
+                  <div className="containerRow containerBackground">
+                     <div className="containerColumn facts-text-box">
+                        <div className="line"></div>
+                        <h1 className="factsHeader">Play at<br/>The Cincinnati Zoo</h1>
+                        <p className="todoJustify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel dui vel lectus efficitur rutrum.
+                           Nullam facilisis lorem in enim bibendum interdum.
+                           Nulla non tincidunt metus, ac lobortis libero. Suspendisse dictum ante eu enim iaculis,
+                           eget ultrices est hendrerit.
+                        </p>
+                        </div>
+                     <div className="containerColumn">
+                        <img className="todo-img" src={ Zoo } alt="NadaExterior" />
+                     </div>
+               </div>
+                </section>
+
+                <section>
+                   <div className="iconsRow">
+                     <div className="iconsContainer">
+                        <p>hello</p>
+                     </div>
+                     <div className="iconsContainer">
+                        <p>hello</p>
+                     </div>
+                     <div className="iconsContainer">
+                        <p>hello</p>
+                     </div>
+                     <div className="iconsContainer">
+                        <p>hello</p>
+                     </div>
+                   </div>
+
+                   <div className="ImageIconsContainer">
+
+                   </div>
+                </section>
            </div> 
         )
     }

@@ -117,7 +117,6 @@ import Asm from '../../assets/places/asm.jpg';
                   </div>
                 </section>
 
-
            </div> 
         )
     }
