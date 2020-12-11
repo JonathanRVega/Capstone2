@@ -63,7 +63,7 @@ import wholeAgain from '../assets/charities/whole-again-logo.png';
                   </div>
                </div>
                <div className="row mt-5">   
-                     <div className="col-md-12 charitiesBackground mt-5 py-5 text-center">
+                     <div className="col-md-12 charitiesBackground py-5 text-center">
                         <h1>Explore Cincinnati Charities</h1>
                         <div className="d-inline-flex flex-column flex-md-row mt-5">
                            <div className="aboutLogosBackground mb-4 mb-md-0 mr-0 mr-md-4">

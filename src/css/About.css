@@ -130,7 +130,9 @@ body {
 
 .charitiesBackground {
     background: #ddd;
+    margin-top:15rem;
 }
+
 @media screen and (max-width:1200px) {
     
     .aboutLogosBackground {
