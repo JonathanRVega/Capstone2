@@ -17,7 +17,9 @@ import Reds from '../../assets/ballpark/ballgame.jpg';
                         <div className="line"></div>
                         <h1>Have fun in<br/><span>Cincinnati</span></h1>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. <br/> Autem illo doloribus vero hic adipisci suscipit itaque porro saepe <br/> iure culpa? utem illo doloribus vero hic adipisci suscipit itaque porro <br/> saepe iure culpa.
+                        Play and enjoy the city life <br/>
+                                in the Queen City also known as <br/>
+                                Cincinnati.
                         </p>   
                         <button className="btn">Shop</button>
                         <button className="btn">Eat</button>             
@@ -36,24 +38,24 @@ import Reds from '../../assets/ballpark/ballgame.jpg';
                      <div className="containerColumn facts-text-box">
                      <div className="line"></div>
                      <h1 className="factsHeader">Play at<br/>Tokyo Kitty</h1>
-                     <p className="todoJustify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel dui vel lectus efficitur rutrum.
-                        Nullam facilisis lorem in enim bibendum interdum.
-                        Nulla non tincidunt metus, ac lobortis libero. Suspendisse dictum ante eu enim iaculis,
-                        eget ultrices est hendrerit.
+                     <p className="todoJustify">Tokyo Kitty is a local karaoke hot spot in the heart of downtown Cincinnati.
+                               As you walk in there is a stocked bar in a large room featuring a stage, big screens with the lyrics and a host. The guests picked songs,
+                               sang along on mics and so did the people in the room creating a vibrant atmosphere.
+                               They also feature private rooms for rental.
                      </p>
                      </div>
                   </div>
-                </section>
+               </section>
 
                 <section>                                        
                   <div className="containerRow containerBackground">
                      <div className="containerColumn facts-text-box">
                         <div className="line"></div>
                         <h1 className="factsHeader">Play at<br/>The Great American Ball Park</h1>
-                        <p className="todoJustify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel dui vel lectus efficitur rutrum.
-                           Nullam facilisis lorem in enim bibendum interdum.
-                           Nulla non tincidunt metus, ac lobortis libero. Suspendisse dictum ante eu enim iaculis,
-                           eget ultrices est hendrerit.
+                        <p className="todoJustify">Great American Ball Park is a baseball stadium in Cincinnati, Ohio,
+                                which is the home field of Major League Baseball's Cincinnati Reds.
+                                It opened in 2003, replacing Cinergy Field, their home field from 1970 to 2002.
+                                The park's name comes from Great American Insurance Group
                         </p>
                         </div>
                      <div className="containerColumn">
@@ -70,10 +72,10 @@ import Reds from '../../assets/ballpark/ballgame.jpg';
                      <div className="containerColumn facts-text-box">
                      <div className="line"></div>
                      <h1 className="factsHeader">Play at<br/>The Taft Museum of Art</h1>
-                     <p className="todoJustify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel dui vel lectus efficitur rutrum.
-                        Nullam facilisis lorem in enim bibendum interdum.
-                        Nulla non tincidunt metus, ac lobortis libero. Suspendisse dictum ante eu enim iaculis,
-                        eget ultrices est hendrerit.
+                     <p className="todoJustify">Built in 1820 by Martin Baum, a merchant and Cincinnati's first millionaire,
+                               the house is a registered National Historic Landmark. The House was the home of Cincinnati's leading citizens for several generations.
+                                Among them was arts patron Nicholas Longworth, who hired African-American painter Robert S. Duncanson
+                               to paint eight landscape murals considered one of the finest suites of domestic murals dating from before the Civil War.
                      </p>
                      </div>
                   </div>
@@ -84,17 +86,16 @@ import Reds from '../../assets/ballpark/ballgame.jpg';
                      <div className="containerColumn facts-text-box">
                         <div className="line"></div>
                         <h1 className="factsHeader">Play at<br/>The Cincinnati Zoo</h1>
-                        <p className="todoJustify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel dui vel lectus efficitur rutrum.
-                           Nullam facilisis lorem in enim bibendum interdum.
-                           Nulla non tincidunt metus, ac lobortis libero. Suspendisse dictum ante eu enim iaculis,
-                           eget ultrices est hendrerit.
+                        <p className="todoJustify">The Cincinnati Zoo & Botanical Garden is the sixth-oldest zoo in the United States,
+                                opening in 1873, after the Roger Williams Park Zoo.
+                                 It is located in the Avondale neighborhood of Cincinnati, Ohio.
                         </p>
                         </div>
                      <div className="containerColumn">
                         <img className="todo-img" src={ Zoo } alt="NadaExterior" />
                      </div>
                </div>
-                </section>
+               </section>
 
                 <section>
                    <div className="iconsRow">

@@ -130,7 +130,7 @@ textarea.form-description {
         z-index:3;
     }
 }
-@media screen and (max-width:567px) {
+@media screen and (max-width:576px) {
     
     .header-text-contact-container {
         padding-top: 25%;
