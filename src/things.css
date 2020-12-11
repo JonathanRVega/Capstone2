@@ -305,6 +305,35 @@ textarea.form-description {
     grid-row-end: 9;
 }
 
+.iconsRow{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 50%;
+    height: 20rem;
+    background-color: whitesmoke;
+}
+
+.iconsContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    width: 25%;
+    border: 1px solid black;
+}
+
+.ImageIconsContainer{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 80%;
+    height: 600px;
+    background-color: whitesmoke;
+    margin-bottom: 400px;
+}
+
 @media (max-width: 1680px){
     .gallery {
         height: 42rem;

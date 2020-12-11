@@ -37,11 +37,11 @@ import Asm from '../../assets/places/asm.jpg';
                      <div className="containerRow containerBackgroundBig">
                         <div className="containerColumn facts-text-box">
                             <div className="line"></div>
-                               <h1>Explore<br/>The City Life</h1>
-                               <p className="todoJustify">Cincinnati is a city in Ohio, on the Ohio River. <br/>
-                                The Over-the-Rhine district is known for its 19th-century architecture, including Findlay Market,<br/>
-                                 which has food and craft vendors. To the north is the Cincinnati Zoo & Botanical Garden. <br/>
-                                 The Cincinnati Museum Center encompasses history, science and children's museums in the art deco Union Terminal. <br/>
+                               <h1 className="factsHeader">Explore<br/>The City Life</h1>
+                               <p className="todoJustify">Cincinnati is a city in Ohio, on the Ohio River.
+                                The Over-the-Rhine district is known for its 19th-century architecture, including Findlay Market,
+                                 which has food and craft vendors. To the north is the Cincinnati Zoo & Botanical Garden.
+                                 The Cincinnati Museum Center encompasses history, science and children's museums in the art deco Union Terminal.
                                Works spanning 6,000 years are on display at the Cincinnati Art Museum.
                                </p>
                               </div>
@@ -68,66 +68,52 @@ import Asm from '../../assets/places/asm.jpg';
                         </div>                                                                            
                 </section>
 
-
-                <section className="facts container">
-                     <div className="row containerBackground">
-                     
-
-                        <div className="col-lg-6" id='smol'>
-                           
-                                    <img className="todo-img" src={ Reds } alt="Great American Ball Park" />
-                                    </div>  
-
-                                         <div className="col-lg-6 facts-text-box">
-                            <div className="line"></div>
-                               <h1>Shop<br/>The City Life</h1>
-                               <p className="todoJustify">Shop, spend, treat yourself <br/>
+                <section>                                        
+                  <div className="containerRow containerBackground">
+                     <div className="containerColumn facts-text-box">
+                        <div className="line"></div>
+                        <h1 className="factsHeader">Shop<br/>The City Life</h1>
+                        <p className="todoJustify">Shop, spend, treat yourself
                         at the finest stores in all of Ohio 
-                               </p>
-                              </div>                            
-                                </div>                                           
+                        </p>
+                        </div>
+                     <div className="containerColumn">
+                        <img className="todo-img" src={ Reds } alt="NadaExterior" />
+                     </div>
+               </div>
                 </section>
-                <section className="facts container">
-                     <div className="row containerBackground">
-                        <div className="col-lg-6 facts-text-box">
-                            <div className="line"></div>
-                               <h1>Eat<br/>The City Life</h1>
-                               <p className="todoJustify"> Come and check out some of the finest restruants in Cincinnati. <br/> 
-                            There's plenty of wonderful places to eat and drink! <br/>
+
+                <section>
+                  <div className="containerRow containerBackground">
+                     <div className="containerColumn">
+                     <img className="todo-img" src={ NadaOutside } alt="Great American Ball Park" />
+                     </div>
+                     <div className="containerColumn facts-text-box">
+                     <div className="line"></div>
+                     <h1 className="factsHeader">Eat<br/>The City Life</h1>
+                     <p className="todoJustify">Come and check out some of the finest restruants in Cincinnati.
+                            There's plenty of wonderful places to eat and drink!
                              If you have a taste for it, we have it here! 
-                               </p>
-                              </div>
+                     </p>
+                     </div>
+                  </div>
+                </section>
 
                 <section>                                        
                   <div className="containerRow containerBackground">
                      <div className="containerColumn facts-text-box">
                         <div className="line"></div>
-                        <h1 className="factsHeader">Eat<br/>The City Life</h1>
-                        <p className="todoJustify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel dui vel lectus efficitur rutrum.
-                           Nullam facilisis lorem in enim bibendum interdum.
-                           Nulla non tincidunt metus, ac lobortis libero. Suspendisse dictum ante eu enim iaculis,
-                           eget ultrices est hendrerit.
+                        <h1 className="factsHeader">Play<br/>The City Life</h1>
+                        <p className="todoJustify">Play and enjoy the city life
+                                in the Queen City also known as
+                                Cincinnati.
                         </p>
                         </div>
                      <div className="containerColumn">
-                        <img className="todo-img" src={ NadaOutside } alt="NadaExterior" />
+                        <img className="todo-img" src={ TKGodzilla } alt="NadaExterior" />
                      </div>
                </div>
-                </section>
-
-                                      <div className="col-lg-6 facts-text-box">
-                              
-                            <div className="line"></div>
-                               <h1>Play<br/>The City Life</h1>
-                               <p className="todoJustify">Play and enjoy the city life <br/>
-                                in the Queen City also known as <br/>
-                                Cincinnati.
-                               </p>
-                        </div>
-                              
-                     </div>                                           
-                </section>
-
+               </section>
 
            </div> 
         )
