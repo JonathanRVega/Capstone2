@@ -325,13 +325,24 @@ textarea.form-description {
 }
 
 .ImageIconsContainer{
+    position: relative;
     display: flex;
     flex-direction: row;
     margin: auto;
-    width: 80%;
-    height: 600px;
+    width: 50%;
+    height: 400px;
     background-color: whitesmoke;
     margin-bottom: 400px;
+}
+
+.ImagesPlay{
+    position: absolute;
+    width: 100%;
+}
+
+.textPlay{
+    position: absolute;
+    color: #ffffff;
 }
 
 @media (max-width: 1680px){
