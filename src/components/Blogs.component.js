@@ -34,7 +34,7 @@ class Blogs extends Component {
                         <article>
                             <p className="blog-title">Over The Rhine</p>
                             <p className="blog-author"><i>By Sara Davidson - November 30, 2020</i></p>
-                            <img src={ OverTheRhine } atl=""/>
+                            <img className="imageResponsive" src={ OverTheRhine } alt="Over The Rine"/>
                             <div className="content">
                                 <p className="letter">E</p>
                                 <p className="text">

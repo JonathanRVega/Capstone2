@@ -73,6 +73,8 @@ body {
     letter-spacing: 0.3rem;
     font-size: 5.5rem;
     color: #fe5000;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
 }
 .header-home-text-container p {
     line-height: 2.5rem;
@@ -185,10 +187,10 @@ body {
     margin-top: 10rem;
     color: #ffffff;
     text-align: center;
-    height: 35rem;
+    height: auto;
 }
 .things-section .info {
-    padding-top: 12rem;
+    padding: 5rem 0;
 }
 .things-section h3 {
     font-size: 1.8rem;

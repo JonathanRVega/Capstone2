@@ -2,11 +2,11 @@ import React, { Component } from 'react';
 import Footer from '../components/FrontEndComponents/Footer';
 import '../css/About.css';
 import Navbar from '../components/navbar.component';
-import marchOfDimes from '../assets/charities/1280px-March_of_Dimes_logo.svg.png';
-import sparks from '../assets/charities/sparks.png'
-import aChildsHope from '../assets/charities/achildshope_logo_2.png';
-import ronaldMcDonaldHouse from '../assets/charities/ronald-mcdonald-house-charities-of-greater-cincinnati-logo.png';
-import wholeAgain from '../assets/charities/WholeAgainlogotaglineRGB-web-logo.png';
+import marchOfDimes from '../assets/charities/march-of-dimes-logo.png';
+import sparks from '../assets/charities/sparks-logo.png'
+import aChildsHope from '../assets/charities/a-childs-hope-logo.png';
+import ronaldMcDonaldHouse from '../assets/charities/ronaldMcdonald-house-logo.png';
+import wholeAgain from '../assets/charities/whole-again-logo.png';
 
  class About extends Component {
     render() {
@@ -40,18 +40,18 @@ import wholeAgain from '../assets/charities/WholeAgainlogotaglineRGB-web-logo.pn
                         <p>It is our goal to give you every reason to come visit Cincinnati!<br/>
                         we aim to show you all the tourist hotspots and maybe some secret spots too!</p>
                      </div>
-                     <div className="col-md-2 .d-none .d-sm-none .d-md-block"></div>
-                     <div className="col-sm-12 col-md-4">
+                     <div className="col-md-2 d-none d-sm-block"></div>
+                     <div className="col-12 col-sm-12 col-md-4">
                         <div className="aboutImageBackground ml-5 float-sm-right"></div>
-                        <div className="aboutImage mr-5 float-sm-right" id="aboutImage1"></div>
+                        <div className="aboutImage mr-md-5 float-sm-right" id="aboutImage1"></div>
                      </div>
                   </div>
                   <div className="row mt-5">   
-                     <div className="col-sm-12 col-md-4">
+                     <div className="col-12 col-sm-12 col-md-4">
                         <div className="aboutImageBackground"></div>
-                        <div className="aboutImage ml-5" id="aboutImage2"></div>
+                        <div className="aboutImage ml-md-5" id="aboutImage2"></div>
                      </div>
-                     <div className="col-md-2 .d-none .d-sm-none .d-md-block"></div>
+                     <div className="col-md-2 d-none d-sm-block"></div>
                      <div className="col-sm-12 col-md-6 mt-5">
                         <div className="line"></div>
                         <h2>Meet</h2><br/>
@@ -65,11 +65,33 @@ import wholeAgain from '../assets/charities/WholeAgainlogotaglineRGB-web-logo.pn
                <div className="row mt-5">   
                      <div className="col-sm-12 charitiesBackground mt-5 py-5 text-center">
                         <h2>Explore Cincinnati Charities</h2>
-                        <a href="https://www.marchofdimes.org/"><img style={{width:'10rem'}} src={marchOfDimes}/></a>
-                        <a href="https://www.sparksfoundation.org/support-us/?gclid=Cj0KCQiAk53-BRD0ARIsAJuNhpsemiNo_z0291QTu9j143jWLNWeTOtoVZCYEHYaxe0Nkz8JKrLtTugaAjKgEALw_wcB"><img id="aboutLogos" src={sparks}/></a>
-                        <a href="https://rmhc-centralohio.org/?gclid=Cj0KCQiAk53-BRD0ARIsAJuNhptorRD_1Vt7lPKqNZGXhXynOGJaaRnFi9m0HMN3cb7DNIyqEkVNjDgaAiLlEALw_wcB"><img id="aboutLogos" src={ronaldMcDonaldHouse}/></a>
-                        <a href="https://www.achildshopefoundation.org/?gclid=Cj0KCQiAk53-BRD0ARIsAJuNhpvOh5HEcgHlzCUOp3cQHkX97fhs5LWAmU9yiBjeNs71OXN1m-6SNOMaAsvZEALw_wcB"><img id="aboutLogos" src={aChildsHope}/></a>
-                        <a href="https://www.whole-again.org/"><img id="aboutLogos" src={wholeAgain}/></a>
+                        <div className="d-inline-flex">
+                           <div className="aboutLogosBackground mr-4">
+                              <a href="https://www.marchofdimes.org/">
+                                    <img id="aboutLogos" src={marchOfDimes} alt="March of Dimes"/>
+                              </a>
+                           </div>
+                           <div className="aboutLogosBackground mr-4">
+                              <a href="https://www.sparksfoundation.org/support-us/?gclid=Cj0KCQiAk53-BRD0ARIsAJuNhpsemiNo_z0291QTu9j143jWLNWeTOtoVZCYEHYaxe0Nkz8JKrLtTugaAjKgEALw_wcB">
+                                 <img id="aboutLogos" src={sparks} alt="sparks"/>
+                              </a>
+                           </div>
+                           <div className="aboutLogosBackground mr-4">
+                              <a href="https://rmhc-centralohio.org/?gclid=Cj0KCQiAk53-BRD0ARIsAJuNhptorRD_1Vt7lPKqNZGXhXynOGJaaRnFi9m0HMN3cb7DNIyqEkVNjDgaAiLlEALw_wcB">
+                                 <img id="aboutLogos" src={ronaldMcDonaldHouse} alt="McDonalds"/>
+                              </a>
+                           </div>
+                           <div className="aboutLogosBackground mr-4">
+                              <a href="https://www.achildshopefoundation.org/?gclid=Cj0KCQiAk53-BRD0ARIsAJuNhpvOh5HEcgHlzCUOp3cQHkX97fhs5LWAmU9yiBjeNs71OXN1m-6SNOMaAsvZEALw_wcB">
+                                 <img id="aboutLogos" src={aChildsHope} alt="ChildsHope"/>
+                              </a>
+                           </div>
+                           <div className="aboutLogosBackground">
+                              <a href="https://www.whole-again.org/">
+                                 <img id="aboutLogos" src={wholeAgain} alt="Whole Again"/>
+                              </a>
+                           </div>
+                        </div>
                      </div>
                   </div>
                   <Footer />

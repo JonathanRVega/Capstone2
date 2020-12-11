@@ -8,6 +8,7 @@ import Airport from '../../assets/places/cvg.png';
 import VideoBg from '../../assets/downtown/bg-video.mp4';
 import Carousels from '../StayCarousel';
 import '../../css/Home.css';
+import Footer from '../FrontEndComponents/Footer'
 
 export default class Home extends Component {
     render() {
@@ -40,14 +41,14 @@ export default class Home extends Component {
                 {/* start of facts section - cc */}
                 <section className="facts-section container">
                     <div className="row">
-                        <div className="col-lg-6 facts-text-box">
+                        <div className="col-lg-6 col-md-12 facts-text-box">
                             <div className="line"></div>
                             <h2>Here's<br/><span>Some Facts</span></h2>
                             <p>
                                 Look at this sweet graphic Derrick made to show off all the data Courtney got about Cincinnati! 
                             </p>
                         </div>
-                        <div className="col-lg-6 d-flex justify-content-end">
+                        <div className="col-lg-6 col-md-12 d-flex justify-content-end">
                             <div className="row ">
                                 <div className="col-lg-6 d-flex justify-content-end">
                                     <div className="box">
@@ -185,7 +186,7 @@ export default class Home extends Component {
                     </div>
                 </section>
                 {/* end of newsletter section - cc */}
-
+                <Footer />
             </div>
         )
     }

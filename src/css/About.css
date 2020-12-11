@@ -43,17 +43,16 @@ body {
         to right bottom,
         rgba(0, 0, 0, 0.4),
         rgba(0, 0, 0, 0.4)),
-    url("../assets/downtown/matt-koffel-_W8p_1OBkAw-unsplash.jpg");
+    url("../assets/downtown/downtown2.jpg");
     background-attachment: fixed;
     background-size: cover;
     background-position: top center;
     height: 90vh;
     border-bottom-left-radius: 50% 20%;
     border-bottom-right-radius: 50% 20%;
-    padding-bottom: 200px;
 }
 .header-about-text {
-    padding-top: 10%;
+    padding-top: 13%;
     color: #ffffff;
 }
 .header-about-text .line {
@@ -68,6 +67,8 @@ body {
     letter-spacing: 0.3rem;
     font-size: 5.5rem;
     color: #fe5000;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
 }
 .header-about-text p {
     line-height: 2.5rem;
@@ -102,6 +103,20 @@ body {
     width: 20rem;
 }
 
+.aboutLogosBackground {
+    width:20rem;
+    height:20rem;
+    border-radius:50%;
+    background:white;
+    z-index:2;
+}
+
+.aboutLogosBackground:hover {
+    background:#fe5000;
+    transition: 0.5s
+}
+
+
 #aboutImage1 {
     background: url('../assets/downtown/aboutPageCincinnati1.png');
     background-size: cover;
@@ -118,24 +133,28 @@ body {
 
 @media screen and (max-width:767px) {
     .aboutImage {
-        width:20.83rem;
-        height:25rem;
+        position:static;
+        width:51rem;
+        height:60rem;
+        margin-bottom:4rem;
     }
     
     .aboutImageBackground {
-        width:20.83rem;
-        height:25rem;
+        display:none;
+        width:0;
+        height:0;
     }
 }
 
 @media screen and (max-width:576px) {
-    .aboutImage {
-        width:16.67rem;
-        height:20rem;
-    }
-    
     .aboutImageBackground {
-        width:16.67rem;
-        height:20rem;
+        display:none;
+        width:0;
+        height:0;
+    }
+
+    .header-about-text {
+        padding-top: 25%;
+        color: #ffffff;
     }
 }
