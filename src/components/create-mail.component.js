@@ -83,7 +83,7 @@ class CreateMail extends Component {
                         <br/>
                         <span>Contact Us</span>
                     </h1>
-                    <p className="text-center mb-5 mt-5">We can be reached by visiting our offices, calling us furing ( 9am - 5pm )<br/>
+                    <p className="text-center mb-5 mt-5">We can be reached by visiting our offices, calling us during ( 9am - 5pm )<br/>
                     or even sending us an email! Give us feedback!
                     </p>
                     <div className="row mb-5 text-center">

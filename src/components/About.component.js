@@ -56,7 +56,7 @@ import wholeAgain from '../assets/charities/whole-again-logo.png';
                         <div className="line"></div>
                         <h2>Meet</h2><br/>
                         <h1>The Team</h1> 
-                        <p>The team who brought you this project is Courtney, Daniel, Derrick, and Jonathon<br/>
+                        <p>The team who brought you this project is Courtney, Daniel, Derrick, and Jonathan
                         a group of students from Kable Academy spread out internationally between Dayton, to Cincinnati <br/>
                         all the way to Chihuahua Mexico!</p>
                      </div>
