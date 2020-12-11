@@ -31,7 +31,7 @@ import wholeAgain from '../assets/charities/whole-again-logo.png';
                   </div>
                </header>
                {/* end of header section - cc */}
-               <div className="about container mt-5">
+               <div className="about container">
                   <div className="row">
                      <div className="col-sm-12 col-md-6 mt-5">
                         <div className="line"></div>

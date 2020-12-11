@@ -75,6 +75,10 @@ body {
     font-weight: lighter;
 }
 
+.about.container {
+    margin-top:5%;
+}
+
 .about .line{
     margin: 1rem 0;
     border-top: 0.2rem solid black;
@@ -130,7 +134,7 @@ body {
 
 .charitiesBackground {
     background: #ddd;
-    margin-top:15rem;
+    margin-top:5%;
 }
 
 @media screen and (max-width:1200px) {
