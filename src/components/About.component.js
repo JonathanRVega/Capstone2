@@ -20,7 +20,12 @@ import wholeAgain from '../assets/charities/whole-again-logo.png';
                      <div className="line"></div>
                      <h1>About Us<br/><span>Cincinnati</span></h1>
                      <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. <br/> Autem illo doloribus vero hic adipisci suscipit itaque porro saepe <br/> iure culpa? utem illo doloribus vero hic adipisci suscipit itaque porro <br/> saepe iure culpa.
+                     Cincinnati is a city in Ohio, on the Ohio River. <br/>
+                     The Over-the-Rhine district is known for its 19th-century architecture,<br/>
+                      including Findlay Market, which has food and craft vendors. To the north is <br/>
+                      the Cincinnati Zoo & Botanical Garden. The Cincinnati Museum Center encompasses history,<br/>
+                       science and children's museums in the art deco Union Terminal.<br/>
+                      Works spanning 6,000 years are on display at the Cincinnati Art Museum.
                      </p>
                      <button className="btn">Explore</button>
                   </div>
@@ -32,10 +37,8 @@ import wholeAgain from '../assets/charities/whole-again-logo.png';
                         <div className="line"></div>
                         <h2>Our</h2><br/>
                         <h1>Mission</h1> 
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel dui vel lectus efficitur rutrum.<br/>
-                           Nullam facilisis lorem in enim bibendum interdum. <br/>
-                           Nulla non tincidunt metus, ac lobortis libero. Suspendisse dictum ante eu enim iaculis, <br/>
-                           eget ultrices est hendrerit.</p>
+                        <p>It is our goal to give you every reason to come visit Cincinnati!<br/>
+                        we aim to show you all the tourist hotspots and maybe some secret spots too!</p>
                      </div>
                      <div className="col-md-2 d-none d-sm-block"></div>
                      <div className="col-12 col-sm-12 col-md-4">
@@ -53,10 +56,9 @@ import wholeAgain from '../assets/charities/whole-again-logo.png';
                         <div className="line"></div>
                         <h2>Meet</h2><br/>
                         <h1>The Team</h1> 
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel dui vel lectus efficitur rutrum.<br/>
-                           Nullam facilisis lorem in enim bibendum interdum. <br/>
-                           Nulla non tincidunt metus, ac lobortis libero. Suspendisse dictum ante eu enim iaculis, <br/>
-                           eget ultrices est hendrerit.</p>
+                        <p>The team who brought you this project is Courtney, Daniel, Derrick, and Jonathon<br/>
+                        a group of students from Kable Academy spread out internationally between Dayton, to Cincinnati <br/>
+                        all the way to Chihuahua Mexico!</p>
                      </div>
                   </div>
                </div>

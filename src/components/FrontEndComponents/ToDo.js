@@ -20,8 +20,10 @@ import Asm from '../../assets/places/asm.jpg';
                         <div className="line"></div>
                         <h1>Things to do in<br/><span>Cincinnati</span></h1>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. <br/> Autem illo doloribus vero hic adipisci suscipit itaque porro saepe <br/> iure culpa? utem illo doloribus vero hic adipisci suscipit itaque porro <br/> saepe iure culpa.
-                        </p>   
+                           There's plenty to do in Cincinnati, <br/>
+                           everything from shopping, playing, <br/>
+                           all the way to eating wonderful meals!
+                     </p>   
                         <button className="btn">Shop</button>
                         <button className="btn">Eat</button>             
                         <button className="btn">Play</button>
@@ -36,10 +38,11 @@ import Asm from '../../assets/places/asm.jpg';
                         <div className="containerColumn facts-text-box">
                             <div className="line"></div>
                                <h1>Explore<br/>The City Life</h1>
-                               <p className="todoJustify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel dui vel lectus efficitur rutrum.
-                                  Nullam facilisis lorem in enim bibendum interdum.
-                                  Nulla non tincidunt metus, ac lobortis libero. Suspendisse dictum ante eu enim iaculis,
-                                  eget ultrices est hendrerit.
+                               <p className="todoJustify">Cincinnati is a city in Ohio, on the Ohio River. <br/>
+                                The Over-the-Rhine district is known for its 19th-century architecture, including Findlay Market,<br/>
+                                 which has food and craft vendors. To the north is the Cincinnati Zoo & Botanical Garden. <br/>
+                                 The Cincinnati Museum Center encompasses history, science and children's museums in the art deco Union Terminal. <br/>
+                               Works spanning 6,000 years are on display at the Cincinnati Art Museum.
                                </p>
                               </div>
 
@@ -66,22 +69,34 @@ import Asm from '../../assets/places/asm.jpg';
                 </section>
 
 
-                <section>
-                  <div className="containerRow containerBackground">
-                     <div className="containerColumn">
-                     <img className="todo-img" src={ Reds } alt="Great American Ball Park" />
-                     </div>
-                     <div className="containerColumn facts-text-box">
-                     <div className="line"></div>
-                     <h1 className="factsHeader">Shop<br/>The City Life</h1>
-                     <p className="todoJustify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel dui vel lectus efficitur rutrum.
-                        Nullam facilisis lorem in enim bibendum interdum.
-                        Nulla non tincidunt metus, ac lobortis libero. Suspendisse dictum ante eu enim iaculis,
-                        eget ultrices est hendrerit.
-                     </p>
-                     </div>
-                  </div>
+                <section className="facts container">
+                     <div className="row containerBackground">
+                     
+
+                        <div className="col-lg-6" id='smol'>
+                           
+                                    <img className="todo-img" src={ Reds } alt="Great American Ball Park" />
+                                    </div>  
+
+                                         <div className="col-lg-6 facts-text-box">
+                            <div className="line"></div>
+                               <h1>Shop<br/>The City Life</h1>
+                               <p className="todoJustify">Shop, spend, treat yourself <br/>
+                        at the finest stores in all of Ohio 
+                               </p>
+                              </div>                            
+                                </div>                                           
                 </section>
+                <section className="facts container">
+                     <div className="row containerBackground">
+                        <div className="col-lg-6 facts-text-box">
+                            <div className="line"></div>
+                               <h1>Eat<br/>The City Life</h1>
+                               <p className="todoJustify"> Come and check out some of the finest restruants in Cincinnati. <br/> 
+                            There's plenty of wonderful places to eat and drink! <br/>
+                             If you have a taste for it, we have it here! 
+                               </p>
+                              </div>
 
                 <section>                                        
                   <div className="containerRow containerBackground">
@@ -100,21 +115,17 @@ import Asm from '../../assets/places/asm.jpg';
                </div>
                 </section>
 
-                <section>
-                  <div className="containerRow containerBackground">
-                     <div className="containerColumn">
-                        <img className="todo-img" src={ TKGodzilla } alt="Great American Ball Park" />
-                     </div>
-                     <div className="containerColumn facts-text-box">
-                        <div className="line"></div>
-                        <h1 className="factsHeader">Play<br/>The City Life</h1>
-                        <p className="todoJustify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel dui vel lectus efficitur rutrum.
-                           Nullam facilisis lorem in enim bibendum interdum.
-                           Nulla non tincidunt metus, ac lobortis libero. Suspendisse dictum ante eu enim iaculis,
-                           eget ultrices est hendrerit.
-                        </p>
-                     </div>
-                  </div>
+                                      <div className="col-lg-6 facts-text-box">
+                              
+                            <div className="line"></div>
+                               <h1>Play<br/>The City Life</h1>
+                               <p className="todoJustify">Play and enjoy the city life <br/>
+                                in the Queen City also known as <br/>
+                                Cincinnati.
+                               </p>
+                        </div>
+                              
+                     </div>                                           
                 </section>
 
 

@@ -17,7 +17,9 @@ import Reds from '../../assets/ballpark/ballgame.jpg';
                         <div className="line"></div>
                         <h1>Have fun in<br/><span>Cincinnati</span></h1>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. <br/> Autem illo doloribus vero hic adipisci suscipit itaque porro saepe <br/> iure culpa? utem illo doloribus vero hic adipisci suscipit itaque porro <br/> saepe iure culpa.
+                        Play and enjoy the city life <br/>
+                                in the Queen City also known as <br/>
+                                Cincinnati.
                         </p>   
                         <button className="btn">Shop</button>
                         <button className="btn">Eat</button>             
@@ -33,10 +35,10 @@ import Reds from '../../assets/ballpark/ballgame.jpg';
                         <div className="col-lg-6 facts-text-box">
                             <div className="line"></div>
                                <h1>Play at<br/>Tokyo Kitty</h1>
-                               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel dui vel lectus efficitur rutrum.<br/>
-                                  Nullam facilisis lorem in enim bibendum interdum. <br/>
-                                  Nulla non tincidunt metus, ac lobortis libero. Suspendisse dictum ante eu enim iaculis, <br/>
-                                  eget ultrices est hendrerit.
+                               <p>Tokyo Kitty is a local karaoke hot spot in the heart of downtown Cincinnati. <br/>
+                               As you walk in there is a stocked bar in a large room featuring a stage, big screens with the lyrics and a host. The guests picked songs, <br/>
+                               sang along on mics and so did the people in the room creating a vibrant atmosphere. <br/>
+                               They also feature private rooms for rental.
                                </p>
                               </div>
 
@@ -57,10 +59,10 @@ import Reds from '../../assets/ballpark/ballgame.jpg';
                         <div className="col-lg-6 facts-text-box">
                            <div className="line"></div>
                                <h1>Play at<br/>The Great American Ball Park</h1>
-                               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel dui vel lectus efficitur rutrum.<br/>
-                                  Nullam facilisis lorem in enim bibendum interdum. <br/>
-                                  Nulla non tincidunt metus, ac lobortis libero. Suspendisse dictum ante eu enim iaculis, <br/>
-                                  eget ultrices est hendrerit.
+                               <p>Great American Ball Park is a baseball stadium in Cincinnati, Ohio, <br/>
+                                which is the home field of Major League Baseball's Cincinnati Reds.<br/>
+                                It opened in 2003, replacing Cinergy Field, their home field from 1970 to 2002. <br/>
+                                The park's name comes from Great American Insurance Group
                                </p>
                               </div>
                                                              
@@ -71,10 +73,10 @@ import Reds from '../../assets/ballpark/ballgame.jpg';
                         <div className="col-lg-6 facts-text-box">
                             <div className="line"></div>
                                <h1>Play at<br/>The Taft Museum of Art</h1>
-                               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel dui vel lectus efficitur rutrum.<br/>
-                                  Nullam facilisis lorem in enim bibendum interdum. <br/>
-                                  Nulla non tincidunt metus, ac lobortis libero. Suspendisse dictum ante eu enim iaculis, <br/>
-                                  eget ultrices est hendrerit.
+                               <p>Built in 1820 by Martin Baum, a merchant and Cincinnati's first millionaire, <br/>
+                               the house is a registered National Historic Landmark. The House was the home of Cincinnati's leading citizens for several generations.<br/>
+                                Among them was arts patron Nicholas Longworth, who hired African-American painter Robert S. Duncanson <br/>
+                               to paint eight landscape murals considered one of the finest suites of domestic murals dating from before the Civil War.
                                </p>
                               </div>
 
@@ -93,10 +95,9 @@ import Reds from '../../assets/ballpark/ballgame.jpg';
                                     <div className="col-lg-6 facts-text-box">
                             <div className="line"></div>
                                <h1>Play at<br/>The Cincinnati Zoo</h1>
-                               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel dui vel lectus efficitur rutrum.<br/>
-                                  Nullam facilisis lorem in enim bibendum interdum. <br/>
-                                  Nulla non tincidunt metus, ac lobortis libero. Suspendisse dictum ante eu enim iaculis, <br/>
-                                  eget ultrices est hendrerit.
+                               <p>The Cincinnati Zoo & Botanical Garden is the sixth-oldest zoo in the United States, <br/>
+                                opening in 1873, after the Roger Williams Park Zoo. <br/>
+                                 It is located in the Avondale neighborhood of Cincinnati, Ohio.
                                </p>
                               </div>                             
                                 </div>                                           
