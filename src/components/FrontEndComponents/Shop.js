@@ -17,7 +17,8 @@ import Bengels from '../../assets/places/paulbrownstadium.jpg';
                         <div className="line"></div>
                         <h1>Spend money in<br/><span>Cincinnati</span></h1>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. <br/> Autem illo doloribus vero hic adipisci suscipit itaque porro saepe <br/> iure culpa? utem illo doloribus vero hic adipisci suscipit itaque porro <br/> saepe iure culpa.
+                        Shop, spend, treat yourself <br/>
+                        at the finest stores in all of Ohio 
                         </p>   
                         <button className="btn">Shop</button>
                         <button className="btn">Eat</button>             
@@ -33,10 +34,10 @@ import Bengels from '../../assets/places/paulbrownstadium.jpg';
                         <div className="col-lg-6 facts-text-box">
                             <div className="line"></div>
                                <h1>Visit<br/>The Contempary Art Museum</h1>
-                               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel dui vel lectus efficitur rutrum.<br/>
-                                  Nullam facilisis lorem in enim bibendum interdum. <br/>
-                                  Nulla non tincidunt metus, ac lobortis libero. Suspendisse dictum ante eu enim iaculis, <br/>
-                                  eget ultrices est hendrerit.
+                               <p>The Contemporary Arts Center is a contemporary art museum in Cincinnati, Ohio <br/>
+                               and one of the first contemporary art institutions in the United States. <br/>
+                               The CAC is a non-collecting museum that focuses on new developments in painting, sculpture, photography, architecture, <br/>
+                               performance art and new media
                                </p>
                               </div>
 
@@ -57,10 +58,8 @@ import Bengels from '../../assets/places/paulbrownstadium.jpg';
                         <div className="col-lg-6 facts-text-box">
                            <div className="line"></div>
                                <h1>Visit<br/>Paul Brown Stadium</h1>
-                               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel dui vel lectus efficitur rutrum.<br/>
-                                  Nullam facilisis lorem in enim bibendum interdum. <br/>
-                                  Nulla non tincidunt metus, ac lobortis libero. Suspendisse dictum ante eu enim iaculis, <br/>
-                                  eget ultrices est hendrerit.
+                               <p>Paul Brown Stadium is an outdoor football stadium in Cincinnati, Ohio.<br/>
+                                It is the home venue of the Cincinnati Bengals of the National Football League and opened on August 19, 2000.
                                </p>
                               </div>
                                                              
@@ -71,10 +70,9 @@ import Bengels from '../../assets/places/paulbrownstadium.jpg';
                         <div className="col-lg-6 facts-text-box">
                             <div className="line"></div>
                                <h1>Visit<br/>The American Sign Museum</h1>
-                               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel dui vel lectus efficitur rutrum.<br/>
-                                  Nullam facilisis lorem in enim bibendum interdum. <br/>
-                                  Nulla non tincidunt metus, ac lobortis libero. Suspendisse dictum ante eu enim iaculis, <br/>
-                                  eget ultrices est hendrerit.
+                               <p>The American Sign Museum in Cincinnati, Ohio, preserves, archives, and displays a collection of signs.<br/>
+                                The museum also displays the equipment utilized in the design and manufacture of signs. <br/>
+                                Tod Swormstedt began working on the museum in 1999. It opened to the public in 2005.
                                </p>
                               </div>
 
@@ -93,10 +91,9 @@ import Bengels from '../../assets/places/paulbrownstadium.jpg';
                                     <div className="col-lg-6 facts-text-box">
                             <div className="line"></div>
                                <h1>Visit<br/>Downtown</h1>
-                               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel dui vel lectus efficitur rutrum.<br/>
-                                  Nullam facilisis lorem in enim bibendum interdum. <br/>
-                                  Nulla non tincidunt metus, ac lobortis libero. Suspendisse dictum ante eu enim iaculis, <br/>
-                                  eget ultrices est hendrerit.
+                               <p>Downtown Cincinnati contains the central business district of Cincinnati, Ohio, as well as a number of urban <br/>
+                               neighborhoods in the low land area between the Ohio River and the high land areas of uptown. <br/>
+                                These neighborhoods include Over-the-Rhine, Pendleton, Queensgate, and West End. 
                                </p>
                               </div>                             
                                 </div>                                           

@@ -17,7 +17,10 @@ export default class Contact extends Component {
                         <div className="line"></div>
                         <h1>Explore<br/><span>Cincinnati</span></h1>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. <br/> Autem illo doloribus vero hic adipisci suscipit itaque porro saepe <br/> iure culpa? utem illo doloribus vero hic adipisci suscipit itaque porro <br/> saepe iure culpa.
+                        Exploring Cincinnati can feel like a brand new <br/>
+                            journey each time you visit! <br/>
+                             Discover something new, like local breweries, new animals at the zoo <br/> 
+                            or even your new favorite art piece!
                         </p>
                     </div>
                 </header>
