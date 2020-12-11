@@ -48,9 +48,9 @@ export default class Home extends Component {
                                 Look at this sweet graphic Derrick made to show off all the data Courtney got about Cincinnati! 
                             </p>
                         </div>
-                        <div className="col-lg-6 col-md-12 d-flex justify-content-end">
+                        <div className="col-lg-6 col-md-12 d-flex justify-content-end mt-4">
                             <div className="row ">
-                                <div className="col-lg-6 d-flex justify-content-end">
+                                <div className="facts-info col-lg-6 d-flex justify-content-end">
                                     <div className="box">
                                     <img className="icons" src={ Attractions } alt="Attractions icon"/>
                                     </div>
@@ -58,7 +58,7 @@ export default class Home extends Component {
                                     <h5 className="fact-info">23<br/><span>Attractions</span></h5>
                                     </div>
                                 </div>
-                                <div className="col-lg-6 d-flex justify-content-end">
+                                <div className="facts-info col-lg-6 d-flex justify-content-end">
                                 <div className="box">
                                     <img className="icons" src={ Hotels } alt="Attractions icon"/>
                                     </div>
@@ -66,7 +66,7 @@ export default class Home extends Component {
                                     <h5 className="fact-info">17<br/><span className="hotels">Hotels</span></h5>
                                     </div>
                                 </div>
-                                <div className="col-lg-6 d-flex justify-content-end mt-4">
+                                <div className="facts-info col-lg-6 d-flex justify-content-end mt-4">
                                 <div className="box">
                                     <img className="icons" src={ Population } alt="Attractions icon"/>
                                     </div>
@@ -74,7 +74,7 @@ export default class Home extends Component {
                                     <h5 className="fact-info">94,000<br/><span>Population</span></h5>
                                     </div>
                                 </div>
-                                <div className="col-lg-6 d-flex justify-content-end mt-4">
+                                <div className="facts-info col-lg-6 d-flex justify-content-end mt-4">
                                 <div className="box">
                                     <img className="icons" src={ Restaurants } alt="Attractions icon"/>
                                     </div>
@@ -130,7 +130,7 @@ export default class Home extends Component {
                 <section className="things-section">
                     <div className="container">
                         <div className="info row">
-                            <div className="col-lg-4">
+                            <div className="col-lg-4 mb-4">
                                 <h3>Shop</h3>
                                 <p>
                                 Shop, spend, treat yourself <br/>
@@ -138,7 +138,7 @@ export default class Home extends Component {
                                 </p>
                                 <button className="btn">Shop</button>
                             </div>
-                            <div className="col-lg-4">
+                            <div className="col-lg-4 mb-4">
                                 <h3>Eat</h3>
                                 <p>
                                 Come and check out some of the finest restruants in Cincinnati. <br/>
@@ -147,7 +147,7 @@ export default class Home extends Component {
                                 </p>
                                 <button className="btn">Eat</button>
                             </div>
-                            <div className="col-lg-4">
+                            <div className="col-lg-4 mb-4">
                                 <h3>Play</h3>
                                 <p>
                                 Play and enjoy the city life <br/>
@@ -173,13 +173,21 @@ export default class Home extends Component {
                                 </p>
                             </div>
                             <div className="newsletter-form col-lg-6">
-                                <form id="newsletter-form">
-                                    <input className="mr-4" type="text" placeholder="First Name" />
-                                    <input type="text" placeholder="Last Name" />
-                                    <br/>
-                                    <input className="mt-4 email-input" type="email" placeholder="Enter Your Email Address" />
+                                <form id="newsletter-form row g-3">
+                                    <div className="col-md-6 input-container">
+                                        <input className="mr-4 form-control" type="text" placeholder="First Name" />
+                                    </div>
+                                    <div className="col-md-6 input-container">
+                                        <input className="form-control" type="text" placeholder="Last Name" />
+                                    {/* <br/> */}
+                                    </div>
+                                    <div className="col-12">
+                                        <input className="email-input form-control" type="email" placeholder="Enter Your Email Address" />
+                                    </div>
+                                    <div className="col-12">
+                                        <button className="submit form-btn">Submit</button>
+                                    </div>
                                 </form>
-                                <button className="submit form-btn">Submit</button>
                             </div>
                         </div>
                         
