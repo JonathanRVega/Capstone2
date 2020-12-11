@@ -5,19 +5,18 @@
         to right bottom,
         rgba(0, 0, 0, 0.4),
         rgba(0, 0, 0, 0.4)),
-    url("../assets/downtown/matt-koffel-_W8p_1OBkAw-unsplash.jpg");
+    url("../assets/downtown/downtown-bridge.jpg");
     background-attachment: fixed;
     background-size: cover;
-    background-position: top center;
+    background-position: bottom center;
     height: 85vh;
     border-bottom-left-radius: 50% 20%;
     border-bottom-right-radius: 50% 20%;
-    padding-bottom: 200px;
 }
 
 
 .header-text-contact-container {
-    padding-top: 25%;
+    padding-top: 13%;
     color: #ffffff;
 }
 
@@ -131,7 +130,13 @@ textarea.form-description {
         z-index:3;
     }
 }
-@media screen and (max-width:567px) {
+@media screen and (max-width:576px) {
+    
+    .header-text-contact-container {
+        padding-top: 25%;
+        color: #ffffff;
+    }
+
     #container {
         text-align: center;
     }

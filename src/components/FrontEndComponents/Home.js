@@ -28,7 +28,10 @@ export default class Home extends Component {
                         <div className="line"></div>
                         <h1>Explore<br/><span>Cincinnati</span></h1>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. <br/> Autem illo doloribus vero hic adipisci suscipit itaque porro saepe <br/> iure culpa? utem illo doloribus vero hic adipisci suscipit itaque porro <br/> saepe iure culpa.
+                            Exploring Cincinnati can feel like a brand new <br/>
+                            journey each time you visit! <br/>
+                             Discover something new, like local breweries, new animals at the zoo <br/> 
+                            or even your new favorite art piece!
                         </p>
                         <button className="btn">Explore</button>
                     </div>
@@ -42,7 +45,7 @@ export default class Home extends Component {
                             <div className="line"></div>
                             <h2>Here's<br/><span>Some Facts</span></h2>
                             <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus aperiam ducimus, ratione aut eveniet facere tenetur veritatis assumenda ipsum accusamus!
+                                Look at this sweet graphic Derrick made to show off all the data Courtney got about Cincinnati! 
                             </p>
                         </div>
                         <div className="col-lg-6 col-md-12 d-flex justify-content-end mt-4">
@@ -95,7 +98,11 @@ export default class Home extends Component {
                         <div className="text-box">
                             <h3>CVG Airport</h3>
                             <p>
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut qui ipsa numquam ut optio totam. Aut qui ipsa numquam ut optio totam.
+                            The Cincinnati/Northern Kentucky International Airport (CVG) has been serving commercial passengers since 1947.  <br/>
+                            With more than 7,700 acres of land, four runways, <br/>
+                            a diversified base of operations on and near the campus, along with an economic impact of $6.8 Billion (2018), <br/>
+                            CVG is much more than meets the eye.  This new series, CVG @ Work, provides a behind-the-scenes look at the breadth of services offered by <br/>
+                            CVG Airport and its commitment to be a leader in our region.
                             </p>
                             <a href="">Visit the website <i class="fas fa-long-arrow-alt-right"></i></a>
                         </div>
@@ -123,24 +130,29 @@ export default class Home extends Component {
                 <section className="things-section">
                     <div className="container">
                         <div className="info row">
-                            <div className="col-lg-4">
+                            <div className="col-lg-4 mb-4">
                                 <h3>Shop</h3>
                                 <p>
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut qui ipsa numquam ut optio totam. Aut qui ipsa numquam ut optio totam.
+                                Shop, spend, treat yourself <br/>
+                                at the finest stores in all of Ohio 
                                 </p>
                                 <button className="btn">Shop</button>
                             </div>
-                            <div className="col-lg-4">
+                            <div className="col-lg-4 mb-4">
                                 <h3>Eat</h3>
                                 <p>
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut qui ipsa numquam ut optio totam. Aut qui ipsa numquam ut optio totam.
+                                Come and check out some of the finest restruants in Cincinnati. <br/>
+                                 There's plenty of wonderful places to eat and drink! <br/> 
+                                If you have a taste for it, we have it here! 
                                 </p>
                                 <button className="btn">Eat</button>
                             </div>
-                            <div className="col-lg-4">
+                            <div className="col-lg-4 mb-4">
                                 <h3>Play</h3>
                                 <p>
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut qui ipsa numquam ut optio totam. Aut qui ipsa numquam ut optio totam.
+                                Play and enjoy the city life <br/>
+                                in the Queen City also known as <br/>
+                                Cincinnati.
                                 </p>
                                 <button className="btn">Play</button>
                             </div>
@@ -157,7 +169,7 @@ export default class Home extends Component {
                             <div className="line"></div>
                                 <h2>Subcribe to our<br/><span>Newsletter</span></h2>
                                 <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus aperiam ducimus, ratione aut eveniet facere tenetur veritatis assumenda ipsum accusamus!
+                                   Keep update with everything Cincinnati! 
                                 </p>
                             </div>
                             <div className="newsletter-form col-lg-6">

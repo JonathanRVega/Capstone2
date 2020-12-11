@@ -43,7 +43,7 @@ body {
         to right bottom,
         rgba(0, 0, 0, 0.4),
         rgba(0, 0, 0, 0.4)),
-    url("../assets/downtown/matt-koffel-_W8p_1OBkAw-unsplash.jpg");
+    url("../assets/downtown/downtown2.jpg");
     background-attachment: fixed;
     background-size: cover;
     background-position: top center;
@@ -52,7 +52,7 @@ body {
     border-bottom-right-radius: 50% 20%;
 }
 .header-about-text {
-    padding-top: 10%;
+    padding-top: 13%;
     color: #ffffff;
 }
 .header-about-text .line {
@@ -73,6 +73,10 @@ body {
 .header-about-text p {
     line-height: 2.5rem;
     font-weight: lighter;
+}
+
+.about.container {
+    margin-top:5%;
 }
 
 .about .line{
@@ -103,6 +107,21 @@ body {
     width: 20rem;
 }
 
+.aboutLogosBackground {
+    width:20rem;
+    height:20rem;
+    border-radius:50%;
+    background:white;
+    box-shadow: 0 1px 38px rgba(0, 0, 0, 0.15), 0 5px 12px rgba(0, 0, 0, 0.25);
+    z-index:2;
+}
+
+.aboutLogosBackground:hover {
+    background:#fe5000;
+    transition: 0.5s;
+}
+
+
 #aboutImage1 {
     background: url('../assets/downtown/aboutPageCincinnati1.png');
     background-size: cover;
@@ -115,6 +134,30 @@ body {
 
 .charitiesBackground {
     background: #ddd;
+    margin-top:5%;
+}
+
+@media screen and (max-width:1200px) {
+    
+    .aboutLogosBackground {
+        width:18rem;
+        height:18rem;
+    }
+
+    #aboutLogos {
+        width: 18rem;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .aboutLogosBackground {
+        width:14rem;
+        height:14rem;
+    }
+
+    #aboutLogos {
+        width: 14rem;
+    }
 }
 
 @media screen and (max-width:767px) {
@@ -130,6 +173,15 @@ body {
         width:0;
         height:0;
     }
+
+    #aboutLogos {
+        width: 30rem;
+    }
+
+    .aboutLogosBackground {
+        width:30rem;
+        height:30rem;
+    }
 }
 
 @media screen and (max-width:576px) {
@@ -137,5 +189,10 @@ body {
         display:none;
         width:0;
         height:0;
+    }
+
+    .header-about-text {
+        padding-top: 25%;
+        color: #ffffff;
     }
 }

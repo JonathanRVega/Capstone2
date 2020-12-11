@@ -57,14 +57,17 @@ body {
     padding: 0 1rem;
 }
 .navbar-nav .nav-link {
-    color: #ffffff;
+    color: #ffffff !important;
 }
 .navbar-nav .active {
-    color: #fe5000;
-    font-weight: bold;
+    color: #fe5000 !important;
+    font-weight: bold !important;
 }
 .navbar-nav .nav-link:hover {
     color: #fe5000;
+}
+.navbar-toggler {
+    /* background-color: #fe5000; */
 }
  .dropdown-menu {
   background-color: #041e42;

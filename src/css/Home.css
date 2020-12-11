@@ -272,9 +272,68 @@ body {
 }
 
 @media screen and (max-width:767px) {
-    
+    .header-home-text-container {
+        padding-top: 30%;
+    }
+    .header-home-text-container p br {
+        display: none;
+    }
+    .facts-info {
+        justify-content: center !important;
+    }
+    .facts-text-box {
+        text-align: center;
+    }
+    .facts-text-box .line {
+        margin: 0 auto !important;
+    }
+    .airport-info {
+        left: 25%;
+    }
+    .newsletter-section input {
+        margin: 1rem 0;
+    }
 }
 @media screen and (max-width:567px) {
+    .header-home-text-container {
+        padding-top: 30%;
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+    .header-home-text-container h1 {
+        font-size: 2.5rem;
+    }
+    .header-home-text-container h1 span {
+        font-size: 4rem;
+    }
+    .header-home-text-container p br {
+        display: none;
+    }
+    .facts-info {
+        justify-content: center !important;
+    }
+    .facts-text-box {
+        text-align: center;
+    }
+    .facts-text-box .line {
+        margin: 0 auto !important;
+    }
+    .airport-info {
+        left: 13%;
+    }
+    .stay-section {
+        margin-top: 10rem;
+    }
+    .stay-section ul {
+        display: block;
+        padding: 0;
+    }
+    .stay-section ul li {
+        display: block;
+    }
+    .newsletter-section input {
+        margin: 1rem 0;
+    }
     
 }
 
@@ -303,21 +362,21 @@ body {
     .header-home-text-container p br {
         display: none;
     }
-    .facts-info {
+    /* .facts-info {
         justify-content: center !important;
     }
     .facts-text-box {
         text-align: center;
     }
     .facts-text-box .line {
-        margin: 0 auto;
-    }
+        margin: 0 auto !important;
+    } */
     .airport-info {
         width: 28rem;
         position: relative;
         left: 6%;
     }
-    .stay-section {
+    /* .stay-section {
         margin-top: 10rem;
     }
     .stay-section ul {
@@ -331,6 +390,6 @@ body {
         margin: 1rem 0;
     }
     .icons-container .svg-inline--fa {
-        margin: 0 1rem;
-    }
+        margin: 0 1rem !important;
+    } */
 }

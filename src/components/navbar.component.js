@@ -28,11 +28,11 @@ const Navbar = () => {
     
         return (
             // start of navbar - cc
-            <nav className="navbar" className={navbar ? 'navbar scroll' : 'navbar'}>
+            <nav className="navbar navbar-light" className={navbar ? 'navbar scroll navbar-dark' : 'navbar navbar-dark'}>
                 <div className="container navbar-expand-lg">
                     {/* logo */}
                     <div className="navbar-brand">
-                        <img src={Logo} alt="logo"/>
+                        <Link to='/' className="nav-link active"><img src={Logo} alt="logo"/></Link>
                     </div>
                     <NavbarToggler onClick={toggle} />
                     <Collapse isOpen={isOpen} navbar>
