@@ -103,7 +103,8 @@ import Asm from '../../assets/places/asm.jpg';
                      <div className="containerColumn facts-text-box">
                         <div className="line"></div>
                         <h1 className="factsHeader">Eat<br/>The City Life</h1>
-                        <p className="todoJustify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel dui vel lectus efficitur rutrum.
+                        <p className="todoJustify">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel dui vel lectus efficitur rutrum.
                            Nullam facilisis lorem in enim bibendum interdum.
                            Nulla non tincidunt metus, ac lobortis libero. Suspendisse dictum ante eu enim iaculis,
                            eget ultrices est hendrerit.
