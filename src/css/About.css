@@ -117,10 +117,16 @@ body {
 }
 
 .aboutLogosBackground:hover {
+    width:21rem;
+    height:21rem;
     background:#fe5000;
-    transition: 0.5s;
+    transition: 0.25s;
 }
 
+.aboutLogosBackground:hover #aboutLogos{
+    width:21rem;
+    transition: 0.5s;
+}
 
 #aboutImage1 {
     background: url('../assets/downtown/aboutPageCincinnati1.png');
@@ -147,6 +153,18 @@ body {
     #aboutLogos {
         width: 18rem;
     }
+
+    .aboutLogosBackground:hover {
+        width:19rem;
+        height:19rem;
+        background:#fe5000;
+        transition: 0.25s;
+    }
+    
+    .aboutLogosBackground:hover #aboutLogos{
+        width:19rem;
+        transition: 0.5s;
+    }
 }
 
 @media screen and (max-width:991px) {
@@ -157,6 +175,18 @@ body {
 
     #aboutLogos {
         width: 14rem;
+    }
+
+    .aboutLogosBackground:hover {
+        width:15rem;
+        height:15rem;
+        background:#fe5000;
+        transition: 0.25s;
+    }
+    
+    .aboutLogosBackground:hover #aboutLogos{
+        width:15rem;
+        transition: 0.5s;
     }
 }
 
@@ -181,6 +211,18 @@ body {
     .aboutLogosBackground {
         width:30rem;
         height:30rem;
+    }
+
+    .aboutLogosBackground:hover {
+        width:32rem;
+        height:32rem;
+        background:#fe5000;
+        transition: 0.25s;
+    }
+    
+    .aboutLogosBackground:hover #aboutLogos{
+        width:32rem;
+        transition: 0.5s;
     }
 }
 

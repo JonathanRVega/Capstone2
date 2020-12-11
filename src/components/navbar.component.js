@@ -28,7 +28,7 @@ const Navbar = () => {
     
         return (
             // start of navbar - cc
-            <nav className="navbar" className={navbar ? 'navbar scroll' : 'navbar'}>
+            <nav className="navbar" className={navbar ? 'navbar scroll navbar-dark' : 'navbar navbar-dark'}>
                 <div className="container navbar-expand-lg">
                     {/* logo */}
                     <div className="navbar-brand">
