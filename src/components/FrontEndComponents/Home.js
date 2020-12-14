@@ -1,4 +1,6 @@
-import React, { Component } from 'react';
+import React, { useEffect } from 'react';
+import '../../css/Eat.css';
+import Aos from 'aos';
 import Navbar from "../navbar.component";
 import Attractions from '../../assets/icons/attraction.png';
 import Hotels from '../../assets/icons/hotel.png';
@@ -10,8 +12,12 @@ import Carousels from '../StayCarousel';
 import '../../css/Home.css';
 import Footer from '../FrontEndComponents/Footer'
 
-export default class Home extends Component {
-    render() {
+const Home = () => {
+        
+    useEffect(() => {
+        Aos.init({duration: 1500});
+     }, [])
+
         return (
             <div>
                 {/* start of header section - cc */}
@@ -41,7 +47,7 @@ export default class Home extends Component {
                 {/* start of facts section - cc */}
                 <section className="facts-section container">
                     <div className="row">
-                        <div className="col-lg-6 col-md-12 facts-text-box">
+                        <div className="col-lg-6 col-md-12 facts-text-box" data-aos="fade-right">
                             <div className="line"></div>
                             <h2>Here's<br/><span>Some Facts</span></h2>
                             <p>
@@ -50,7 +56,7 @@ export default class Home extends Component {
                         </div>
                         <div className="col-lg-6 col-md-12 d-flex justify-content-end mt-4">
                             <div className="row ">
-                                <div className="facts-info col-lg-6 d-flex justify-content-end">
+                                <div className="facts-info col-lg-6 col-md-6 d-flex justify-content-end" data-aos="fade-up">
                                     <div className="box">
                                     <img className="icons" src={ Attractions } alt="Attractions icon"/>
                                     </div>
@@ -58,7 +64,7 @@ export default class Home extends Component {
                                     <h5 className="fact-info">23<br/><span>Attractions</span></h5>
                                     </div>
                                 </div>
-                                <div className="facts-info col-lg-6 d-flex justify-content-end">
+                                <div className="facts-info col-lg-6 col-md-6 d-flex justify-content-end" data-aos="fade-up">
                                 <div className="box">
                                     <img className="icons" src={ Hotels } alt="Attractions icon"/>
                                     </div>
@@ -66,7 +72,7 @@ export default class Home extends Component {
                                     <h5 className="fact-info">17<br/><span className="hotels">Hotels</span></h5>
                                     </div>
                                 </div>
-                                <div className="facts-info col-lg-6 d-flex justify-content-end mt-4">
+                                <div className="facts-info col-lg-6 col-md-6 d-flex justify-content-end mt-4" data-aos="fade-up">
                                 <div className="box">
                                     <img className="icons" src={ Population } alt="Attractions icon"/>
                                     </div>
@@ -74,7 +80,7 @@ export default class Home extends Component {
                                     <h5 className="fact-info">94,000<br/><span>Population</span></h5>
                                     </div>
                                 </div>
-                                <div className="facts-info col-lg-6 d-flex justify-content-end mt-4">
+                                <div className="facts-info col-lg-6 col-md-6 d-flex justify-content-end mt-4" data-aos="fade-up">
                                 <div className="box">
                                     <img className="icons" src={ Restaurants } alt="Attractions icon"/>
                                     </div>
@@ -93,18 +99,14 @@ export default class Home extends Component {
                     <div className="map">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12046.01718875996!2d-84.66798342097306!3d39.049898524453845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8841c8f2f631659f%3A0xab9a445aa5754dde!2sCincinnati%2FNorthern%20Kentucky%20International%20Airport!5e0!3m2!1sen!2sus!4v1606962960563!5m2!1sen!2sus" width="100%" height="450" frameborder="0" style={{border:0}} allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                     </div>
-                    <div className="airport-info">
+                    <div className="airport-info" data-aos="fade-right">
                         <img src={ Airport } alt="cincinnati airport"/>
                         <div className="text-box">
                             <h3>CVG Airport</h3>
-                            <p>
-                            The Cincinnati/Northern Kentucky International Airport (CVG) has been serving commercial passengers since 1947.  <br/>
-                            With more than 7,700 acres of land, four runways, <br/>
-                            a diversified base of operations on and near the campus, along with an economic impact of $6.8 Billion (2018), <br/>
-                            CVG is much more than meets the eye.  This new series, CVG @ Work, provides a behind-the-scenes look at the breadth of services offered by <br/>
-                            CVG Airport and its commitment to be a leader in our region.
+                            <p className="text-justify">
+                            The Cincinnati/Northern Kentucky International Airport has been serving commercial passengers since 1947. With more than 7,700 acres of land, four runways, a diversified base of operations on and near the campus, along with an economic impact of $6.8 Billion (2018) <a href=""> Visit website <i class="fas fa-long-arrow-alt-right"></i></a>
                             </p>
-                            <a href="">Visit the website <i class="fas fa-long-arrow-alt-right"></i></a>
+                           
                         </div>
                     </div>
                 </section>
@@ -130,7 +132,7 @@ export default class Home extends Component {
                 <section className="things-section">
                     <div className="container">
                         <div className="info row">
-                            <div className="col-lg-4 mb-4">
+                            <div className="col-md-4 mb-4">
                                 <h3>Shop</h3>
                                 <p>
                                 Shop, spend, treat yourself <br/>
@@ -138,21 +140,17 @@ export default class Home extends Component {
                                 </p>
                                 <button className="btn">Shop</button>
                             </div>
-                            <div className="col-lg-4 mb-4">
+                            <div className="col-md-4 mb-4">
                                 <h3>Eat</h3>
                                 <p>
-                                Come and check out some of the finest restruants in Cincinnati. <br/>
-                                 There's plenty of wonderful places to eat and drink! <br/> 
-                                If you have a taste for it, we have it here! 
+                                There's plenty of wonderful places to eat and drink! If you have a taste for it, we have it here! 
                                 </p>
                                 <button className="btn">Eat</button>
                             </div>
-                            <div className="col-lg-4 mb-4">
+                            <div className="col-md-4 mb-4">
                                 <h3>Play</h3>
                                 <p>
-                                Play and enjoy the city life <br/>
-                                in the Queen City also known as <br/>
-                                Cincinnati.
+                                Play and enjoy the city life in the Queen City also known as Cincinnati.
                                 </p>
                                 <button className="btn">Play</button>
                             </div>
@@ -165,7 +163,7 @@ export default class Home extends Component {
                 <section className="newsletter-section">
                     <div className="container">
                         <div className="row">
-                            <div className="newsletter-info-box col-lg-6">
+                            <div className="newsletter-info-box col-lg-6 mb-4">
                             <div className="line"></div>
                                 <h2>Subcribe to our<br/><span>Newsletter</span></h2>
                                 <p>
@@ -197,5 +195,7 @@ export default class Home extends Component {
                 <Footer />
             </div>
         )
-    }
+    
 }
+
+export default Home
