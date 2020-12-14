@@ -14,7 +14,6 @@ import IconTokyo from '../../assets/logo/tklogo-01.png';
 import IconTaft from '../../assets/logo/taftlogo-01.png';
 import IconZoo from '../../assets/logo/zoologo-01.png';
 import IconReds from '../../assets/logo/redslogo-01.png';
-import Footer from '../FrontEndComponents/Footer';
 
  class Play extends Component {
 
@@ -180,11 +179,7 @@ after4(){
                      </div>
                    </div>
                 </section>
-<<<<<<< HEAD
                 <Footer />
-=======
-                <Footer/>
->>>>>>> 8a104841eed9840b5c6b76d34ab1e762f742db73
            </div> 
         )
     }

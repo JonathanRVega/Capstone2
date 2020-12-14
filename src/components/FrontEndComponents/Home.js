@@ -104,13 +104,9 @@ const Home = () => {
                         <div className="text-box">
                             <h3>CVG Airport</h3>
                             <p className="text-justify">
-<<<<<<< HEAD
                             The Cincinnati/Northern Kentucky International Airport has been serving commercial passengers since 1947.
                             With more than 7,700 acres of land, four runways and 
                             a diversified base of operations.
-=======
-                            The Cincinnati/Northern Kentucky International Airport has been serving commercial passengers since 1947. With more than 7,700 acres of land, four runways, a diversified base of operations on and near the campus, along with an economic impact of $6.8 Billion (2018) <a href=""> Visit website <i class="fas fa-long-arrow-alt-right"></i></a>
->>>>>>> 8a104841eed9840b5c6b76d34ab1e762f742db73
                             </p>
                            
                         </div>
