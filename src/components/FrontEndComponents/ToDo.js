@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Navbar from "../navbar.component";
+import Footer from '../FrontEndComponents/Footer';
 import '../../things.css'
 import Waterview from '../../assets/downtown/waterview.jpg';
 import NadaOutside from '../../assets/nada/Nada_Exterior.jpg';
@@ -114,7 +115,7 @@ import Asm from '../../assets/places/asm.jpg';
                      </div>
                </div>
                </section>
-
+               <Footer/>
            </div> 
         )
     }
