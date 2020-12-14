@@ -7,6 +7,11 @@ import sparks from '../assets/charities/sparks-logo.png'
 import aChildsHope from '../assets/charities/a-childs-hope-logo.png';
 import ronaldMcDonaldHouse from '../assets/charities/ronaldMcdonald-house-logo.png';
 import wholeAgain from '../assets/charities/whole-again-logo.png';
+import aboutImage1 from '../assets/downtown/aboutPageCincinnati1.png';
+import courtneyhs from '../assets/about/courtney-hs.jpg';
+import danielhs from '../assets/about/daniel-hs.jpg';
+import derrickhs from '../assets/about/derrick-hs.jpg';
+import jonathanhs from '../assets/about/jonathan-hs.jpg';
 
  class About extends Component {
     render() {
@@ -42,23 +47,29 @@ import wholeAgain from '../assets/charities/whole-again-logo.png';
                      </div>
                      <div className="col-md-2 d-none d-sm-block"></div>
                      <div className="col-12 col-sm-12 col-md-4">
-                        <div className="aboutImageBackground ml-5 float-sm-right"></div>
-                        <div className="aboutImage mr-md-5 float-sm-right" id="aboutImage1"></div>
+                        <div className="aboutImageBackground1 ml-5 float-sm-right"></div>
+                        <div className="aboutImage mr-md-5 float-sm-right">
+                           <img id="aboutImage1" src={aboutImage1} alt="About 1"/>
+                        </div>
                      </div>
                   </div>
                   <div className="row mt-5">   
-                     <div className="col-12 col-sm-12 col-md-4">
-                        <div className="aboutImageBackground"></div>
-                        <div className="aboutImage ml-md-5" id="aboutImage2"></div>
+                     <div className="col-12 col-sm-12 col-md-6">
+                        <div className="aboutImageBackground2"></div>
+                        <div className="aboutImage ml-md-5" id="aboutImage2">
+                           <img id="aboutUsImages" src={courtneyhs} alt="Courtney Headshot"/>
+                           <img id="aboutUsImages" src={danielhs} alt="Daniel Headshot"/>
+                           <img id="aboutUsImages" src={derrickhs} alt="Derrick Headshot"/>
+                           <img id="aboutUsImages" src={jonathanhs} alt="Jonathan Headshot"/>
+                        </div>
                      </div>
-                     <div className="col-md-2 d-none d-sm-block"></div>
                      <div className="col-sm-12 col-md-6 mt-5">
                         <div className="line"></div>
                         <h2>Meet</h2><br/>
                         <h1>The Team</h1> 
                         <p>The team who brought you this project is Courtney, Daniel, Derrick, and Jonathan
                         a group of students from Kable Academy spread out internationally between Dayton, to Cincinnati <br/>
-                        all the way to Chihuahua Mexico!</p>
+                        all the way to Chihuahua, Mexico!</p>
                      </div>
                   </div>
                </div>

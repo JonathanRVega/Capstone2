@@ -88,16 +88,24 @@ body {
 .aboutImage {
     position: absolute;
     width:25rem;
-    height:30rem;
     margin-bottom: 8rem;
-    box-shadow: 0 1px 38px rgba(0, 0, 0, 0.15), 0 5px 12px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 0.1rem 3.8rem rgba(0, 0, 0, 0.15), 0 0.5rem 1.2rem rgba(0, 0, 0, 0.25);
     z-index:3;
 }
 
-.aboutImageBackground {
+.aboutImageBackground1 {
     position: absolute;
     width:25rem;
-    height:30rem;
+    height:29rem;
+    margin-top: 3rem;
+    border: 0.5rem solid #ddd;
+    z-index:2;
+}
+
+.aboutImageBackground2 {
+    position: absolute;
+    width:25rem;
+    height:25rem;
     margin-top: 3rem;
     border: 0.5rem solid #ddd;
     z-index:2;
@@ -112,24 +120,34 @@ body {
     height:20rem;
     border-radius:50%;
     background:white;
-    box-shadow: 0 1px 38px rgba(0, 0, 0, 0.15), 0 5px 12px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 0.1rem 3.8rem rgba(0, 0, 0, 0.15), 0 0.5rem 1.2rem rgba(0, 0, 0, 0.25);
     z-index:2;
 }
 
 .aboutLogosBackground:hover {
+    width:21rem;
+    height:21rem;
     background:#fe5000;
+    transition: 0.25s;
+}
+
+.aboutLogosBackground:hover #aboutLogos{
+    width:21rem;
     transition: 0.5s;
 }
 
-
 #aboutImage1 {
-    background: url('../assets/downtown/aboutPageCincinnati1.png');
-    background-size: cover;
+    width:25rem;
+    height:auto !important
 }
 
 #aboutImage2 {
-    background: url('../assets/downtown/aboutPageCincinnati2.png');
-    background-size: cover;
+    height:auto !important;
+}
+
+#aboutUsImages {
+    width:12.5rem;
+    height:auto;
 }
 
 .charitiesBackground {
@@ -147,6 +165,18 @@ body {
     #aboutLogos {
         width: 18rem;
     }
+
+    .aboutLogosBackground:hover {
+        width:19rem;
+        height:19rem;
+        background:#fe5000;
+        transition: 0.25s;
+    }
+    
+    .aboutLogosBackground:hover #aboutLogos{
+        width:19rem;
+        transition: 0.5s;
+    }
 }
 
 @media screen and (max-width:991px) {
@@ -158,17 +188,43 @@ body {
     #aboutLogos {
         width: 14rem;
     }
+
+    .aboutLogosBackground:hover {
+        width:15rem;
+        height:15rem;
+        background:#fe5000;
+        transition: 0.25s;
+    }
+    
+    .aboutLogosBackground:hover #aboutLogos{
+        width:15rem;
+        transition: 0.5s;
+    }
 }
 
 @media screen and (max-width:767px) {
     .aboutImage {
         position:static;
-        width:51rem;
-        height:60rem;
+        width:100%;
         margin-bottom:4rem;
     }
+
+    #aboutImage1 {
+        width:100%;
+    }
+
+    #aboutUsImages {
+        width:25%;
+        height:auto;
+    }
     
-    .aboutImageBackground {
+    .aboutImageBackground1 {
+        display:none;
+        width:0;
+        height:0;
+    }
+
+    .aboutImageBackground2 {
         display:none;
         width:0;
         height:0;
@@ -182,9 +238,26 @@ body {
         width:30rem;
         height:30rem;
     }
+
+    .aboutLogosBackground:hover {
+        width:32rem;
+        height:32rem;
+        background:#fe5000;
+        transition: 0.25s;
+    }
+    
+    .aboutLogosBackground:hover #aboutLogos{
+        width:32rem;
+        transition: 0.5s;
+    }
 }
 
 @media screen and (max-width:576px) {
+
+    #aboutUsImages {
+        width:50%;
+    }
+
     .aboutImageBackground {
         display:none;
         width:0;

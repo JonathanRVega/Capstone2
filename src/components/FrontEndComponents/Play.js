@@ -8,6 +8,15 @@ import Reds from '../../assets/ballpark/ballgame.jpg';
 
 
  class Play extends Component {
+
+    after(){ 
+      document.getElementById('myImage') 
+      .src=Zoo; 
+      document.getElementById('message') 
+      .innerHTML="Bye! GeeksforGeeks people"; 
+
+  } 
+
     render() {
         return (
             <div>
@@ -98,7 +107,7 @@ import Reds from '../../assets/ballpark/ballgame.jpg';
                </section>
 
                 <section>
-                   <div className="iconsRow">
+                   <div className="iconsRow"  onClick={this.after}>
                      <div className="iconsContainer">
                         <p>hello</p>
                      </div>
@@ -114,7 +123,8 @@ import Reds from '../../assets/ballpark/ballgame.jpg';
                    </div>
 
                    <div className="ImageIconsContainer">
-
+                     <img id="myImage" src={Tokyo} className="ImagesPlay"></img>
+                     <p id="message" className="textPlay">Poopy</p>
                    </div>
                 </section>
            </div> 
