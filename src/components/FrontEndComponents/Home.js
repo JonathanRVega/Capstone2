@@ -97,12 +97,10 @@ export default class Home extends Component {
                         <img src={ Airport } alt="cincinnati airport"/>
                         <div className="text-box">
                             <h3>CVG Airport</h3>
-                            <p>
-                            The Cincinnati/Northern Kentucky International Airport (CVG) has been serving commercial passengers since 1947.  <br/>
-                            With more than 7,700 acres of land, four runways, <br/>
-                            a diversified base of operations on and near the campus, along with an economic impact of $6.8 Billion (2018), <br/>
-                            CVG is much more than meets the eye.  This new series, CVG @ Work, provides a behind-the-scenes look at the breadth of services offered by <br/>
-                            CVG Airport and its commitment to be a leader in our region.
+                            <p className="text-justify">
+                            The Cincinnati/Northern Kentucky International Airport has been serving commercial passengers since 1947.
+                            With more than 7,700 acres of land, four runways and 
+                            a diversified base of operations.
                             </p>
                             <a href="">Visit the website <i class="fas fa-long-arrow-alt-right"></i></a>
                         </div>

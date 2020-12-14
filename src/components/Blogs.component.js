@@ -14,12 +14,12 @@ class Blogs extends Component {
                <header id="header-blog-section">
                   {/* navbar component - cc */}
                   <Navbar />
-                  <div className="header-blog-text container text-center">
+                  <div className="header-text-container container">
                      <div className="line"></div>
                      <h1>The<br/><span>Latest News</span></h1>
                      <p>
-                        Come get the Latest News about Cincinnati, <br/>
-                        it's locals, tourist spots, eateries, <br/>
+                        Come get the Latest News about Cincinnati, 
+                        it's locals, tourist spots, eateries, 
                         breweries, and so so much more!    
                      </p>
                   </div>
@@ -37,12 +37,12 @@ class Blogs extends Component {
                             <img className="imageResponsive" src={ OverTheRhine } alt="Over The Rine"/>
                             <div className="content">
                                 <p className="letter">E</p>
-                                <p className="text">
-                                Well-preserved 19th-century buildings pepper historic Over-the-Rhine,<br/>
-                                 a onetime working-class German neighborhood now home to craft breweries,<br/>
-                                  hip gastropubs, and trendy bars. Dating from the 1850s,<br/>
-                                   Findlay Market bustles with indoor specialty grocers and a weekend farmers’ market. <br/>
-                                   The city’s symphony orchestra plays at the grand Cincinnati Music Hall, and <br/>
+                                <p className="text text-justify">
+                                Well-preserved 19th-century buildings pepper historic Over-the-Rhine,
+                                 a onetime working-class German neighborhood now home to craft breweries,
+                                  hip gastropubs, and trendy bars. Dating from the 1850s,
+                                   Findlay Market bustles with indoor specialty grocers and a weekend farmers’ market.
+                                   The city’s symphony orchestra plays at the grand Cincinnati Music Hall, and
                                    Washington Park is popular for its fountains and festivals. 
                                      <a href=""> Read More</a>
                                 </p>

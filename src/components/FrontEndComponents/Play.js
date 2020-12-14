@@ -5,17 +5,53 @@ import Tokyo from '../../assets/tokyokitty/mainroom.jpg';
 import Taft from '../../assets/taft/gallery.jpg';
 import Zoo from '../../assets/zoo/kangaroo.jpg';
 import Reds from '../../assets/ballpark/ballgame.jpg';
-
+import Tokyo1 from '../../assets/play/Tokyo1.jpg';
+import Taft1 from '../../assets/play/Taft1.jpg';
+import Zoo1 from '../../assets/play/Zoo1.jpg';
+import Reds1 from '../../assets/play/GABP1.jpg';
+import IconTokyo from '../../assets/logo/tklogo-01.png';
+import IconTaft from '../../assets/logo/taftlogo-01.png';
+import IconZoo from '../../assets/logo/zoologo-01.png';
+import IconReds from '../../assets/logo/redslogo-01.png';
+import Footer from '../FrontEndComponents/Footer';
 
  class Play extends Component {
 
     after(){ 
       document.getElementById('myImage') 
-      .src=Zoo; 
+      .src=Tokyo1; 
       document.getElementById('message') 
-      .innerHTML="Bye! GeeksforGeeks people"; 
-
+      .innerHTML="Tokyo Kitty text here"; 
+      document.getElementById('title') 
+      .innerHTML="Tokyo Kitty"; 
   } 
+
+  after2(){ 
+   document.getElementById('myImage') 
+   .src=Reds1; 
+   document.getElementById('message') 
+   .innerHTML="American Ball Park text here"; 
+   document.getElementById('title') 
+   .innerHTML="Great American Ball Park"; 
+} 
+
+after3(){ 
+   document.getElementById('myImage') 
+   .src=Taft1; 
+   document.getElementById('message') 
+   .innerHTML="Taft Museum of art text here"; 
+   document.getElementById('title') 
+   .innerHTML="Taft Museum of Art"; 
+} 
+
+after4(){ 
+   document.getElementById('myImage') 
+   .src=Zoo1; 
+   document.getElementById('message') 
+   .innerHTML="Cincinnati Zoo text here"; 
+   document.getElementById('title') 
+   .innerHTML="Cincinnati Zoo"; 
+} 
 
     render() {
         return (
@@ -26,8 +62,8 @@ import Reds from '../../assets/ballpark/ballgame.jpg';
                         <div className="line"></div>
                         <h1>Have fun in<br/><span>Cincinnati</span></h1>
                         <p>
-                        Play and enjoy the city life <br/>
-                                in the Queen City also known as <br/>
+                        Play and enjoy the city life
+                                in the Queen City also known as
                                 Cincinnati.
                         </p>   
                         <button className="btn">Shop</button>
@@ -107,26 +143,43 @@ import Reds from '../../assets/ballpark/ballgame.jpg';
                </section>
 
                 <section>
-                   <div className="iconsRow"  onClick={this.after}>
-                     <div className="iconsContainer">
-                        <p>hello</p>
+                <div className="iconsBorder">
+                   <div className="iconsRow" >
+                     <div className="iconsContainer" onClick={this.after}>
+                     <img className="iconsPlay" src={IconTokyo} ></img>
+                        <p className="iconsText">Tokyo Kitty</p>
                      </div>
-                     <div className="iconsContainer">
-                        <p>hello</p>
+                     <div className="iconsContainer" onClick={this.after2}>
+                     <img className="iconsPlay" src={IconReds} ></img>
+                        <p className="iconsText">The Great American Ball Park</p>
                      </div>
-                     <div className="iconsContainer">
-                        <p>hello</p>
+                     <div className="iconsContainer" onClick={this.after3}>
+                     <img className="iconsPlay" src={IconTaft} ></img>
+                        <p className="iconsText">The Taft Museum of Art</p>
                      </div>
-                     <div className="iconsContainer">
-                        <p>hello</p>
+                     <div className="iconsContainer" onClick={this.after4}>
+                     <img className="iconsPlay" src={IconZoo} ></img>
+                        <p className="iconsText">Cincinnati Zoo</p>
                      </div>
+
+                   </div>
                    </div>
 
+                   <div className="backgroundImageContainer">
                    <div className="ImageIconsContainer">
-                     <img id="myImage" src={Tokyo} className="ImagesPlay"></img>
-                     <p id="message" className="textPlay">Poopy</p>
+                     <img id="myImage" src={Tokyo1} className="ImagesPlay"></img>
+                     <div className="card-info">
+                        <div className="text-box ">
+                            <h3 id="title">Tokyo Kitty</h3>
+                            <p id="message">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                           quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
+                    </div>
+                     </div>
                    </div>
                 </section>
+                <Footer />
            </div> 
         )
     }

@@ -39,7 +39,7 @@
 }
 
 /* facts section */
-/* .facts {
+.facts {
     margin-top: 10rem;
 }
 .facts-text-box .line {
@@ -93,6 +93,7 @@
     height: 60rem;
     padding: 30px;
 }
+
 /* Map section */
 /* .airpot-map-section {
     margin-top: 10rem;
@@ -169,7 +170,8 @@
     color: #ffffff;
     text-align: center;
     height: 35rem;
-} */
+}
+
 .things-section .info {
     padding-top: 12rem;
 }
@@ -305,11 +307,16 @@ textarea.form-description {
     grid-row-end: 9;
 }
 
+.iconsBorder{
+    width: 100%;
+
+}
+
 .iconsRow{
     display: flex;
     flex-direction: row;
     margin: auto;
-    width: 50%;
+    width: 124rem;
     height: 20rem;
     background-color: whitesmoke;
 }
@@ -321,7 +328,23 @@ textarea.form-description {
     align-content: center;
     text-align: center;
     width: 25%;
-    border: 1px solid black;
+    border: 3px solid#fe5000;
+    background-color: #041e42;
+  background: linear-gradient(45deg, #041e99 1%, #041e42 1%,#041e42 49%, #041e99 49%, #041e99 51%, #041e42 51%, #041e42 99%, #041e99 99%);
+  background-size: 6px 6px;
+  background-position: 50px 50px;
+}
+
+.iconsContainer:hover{
+    background: linear-gradient(45deg, #046299 1%, #041e42 1%,#041e42 49%,  #046299 49%,  #046299 51%, #041e42 51%, #041e42 99%, #046299 99%);
+    background-size: 6px 6px;
+    background-position: 50px 50px;
+}
+
+.backgroundImageContainer{
+    width: 100%;
+    height: 700px;
+
 }
 
 .ImageIconsContainer{
@@ -329,20 +352,45 @@ textarea.form-description {
     display: flex;
     flex-direction: row;
     margin: auto;
-    width: 50%;
-    height: 400px;
-    background-color: whitesmoke;
-    margin-bottom: 400px;
+    width: 124rem;
+    height: 55rem;
+
 }
 
 .ImagesPlay{
     position: absolute;
     width: 100%;
+    height: 100%;
+    
 }
 
-.textPlay{
+.iconsText{
+    color: white;
+}
+
+.iconsPlay{
+    width: 50%;
+    margin: auto;
+}
+
+.card-info {
+    width: 35rem;
+    height: 20rem;
     position: absolute;
-    color: #ffffff;
+    right: 1%;
+    top: 60%;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+    background-color: #ffffff;
+}
+.card-info .text-box {
+    padding: 2rem 2rem;
+    text-align: justify;
 }
 
 @media (max-width: 1680px){

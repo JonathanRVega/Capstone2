@@ -20,8 +20,8 @@ import Asm from '../../assets/places/asm.jpg';
                         <div className="line"></div>
                         <h1>Things to do in<br/><span>Cincinnati</span></h1>
                         <p>
-                           There's plenty to do in Cincinnati, <br/>
-                           everything from shopping, playing, <br/>
+                           There's plenty to do in Cincinnati,
+                           everything from shopping, playing,
                            all the way to eating wonderful meals!
                      </p>   
                         <button className="btn">Shop</button>
