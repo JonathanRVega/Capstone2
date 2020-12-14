@@ -3,7 +3,7 @@ import Aos from 'aos';
 import 'aos/dist/aos.css';
 import Navbar from "../navbar.component";
 import '../../css/shop.css';
-import Art from '../../assets/places/contempArt.jpg';
+// import Art from '../../assets/places/contempArt.jpg';
 import AMS from '../../assets/places/asm.jpg';
 import Downtown from '../../assets/downtown/downtown.jpg';
 import Bengels from '../../assets/places/paulbrownstadium.jpg';
@@ -34,7 +34,7 @@ const Shop = () => {
          <section data-aos="fade-in" className="shopping-section">
             <div className="container">
                   <div className="shop-info-container">
-                     <img src={ Shops } atl="Best places to shop in Cincinnati" />
+                     <img src={ Shops } alt="Best places to shop in Cincinnati" />
                      <p className="text-justify">
                         Cincinnati is a diverse, interesting city and the shopping scene  reflects that.
 

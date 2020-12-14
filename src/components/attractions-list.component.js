@@ -41,7 +41,7 @@ export default class AttractionList extends Component {
 						<h1 className="heading">{destination.name}</h1>
 						<h3 className="location">{destination.address}, {destination.zipcode}</h3>
 					</div>
-					<img className="weatherImg" src={destination.imageUrl} alt="Please provide a valid image Url"></img>
+					<img className="weatherImg" src={destination.imageUrl} alt="Please provide a valid URL"></img>
 				</div>
 				<div className="bottom">
 					<div className="wrapper">

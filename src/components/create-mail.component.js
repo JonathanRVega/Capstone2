@@ -83,20 +83,20 @@ class CreateMail extends Component {
                         <br/>
                         <span>Contact Us</span>
                     </h1>
-                    <p className="text-center mb-5 mt-5">We can be reached by visiting our offices, calling us during ( 9am - 5pm )<br/>
-                    or even sending us an email! Give us feedback!
+                    <p className="text-center mb-5 mt-5">We can be reached by visiting our offices, calling us during (9am - 5pm)<br/> 
+                        or even sending us an email! Give us feedback!
                     </p>
                     <div className="row mb-5 text-center">
                         <div className="col-12 col-sm-3 mb-4 mb-sm-0">
-                            <img className="mr-2" style={{width:'3rem'}}src={phone}/>
+                            <img className="mr-2" style={{width:'3rem'}} src={phone} alt="phoneIcon"/>
                             <h4 style={{display: 'inline-block'}}>1-800-555-3692</h4>
                         </div>
                         <div className="col-12 col-sm-6 mb-4 mb-sm-0">
-                            <img className="mr-2" style={{width:'3rem'}}src={email}/>
+                            <img className="mr-2" style={{width:'3rem'}} src={email} alt="emailIcon"/>
                             <h4 style={{display: 'inline-block'}}>Explorecincy@explore.com</h4>
                         </div>
                         <div className="col-12 col-sm-3">
-                            <img className="mr-2" style={{width:'3rem'}}src={location}/>
+                            <img className="mr-2" style={{width:'3rem'}} src={location} alt="locationIcon"/>
                             <h4 style={{display: 'inline-block'}}>Cincinnati, Ohio</h4>
                         </div>
                     </div>
@@ -151,7 +151,7 @@ class CreateMail extends Component {
                     </div>
                 </div>
                 <div className="map-section mt-5">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d198060.24152220497!2d-84.68048565378399!3d39.13625621321902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x884051b1de3821f9%3A0x69fb7e8be4c09317!2sCincinnati%2C%20OH!5e0!3m2!1sen!2sus!4v1607029001270!5m2!1sen!2sus" width="100%" height="450" frameborder="0" style={{border:0}} allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                        <iframe title="Map of Cincinnati" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d198060.24152220497!2d-84.68048565378399!3d39.13625621321902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x884051b1de3821f9%3A0x69fb7e8be4c09317!2sCincinnati%2C%20OH!5e0!3m2!1sen!2sus!4v1607029001270!5m2!1sen!2sus" width="100%" height="450" frameborder="0" style={{border:0}} allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                 </div>
             </div>
         )

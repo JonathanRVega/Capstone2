@@ -6,7 +6,6 @@ import 'aos/dist/aos.css';
 import Arcade from '../../assets/food/16bit.jpg';
 import Nada from '../../assets/food/nada.jpg';
 import Taste from '../../assets/food/taste.jpg';
-import Rhinegiest from '../../assets/food/rhinegeist.jpg';
 import FoodPoster from '../../assets/food/eats5.png';
 
 
@@ -32,7 +31,7 @@ import FoodPoster from '../../assets/food/eats5.png';
                 <section data-aos="fade-up" className="place-to-eat-section container">
                   <div className="row">
                      <div className="col-lg-6 col-md-12 img mb-4 d-flex justify-content-center">
-                        <img src={FoodPoster} atl="bourbon country bbq" />
+                        <img src={FoodPoster} alt="bourbon country bbq" />
                      </div>
                      <div className="col-lg-6 col-md-12 text mt-4">
                         <p>
