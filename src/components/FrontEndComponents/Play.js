@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Navbar from "../navbar.component";
+import Footer from '../components/FrontEndComponents/Footer';
 import '../../things.css'
 import Tokyo from '../../assets/tokyokitty/mainroom.jpg';
 import Taft from '../../assets/taft/gallery.jpg';
@@ -127,6 +128,7 @@ import Reds from '../../assets/ballpark/ballgame.jpg';
                      <p id="message" className="textPlay">Poopy</p>
                    </div>
                 </section>
+                <Footer/>
            </div> 
         )
     }
