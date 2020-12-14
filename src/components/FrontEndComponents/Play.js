@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Navbar from "../navbar.component";
+import Footer from '../FrontEndComponents/Footer';
 import '../../things.css'
 import Tokyo from '../../assets/tokyokitty/mainroom.jpg';
 import Taft from '../../assets/taft/gallery.jpg';
@@ -179,7 +180,11 @@ after4(){
                      </div>
                    </div>
                 </section>
+<<<<<<< HEAD
                 <Footer />
+=======
+                <Footer/>
+>>>>>>> 8a104841eed9840b5c6b76d34ab1e762f742db73
            </div> 
         )
     }

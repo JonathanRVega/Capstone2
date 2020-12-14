@@ -3,7 +3,7 @@ import Aos from 'aos';
 import 'aos/dist/aos.css';
 import Navbar from "../navbar.component";
 import '../../css/shop.css';
-import Art from '../../assets/places/contempArt.jpg';
+// import Art from '../../assets/places/contempArt.jpg';
 import AMS from '../../assets/places/asm.jpg';
 import Downtown from '../../assets/downtown/downtown.jpg';
 import Bengels from '../../assets/places/paulbrownstadium.jpg';
@@ -34,7 +34,7 @@ const Shop = () => {
          <section data-aos="fade-in" className="shopping-section">
             <div className="container">
                   <div className="shop-info-container">
-                     <img src={ Shops } atl="Best places to shop in Cincinnati" />
+                     <img src={ Shops } alt="Best places to shop in Cincinnati" />
                      <p className="text-justify">
                         Cincinnati is a diverse, interesting city and the shopping scene  reflects that.
 
@@ -58,14 +58,14 @@ const Shop = () => {
                 <h2 data-aos="fade-in" className="text-center shop-title">Places To Shop</h2>
                 <section data-aos="fade-right" className="shop-section">
                   <div className="row shops-container">
-                     <div className="col-lg-6 align-self-center">
+                     <div className="col-lg-6 align-self-center order-md-2 order-lg-1">
                            <div className="line"></div>
                            <h2>Shop At<br/><span>Monroe Premium Outlet</span></h2>
                            <p>
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit.      Etiam vel dui vel lectus efficitur rutru. Nullam facilisis lorem in enim bibendum interdum. Nulla non tincidunt metus, ac lobortis libero. Suspendisse dictum ante eu enim iaculis, eget ultrices est hendrerit.
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel dui vel lectus efficitur rutru. Nullam facilisis lorem in enim bibendum interdum. Nulla non tincidunt metus, ac lobortis libero. Suspendisse dictum ante eu enim iaculis, eget ultrices est hendrerit.
                            </p>
                      </div>
-                     <div className="col-lg-6 img d-flex justify-content-center">
+                     <div className="col-lg-6 img d-flex justify-content-center mt-4 order-md-1 order-lg-2">
                         <img src={ AMS } alt="16 Bit Arcade and Bar" />
                      </div> 
                                                              
@@ -74,14 +74,14 @@ const Shop = () => {
 
                 <section data-aos="fade-left" className="shop-section shop-right">
                   <div className="row shops-container">
-                     <div className="col-lg-6 img d-flex justify-content-center">
+                     <div className="col-lg-6 img d-flex justify-content-center mb-4">
                         <img src={ Downtown } alt="Taste of Cincinnati" />
                      </div> 
                      <div className="col-lg-6 align-self-center">
                            <div className="line"></div>
                            <h2>Shop At<br/><span>OTR Retail District</span></h2>
                            <p>
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit.      Etiam vel dui vel lectus efficitur rutru. Nullam facilisis lorem in enim bibendum interdum. Nulla non tincidunt metus, ac lobortis libero. Suspendisse dictum ante eu enim iaculis, eget ultrices est hendrerit.
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel dui vel lectus efficitur rutru. Nullam facilisis lorem in enim bibendum interdum. Nulla non tincidunt metus, ac lobortis libero. Suspendisse dictum ante eu enim iaculis, eget ultrices est hendrerit.
                            </p>
                      </div>                                                             
                   </div>                                           
@@ -89,14 +89,14 @@ const Shop = () => {
 
                 <section data-aos="fade-right" className="shop-section d-inline-block">
                   <div className="row shops-container">
-                     <div className="col-lg-6 align-self-center">
+                     <div className="col-lg-6 align-self-center order-md-2 order-lg-1">
                            <div className="line"></div>
                            <h2>Shop At<br/><span>Kenwood Mall</span></h2>
                            <p>
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit.      Etiam vel dui vel lectus efficitur rutru. Nullam facilisis lorem in enim bibendum interdum. Nulla non tincidunt metus, ac lobortis libero. Suspendisse dictum ante eu enim iaculis, eget ultrices est hendrerit.
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel dui vel lectus efficitur rutru. Nullam facilisis lorem in enim bibendum interdum. Nulla non tincidunt metus, ac lobortis libero. Suspendisse dictum ante eu enim iaculis, eget ultrices est hendrerit.
                            </p>
                      </div>
-                     <div className="col-lg-6 img d-flex justify-content-center">
+                     <div className="col-lg-6 img d-flex justify-content-center mt-4 order-md-1 order-lg-2">
                         <img src={ Bengels } alt="Nada Restaurant" />
                      </div>                                     
                   </div>                                           

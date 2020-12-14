@@ -1,11 +1,6 @@
 import React, { Component } from 'react'
 import Logo from '../../assets/logo/new-logo.png';
-import Facebook from '../../assets/social/facebook.png';
-import Instagram from '../../assets/social/instagram.png';
-import Youtube from '../../assets/social/youtube.png';
-import Twitter from '../../assets/social/twitter.png';
 import '../../css/Footer.css'
-
 
 
  class Footer extends Component {
