@@ -10,7 +10,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "client": "cd ../ && npm start",
-    "dev": "concurrently \"nodemon server.js\" \"npm run client\"",
+    "dev": "concurrently \"node server.js\" \"npm run client\"",
     "heroku-postbuild": "cd ../ && npm install && npm run build"
   },
   "keywords": [],
