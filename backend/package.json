@@ -8,10 +8,9 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
+    "start": "set PORT=5000 && node server.js",
     "client": "cd ../ && npm start",
-    "dev": "concurrently \"node server.js\" \"npm run client\"",
-    "heroku-postbuild": "cd ../ && npm install && npm run build"
+    "dev": "concurrently \"npm start\" \"npm run client\""
   },
   "keywords": [],
   "author": "",
