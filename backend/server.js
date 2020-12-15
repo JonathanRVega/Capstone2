@@ -31,31 +31,7 @@ app.use('/attractions', attractionRouter);
 app.use('/mail', mailRouter);
 
 //Gets ready for production
-if (process.env.NODE_ENV === 'production'){
-    app.use(express.static('build'));
-}
 
 app.listen(port, () => {
     console.log(`Server is running on port: ${port}`);
 });
-
-// app.post('/contact', (req, res) => {
-//     const { firstname, lastname, email } = req.body;
-
-//     if (!firstname || !lastname || !email) {
-//         return;
-//     }
-
-//     const options = {
-//         url: '',
-//         method: 'POST',
-//         headers: {
-//             Authorization: ''
-//         },
-//         body: postData
-//     }
-
-//     request(options, (err, response, body) => {
-
-//     });
-// })
