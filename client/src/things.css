@@ -1,0 +1,485 @@
+#header-section {
+   position: relative; 
+    background-image: linear-gradient( 
+        to right bottom,
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4)),
+    url("./assets/downtown/matt-koffel-_W8p_1OBkAw-unsplash.jpg");
+    background-attachment: fixed; 
+    background-size: cover;
+    background-position: top center;
+    height: 90vh;
+    border-bottom-left-radius: 50% 20%;
+    border-bottom-right-radius: 50% 20%;
+    padding-bottom: 200px;
+}
+
+.header-text-container {
+    padding-top: 10%;
+    color: #ffffff;
+}
+.header-text-container .line {
+    border-top: 0.2rem solid #ffffff;
+    width: 5rem;
+}
+.header-text-container h1 {
+    font-size: 3rem;
+    line-height: 5.5rem;
+}
+.header-text-container h1 span {
+    letter-spacing: 0.3rem;
+    font-size: 5.5rem;
+    color: #fe5000;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+}
+.header-text-container p {
+    line-height: 2.5rem;
+    font-weight: lighter;
+}
+
+/* facts section */
+.facts {
+    margin-top: 10rem;
+}
+.facts-text-box .line {
+    border-top: 0.2rem solid #fe5000;
+    width: 5rem;
+    margin: 10px;
+}
+.facts-text-box h2 {
+    font-size: 2.2rem;
+    color: #041e42;
+}
+.facts-text-box h2 span {
+    font-size: 3rem;
+}
+.facts .box .hotels {
+    margin-right: 4.4rem;
+}
+.facts .box {
+    display: inline-block;
+}
+.facts .icons {
+    width: 6rem;
+}
+.fact-info {
+    display: inline-block;
+    font-size: 1.8rem;
+    padding: 1rem 1rem;
+    color: #041e42;
+}
+
+.factsHeader{
+    margin: 10px;
+}
+
+.todoJustify{
+    text-align: justify;
+    font-size: 1.7rem;
+    margin: 10px;
+}
+
+.containerBackground{
+    background-color: whitesmoke;
+    width: 120rem;
+    height: 35rem;
+    padding:30px;
+}
+
+.containerBackgroundBig{
+    background-color: whitesmoke;
+    width: 120rem;
+    height: 60rem;
+    padding: 30px;
+}
+
+/* Map section */
+/* .airpot-map-section {
+    margin-top: 10rem;
+    position: relative;
+}
+.airport-info {
+    width: 35rem;
+    height: 45rem;
+    position: absolute;
+    left: 20%;
+    top: 40%;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+    background-color: #ffffff;
+}
+.airport-info img {
+    width: 35rem;
+}
+.airport-info .text-box {
+    padding: 3rem 2rem;
+} */ 
+
+/* stay section */
+/* .stay-section {
+    margin-top: 30rem;
+    text-align: center;
+}
+.stay-section h2 {
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    color: #041e42;
+    padding-top: 1rem;
+}
+.stay-section .line {
+    border-top: 0.2rem solid #fe5000;
+    width: 5rem;
+    margin: 0 auto;
+}
+.stay-section ul {
+    list-style-type: none; 
+    margin: 2rem 0;
+}
+.stay-section ul li {
+    display: inline-block;
+    padding: 0 2.5rem;
+    font-size: 1.8rem;
+    text-transform: capitalize;
+    color: #041e42;
+    font-weight: lighter;
+} */
+
+/* carousel */
+/* .stay-carousel img {
+    height: 40rem;
+    object-fit: cover;
+} */
+
+/* things to do section */
+/* .things-section {
+    background-image: linear-gradient( 
+        to right bottom,
+        rgba(0, 48, 135, 0.7),
+        rgba(0, 48, 135, 0.7)),
+    url("./assets/downtown/matt-koffel-_W8p_1OBkAw-unsplash.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top center;
+    margin-top: 10rem;
+    color: #ffffff;
+    text-align: center;
+    height: 35rem;
+}
+
+.things-section .info {
+    padding-top: 12rem;
+}
+.things-section h3 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #fe5000;
+    text-transform: uppercase;
+}
+.things-section p {
+    font-weight: lighter;
+}
+
+.todo-img{
+  width: 100%;
+  height: 100%;
+  border-radius: 5%;
+  padding: 10px;
+}
+.shop-img{
+  width: 500px;
+  height: 260px;
+  border-radius: 20%;
+}
+.eat-img{
+  width: 500px;
+  height: 260px;
+  border-radius: 20%;
+}
+.play-img{
+  width: 500px;
+  height: 260px;
+  border-radius: 20%;
+}
+
+/* #smol{
+  height: 100px;
+  width: 500px;
+} */
+
+textarea.form-description {
+    height:20rem;
+    /* resize:none; */
+}
+
+.backgroundPadding{
+    padding: 10px;
+}
+
+.contactSubmit {
+    background-color:rgba(254,80,0,1);
+    color:white;
+}
+
+.containerRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    width: 60%;
+    height: fit-content;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.containerColumn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 50%;
+}
+
+/* .navbar .navbar-brand img {
+    width: 6rem;
+    height: auto;
+}
+
+.icons{
+    width: 50px;
+    height: 50px;
+    display: inline;
+} */
+
+.gallery {
+    display: grid;
+    width: 100%;
+    height: 50rem;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 4.2vw);
+    grid-gap: 15px;
+}
+
+.gallery__img {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+}
+
+.gallery__item--1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+
+.gallery__item--2 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+
+.gallery__item--3 {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+
+.gallery__item--4 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 9;
+}
+
+.gallery__item--6 {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 3;
+    grid-row-end: 9;
+}
+
+.iconsBorder{
+    width: 100%;
+
+}
+
+.iconsRow{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 124rem;
+    height: 20rem;
+    background-color: whitesmoke;
+}
+
+.iconsContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    width: 25%;
+    border: 3px solid#fe5000;
+    background-color: #041e42;
+  background: linear-gradient(45deg, #041e99 1%, #041e42 1%,#041e42 49%, #041e99 49%, #041e99 51%, #041e42 51%, #041e42 99%, #041e99 99%);
+  background-size: 6px 6px;
+  background-position: 50px 50px;
+}
+
+.iconsContainer:hover{
+    background: linear-gradient(45deg, #046299 1%, #041e42 1%,#041e42 49%,  #046299 49%,  #046299 51%, #041e42 51%, #041e42 99%, #046299 99%);
+    background-size: 6px 6px;
+    background-position: 50px 50px;
+}
+
+.backgroundImageContainer{
+    width: 100%;
+    height: 700px;
+
+}
+
+.ImageIconsContainer{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 124rem;
+    height: 55rem;
+
+}
+
+.ImagesPlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.iconsText{
+    color: white;
+}
+
+.iconsPlay{
+    width: 50%;
+    margin: auto;
+}
+
+.card-info {
+    width: 35rem;
+    height: 20rem;
+    position: absolute;
+    right: 1%;
+    top: 60%;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+    background-color: #ffffff;
+}
+.card-info .text-box {
+    padding: 2rem 2rem;
+    text-align: justify;
+}
+
+@media (max-width: 1680px){
+    .gallery {
+        height: 42rem;
+    }
+}
+
+@media (max-width: 1500px){
+    .containerRow{
+        width: 80%;
+    }
+    .gallery {
+        height: 38rem;
+    }
+}
+
+@media (max-width: 1330px){
+    .gallery {
+        height: 35rem;
+    }
+}
+
+@media (max-width: 1165px){
+    .containerRow{
+        width: 90%;
+    }
+    .gallery {
+        height: 30rem;
+    }
+}
+
+@media (max-width: 950px){
+    .containerRow{
+        width: 60%;
+        flex-direction: column;
+    }
+    .containerColumn{
+        width: 100%;
+    }
+    .gallery {
+        height: 26rem;
+    }
+}
+
+@media (max-width: 750px){
+    .containerRow{
+        width: 80%;
+        flex-direction: column;
+    }
+    .gallery {
+        height: 22rem;
+    }
+}
+
+@media (max-width: 550px){
+    .todoJustify{
+        text-align: justify;
+        font-size: 1.5rem;
+        margin: 5px;
+    }
+    .todo-img{
+        width: 100%;
+        height: 100%;
+        border-radius: 5%;
+        padding: 5px;
+      }
+      .gallery {
+        height: 18rem;
+    }
+}
+
+@media (max-width: 450px){
+    .todoJustify{
+        font-size: 1.3rem;
+    }
+    .factsHeader{
+        font-size: 2rem;
+        margin: 10px;
+    }
+    .facts-text-box .line {
+        border-top: 0.2rem solid #fe5000;
+        width: 5rem;
+        margin: 10px;
+    }
+    .containerRow{
+        width: 90%;
+    }
+    .gallery {
+        height: 15rem;
+    }
+}
