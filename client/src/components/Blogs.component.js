@@ -36,9 +36,9 @@ class Blogs extends Component {
                             <p className="blog-author"><i>By Sara Davidson - November 30, 2020</i></p>
                             <img className="imageResponsive" src={ OverTheRhine } alt="Over The Rine"/>
                             <div className="content">
-                                <p className="letter">E</p>
+                                <p className="letter">W</p>
                                 <p className="text text-justify">
-                                Well-preserved 19th-century buildings pepper historic Over-the-Rhine,
+                                ell-preserved 19th-century buildings pepper historic Over-the-Rhine,
                                  a onetime working-class German neighborhood now home to craft breweries,
                                   hip gastropubs, and trendy bars. Dating from the 1850s,
                                    Findlay Market bustles with indoor specialty grocers and a weekend farmers’ market.

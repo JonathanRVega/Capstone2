@@ -143,19 +143,19 @@ after4(){
                 <div className="iconsBorder">
                    <div className="iconsRow" >
                      <div className="iconsContainer" onClick={this.after}>
-                     <img className="iconsPlay" src={IconTokyo} ></img>
+                     <img className="iconsPlay" src={IconTokyo} alt="Tokyo Icon"></img>
                         <p className="iconsText">Tokyo Kitty</p>
                      </div>
                      <div className="iconsContainer" onClick={this.after2}>
-                     <img className="iconsPlay" src={IconReds} ></img>
+                     <img className="iconsPlay" src={IconReds} alt="Reds Icon"></img>
                         <p className="iconsText">The Great American Ball Park</p>
                      </div>
                      <div className="iconsContainer" onClick={this.after3}>
-                     <img className="iconsPlay" src={IconTaft} ></img>
+                     <img className="iconsPlay" src={IconTaft} alt="Taft Icon"></img>
                         <p className="iconsText">The Taft Museum of Art</p>
                      </div>
                      <div className="iconsContainer" onClick={this.after4}>
-                     <img className="iconsPlay" src={IconZoo} ></img>
+                     <img className="iconsPlay" src={IconZoo} alt="Zoo Icon"></img>
                         <p className="iconsText">Cincinnati Zoo</p>
                      </div>
 
@@ -164,7 +164,7 @@ after4(){
 
                    <div className="backgroundImageContainer">
                    <div className="ImageIconsContainer">
-                     <img id="myImage" src={Tokyo1} className="ImagesPlay"></img>
+                     <img id="myImage" src={Tokyo1} className="ImagesPlay" alt="Tokyo Kitty"></img>
                      <div className="card-info">
                         <div className="text-box ">
                             <h3 id="title">Tokyo Kitty</h3>
