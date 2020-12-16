@@ -79,7 +79,7 @@ export default class CreateAttraction extends Component {
       console.log(attraction);
 
       try {
-      axios.post('http://localhost:5000/attractions/add', attraction)
+      axios.post(BACKEND_URL + 'attractions/add', attraction)
       .then(res => console.log(res.data));
 
       window.location = '/blog';
