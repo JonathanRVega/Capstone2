@@ -1,5 +1,5 @@
  /* CSS Resets */
-html {
+ html {
     /* changed font to the percentage below so it would be easier to use REMs. 
     62.5% = 10px and 10px = 1rem */
     font-size: 62.5%;
@@ -79,6 +79,8 @@ body {
 .header-home-text-container p {
     line-height: 2.5rem;
     font-weight: lighter;
+    width: 50%;
+    text-align: justify;
 }
 
 /* facts section */
@@ -183,6 +185,10 @@ body {
     height: 40rem;
     object-fit: cover;
 }
+.carousel-caption {
+    color: #ffffff;
+    background-color: rgba(86, 86, 86, 0.6);
+}
 
 /* things to do section */
 .things-section {
@@ -280,6 +286,9 @@ body {
     .header-home-text-container {
         padding-top: 20%;
     }
+    .header-home-text-container p {
+        width: 75%;
+    }
     .facts-info {
         justify-content: center !important;
     }
@@ -295,8 +304,8 @@ body {
     .header-home-text-container {
         padding-top: 30%;
     }
-    .header-home-text-container p br {
-        display: none;
+    .header-home-text-container p {
+        width: 100%;
     }
     .facts-info {
         justify-content: center !important;
@@ -328,9 +337,6 @@ body {
     }
     .header-home-text-container h1 span {
         font-size: 4rem;
-    }
-    .header-home-text-container p br {
-        display: none;
     }
     .facts-info {
         justify-content: center !important;

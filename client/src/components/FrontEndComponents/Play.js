@@ -66,9 +66,6 @@ after4(){
                                 in the Queen City also known as
                                 Cincinnati.
                         </p>   
-                        <button className="btn">Shop</button>
-                        <button className="btn">Eat</button>             
-                        <button className="btn">Play</button>
                         </div>
                      
                     

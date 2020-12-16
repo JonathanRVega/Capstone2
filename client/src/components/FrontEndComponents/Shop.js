@@ -26,7 +26,7 @@ const Shop = () => {
                <div className="line"></div>
                <h1>Shop In<br/><span>Cincinnati</span></h1>
                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. <br/> Autem illo doloribus vero hic adipisci suscipit itaque porro saepe <br/> iure culpa? utem illo doloribus vero hic adipisci suscipit itaque porro <br/> saepe iure culpa.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem illo doloribus vero hic adipisci suscipit itaque porro saepe iure culpa? utem illo doloribus vero hic adipisci suscipit itaque porro saepe iure culpa.
                </p>   
             </div>
          </header>
@@ -62,7 +62,7 @@ const Shop = () => {
                            <div className="line"></div>
                            <h2>Shop At<br/><span>Monroe Premium Outlet</span></h2>
                            <p>
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel dui vel lectus efficitur rutru. Nullam facilisis lorem in enim bibendum interdum. Nulla non tincidunt metus, ac lobortis libero. Suspendisse dictum ante eu enim iaculis, eget ultrices est hendrerit.
+                           Cincinnati Premium Outlets is the largest outlet mall in the area with about 100 stores and is located 29 miles north of Cincinnati. The outlet stores include popular, upscale brands and a few that are difficult to find elsewhere. Cincinnati Premium Outlets is an outdoor shopping mall with partially covered walkways between the buildings, providing needed shade during the summer months.
                            </p>
                      </div>
                      <div className="col-lg-6 img d-flex justify-content-center mt-4 order-md-1 order-lg-2">
@@ -81,7 +81,7 @@ const Shop = () => {
                            <div className="line"></div>
                            <h2>Shop At<br/><span>OTR Retail District</span></h2>
                            <p>
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel dui vel lectus efficitur rutru. Nullam facilisis lorem in enim bibendum interdum. Nulla non tincidunt metus, ac lobortis libero. Suspendisse dictum ante eu enim iaculis, eget ultrices est hendrerit.
+                           Cincinnati's Over-the-Rhine neighborhood was once a place where residents would not recommend to visitors, but that has changed. The restaurant and nightlife scene is now thriving, and the shopping scene is beginning to catch up. Most of the shops are in the southwest quarter of Over-the-Rhine, on either Vine or Main St. You won't find chain stores in this walkable shopping district. MiCA 12/v and Urban Eden are a popular gift shops that sell local arts and crafts. 
                            </p>
                      </div>                                                             
                   </div>                                           
@@ -93,7 +93,7 @@ const Shop = () => {
                            <div className="line"></div>
                            <h2>Shop At<br/><span>Kenwood Mall</span></h2>
                            <p>
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel dui vel lectus efficitur rutru. Nullam facilisis lorem in enim bibendum interdum. Nulla non tincidunt metus, ac lobortis libero. Suspendisse dictum ante eu enim iaculis, eget ultrices est hendrerit.
+                           Kenwood Towne Centre is a thriving shopping destination in Cincinnati. It is anchored by three major department stores: Macy's, Dillard's and Nordstrom, and also has over 180 specialty shops, including many popular and trendy clothing stores. This mall caters to discriminating shoppers with several upscale shops and over 60 exclusive retailers that can't be found elsewhere in Greater Cincinnati.
                            </p>
                      </div>
                      <div className="col-lg-6 img d-flex justify-content-center mt-4 order-md-1 order-lg-2">

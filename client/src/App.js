@@ -10,6 +10,7 @@ import Contact from './components/Contact.component';
 import Eat from './components/FrontEndComponents/Eat';
 import Play from './components/FrontEndComponents/Play';
 import Shop from './components/FrontEndComponents/Shop';
+import ScrollToTop from './ScrollToTop'
 
 
 
@@ -18,6 +19,7 @@ class App extends Component {
   render() {
     return (
       <BrowserRouter>
+      <ScrollToTop>
         <div className="App">
           <Switch>
             <Route exact path='/' component={ Home }/>
@@ -30,6 +32,7 @@ class App extends Component {
             <Route path='/shop' component={ Shop } />
           </Switch>
         </div>
+      </ScrollToTop>
       </BrowserRouter>
     );
   }

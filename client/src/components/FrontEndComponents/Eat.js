@@ -24,7 +24,9 @@ import Footer from '../FrontEndComponents/Footer'
                         <div className="line"></div>
                         <h1>Eat Good In<br/><span>Cincinnati</span></h1>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. <br/> Autem illo doloribus vero hic adipisci suscipit itaque porro saepe <br/> iure culpa? utem illo doloribus vero hic adipisci suscipit itaque porro <br/> saepe iure culpa.
+                           Come and check out some of the finest restruants in Cincinnati. 
+                           There's plenty of wonderful places to eat and drink! 
+                           If you have a taste for it, we have it here! 
                         </p>   
                      </div>
                </header>
@@ -49,7 +51,9 @@ import Footer from '../FrontEndComponents/Footer'
                            <div className="line"></div>
                            <h2>Eat At<br/><span>16 Bit Arcade</span></h2>
                            <p>
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel dui vel lectus efficitur rutru. Nullam facilisis lorem in enim bibendum interdum. Nulla non tincidunt metus, ac lobortis libero. Suspendisse dictum ante eu enim iaculis, eget ultrices est hendrerit.
+                              16-Bit Bar+Arcade redefines how a night out is best played. With a name coined from the computer architecture that several of our 50+ vintage arcade
+                              cabinets were built on, 16-Bit appeals to those looking for an alternative to the monotonous. From bar-going veterans to young  open-minded, beer-centric types 
+                              to arcade game novices and enthusiasts, the nostalgic and playful vibe is for players of all types.
                            </p>
                      </div>
                      <div className="col-lg-6 img d-flex justify-content-center order-md-1 order-lg-2 mt-4">
@@ -68,7 +72,9 @@ import Footer from '../FrontEndComponents/Footer'
                            <div className="line"></div>
                            <h2>Eat At<br/><span>Taste Of Cincinnati</span></h2>
                            <p>
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel dui vel lectus efficitur rutru. Nullam facilisis lorem in enim bibendum interdum. Nulla non tincidunt metus, ac lobortis libero. Suspendisse dictum ante eu enim iaculis, eget ultrices est hendrerit.
+                              Nothing has more appeal than a festival that promises a wide selection of food in a concentrated space.
+                              Being that it’s also the longest running culinary arts festival in the country –
+                              with 500,000 people attending each year – it practically screams foodie happiness.
                            </p>
                      </div>                                                             
                   </div>                                           
@@ -80,7 +86,9 @@ import Footer from '../FrontEndComponents/Footer'
                            <div className="line"></div>
                            <h2>Eat At<br/><span>Nada</span></h2>
                            <p>
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel dui vel lectus efficitur rutru. Nullam facilisis lorem in enim bibendum interdum. Nulla non tincidunt metus, ac lobortis libero. Suspendisse dictum ante eu enim iaculis, eget ultrices est hendrerit.
+                              We believe in the power of beer to bring great people together, foment fantastic ideas,
+                               and build a community that values craft beer and one another. Rhinegeist means "Ghost of the Rhine," and refers to our place here in the historic
+                               Over-the-Rhine neighborhood of Cincinnati. Within these unique and historic walls, we brew batches of beer that sing with flavor.
                            </p>
                      </div>
                      <div className="col-lg-6 img d-flex justify-content-center order-md-1 order-lg-2 mt-4">
