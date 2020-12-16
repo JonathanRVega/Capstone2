@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import '../index.css';
+<<<<<<< HEAD
 import '../config';
+=======
+>>>>>>> d9cb05b0dffb060f3e4fbe1efa83f558ffcd2591
 import { BACKEND_URL } from '../config';
 
 export default class CreateAttraction extends Component {
@@ -80,9 +83,12 @@ export default class CreateAttraction extends Component {
       console.log(attraction);
 
       try {
-      axios.post( BACKEND_URL + 'attractions/add', attraction)
+      axios.post(BACKEND_URL + 'attractions/add', attraction)
       .then(res => console.log(res.data));
-        this.props.history.push('/blog');
+
+      //bad bad line dont use
+      // window.location = '/blog';
+      this.props.history.push('/blog')
       }
       catch (err) {
           console.log(err);
