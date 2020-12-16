@@ -13,13 +13,13 @@ export default class Contact extends Component {
 
                     {/* navbar component */}
                     <Navbar />
-                    <div className="header-text-contact-container container">
+                    <div className="header-text-contact-container container text-justify">
                         <div className="line"></div>
                         <h1>Explore<br/><span>Cincinnati</span></h1>
                         <p>
-                        Exploring Cincinnati can feel like a brand new <br/>
-                            journey each time you visit! <br/>
-                             Discover something new, like local breweries, new animals at the zoo <br/> 
+                        Exploring Cincinnati can feel like a brand new
+                            journey each time you visit!
+                             Discover something new, like local breweries, new animals at the zoo
                             or even your new favorite art piece!
                         </p>
                     </div>

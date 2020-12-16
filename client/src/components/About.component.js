@@ -1,4 +1,6 @@
-import React, { Component } from 'react';
+import React, { useEffect } from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 import Footer from '../components/FrontEndComponents/Footer';
 import '../css/About.css';
 import Navbar from '../components/navbar.component';
@@ -13,24 +15,27 @@ import danielhs from '../assets/about/daniel-hs.jpg';
 import derrickhs from '../assets/about/derrick-hs.jpg';
 import jonathanhs from '../assets/about/jonathan-hs.jpg';
 
- class About extends Component {
-    render() {
-        return (
+ const About = () => {
+      useEffect(() => {
+         Aos.init({duration: 1500});
+      }, [])
+
+      return (
             <div>
             {/* start of header section - cc */}
                <header id="header-about-section">
                   {/* navbar component - cc */}
                   <Navbar />
-                  <div className="header-about-text container">
+                  <div data-aos="fade-down" className="header-about-text container text-justify">
                      <div className="line"></div>
                      <h1>About Us<br/><span>Cincinnati</span></h1>
                      <p>
-                     Cincinnati is a city in Ohio, on the Ohio River. <br/>
-                     The Over-the-Rhine district is known for its 19th-century architecture,<br/>
-                      including Findlay Market, which has food and craft vendors. To the north is <br/>
-                      the Cincinnati Zoo & Botanical Garden. The Cincinnati Museum Center encompasses history,<br/>
-                       science and children's museums in the art deco Union Terminal.<br/>
-                      Works spanning 6,000 years are on display at the Cincinnati Art Museum.
+                     Cincinnati is a city in Ohio, on the Ohio River.
+                     The Over-the-Rhine district is known for its 19th-century architecture,
+                     including Findlay Market, which has food and craft vendors. To the north is 
+                     the Cincinnati Zoo & Botanical Garden. The Cincinnati Museum Center encompasses history,
+                     science and children's museums in the art deco Union Terminal.
+                     Works spanning 6,000 years are on display at the Cincinnati Art Museum.
                      </p>
                      <button className="btn">Explore</button>
                   </div>
@@ -38,7 +43,7 @@ import jonathanhs from '../assets/about/jonathan-hs.jpg';
                {/* end of header section - cc */}
                <div className="about container">
                   <div className="row">
-                     <div className="col-sm-12 col-md-6 mt-5">
+                     <div data-aos="fade-right" className="col-sm-12 col-md-6 mt-5">
                         <div className="line"></div>
                         <h2>Our</h2><br/>
                         <h1>Mission</h1> 
@@ -46,7 +51,7 @@ import jonathanhs from '../assets/about/jonathan-hs.jpg';
                         we aim to show you all the tourist hotspots and maybe some secret spots too!</p>
                      </div>
                      <div className="col-md-2 d-none d-sm-block"></div>
-                     <div className="col-12 col-sm-12 col-md-4">
+                     <div data-aos="fade-left" className="col-12 col-sm-12 col-md-4">
                         <div className="aboutImageBackground1 ml-5 float-sm-right"></div>
                         <div className="aboutImage mr-md-5 float-sm-right">
                            <img id="aboutImage1" src={aboutImage1} alt="About 1"/>
@@ -54,7 +59,7 @@ import jonathanhs from '../assets/about/jonathan-hs.jpg';
                      </div>
                   </div>
                   <div className="row mt-5">   
-                     <div className="col-12 col-sm-12 col-md-6">
+                     <div data-aos="fade-right" className="col-12 col-sm-12 col-md-6">
                         <div className="aboutImageBackground2"></div>
                         <div className="aboutImage ml-md-5" id="aboutImage2">
                            <img id="aboutUsImages" src={courtneyhs} alt="Courtney Headshot"/>
@@ -63,7 +68,7 @@ import jonathanhs from '../assets/about/jonathan-hs.jpg';
                            <img id="aboutUsImages" src={jonathanhs} alt="Jonathan Headshot"/>
                         </div>
                      </div>
-                     <div className="col-sm-12 col-md-6 mt-5">
+                     <div data-aos="fade-left" className="col-sm-12 col-md-6 mt-5">
                         <div className="line"></div>
                         <h2>Meet</h2><br/>
                         <h1>The Team</h1> 
@@ -73,7 +78,7 @@ import jonathanhs from '../assets/about/jonathan-hs.jpg';
                      </div>
                   </div>
                </div>
-               <div className="row mt-5">   
+               <div data-aos="fade-in" className="row mt-5">   
                      <div className="col-md-12 charitiesBackground py-5 text-center">
                         <h1>Explore Cincinnati Charities</h1>
                         <div className="d-inline-flex flex-column flex-md-row mt-5">
@@ -109,5 +114,4 @@ import jonathanhs from '../assets/about/jonathan-hs.jpg';
             </div>
         )
     }
-}
 export default About;
