@@ -4,6 +4,7 @@ import phone from '../assets/icons/phone.png'
 import email from '../assets/icons/mail.png'
 import location from '../assets/icons/location.png'
 import '../css/contact.css'
+import { BACKEND_URL } from '../config';
 
 class CreateMail extends Component {
     constructor(props) {  
@@ -66,7 +67,7 @@ class CreateMail extends Component {
 
         console.log(mail);
 
-        axios.post('http://localhost:5000/mail/add', mail)
+        axios.post(BACKEND_URL + 'mail/add', mail)
             .then(res => console.log(res.data));
             
 
