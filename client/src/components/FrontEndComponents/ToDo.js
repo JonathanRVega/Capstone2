@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import Navbar from "../navbar.component";
 import Footer from '../FrontEndComponents/Footer';
 import '../../things.css'
@@ -24,14 +25,11 @@ import Asm from '../../assets/places/asm.jpg';
                            There's plenty to do in Cincinnati,
                            everything from shopping, playing,
                            all the way to eating wonderful meals!
-                     </p>   
-                        <button className="btn">Shop</button>
-                        <button className="btn">Eat</button>             
-                        <button className="btn">Play</button>
+                        </p>   
+                        <Link to='/shop'><button className="btn">Shop</button></Link>
+                        <Link to='/eat'><button className="btn todo-btn">Eat</button></Link>             
+                        <Link to='/play'><button className="btn">Play</button></Link>
                         </div>
-                     
-                    
-                    
                 </header>
                
                 <section>

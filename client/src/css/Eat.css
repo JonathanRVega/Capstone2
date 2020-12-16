@@ -35,6 +35,7 @@
     line-height: 2.5rem;
     font-weight: lighter;
     text-align: justify;
+    width: 50%;
 }
 
 /* places to eat section */
@@ -99,6 +100,9 @@
     .header-eat-text-container {
         padding-top: 20% !important;
     }
+    .header-eat-text-container p {
+        width: 75%;
+    }
   
 }
 
@@ -114,8 +118,8 @@
     .header-eat-text-container h1 span {
         font-size: 4rem;
     }
-    .header-eat-text-container p br {
-        display: none;
+    .header-eat-text-container p {
+        width: 100%;
     }
     .place-to-eat-section p {
         padding: 0 3rem;

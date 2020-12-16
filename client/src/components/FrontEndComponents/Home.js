@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import '../../css/Eat.css';
 import Aos from 'aos';
 import Navbar from "../navbar.component";
@@ -11,6 +12,7 @@ import VideoBg from '../../assets/downtown/bg-video.mp4';
 import Carousels from '../StayCarousel';
 import '../../css/Home.css';
 import Footer from '../FrontEndComponents/Footer'
+
 
 const Home = () => {
         
@@ -34,12 +36,12 @@ const Home = () => {
                         <div className="line"></div>
                         <h1>Explore<br/><span>Cincinnati</span></h1>
                         <p>
-                            Exploring Cincinnati can feel like a brand new <br/>
-                            journey each time you visit! <br/>
-                             Discover something new, like local breweries, new animals at the zoo <br/> 
+                            Exploring Cincinnati can feel like a brand new
+                            journey each time you visit!
+                            Discover something new, like local breweries, new animals at the zoo 
                             or even your new favorite art piece!
                         </p>
-                        <button className="btn">Explore</button>
+                        <Link to='/thingstodo'><button className="btn">Explore</button></Link>
                     </div>
                 </header>
                 {/* end of header section - cc */}
@@ -104,9 +106,7 @@ const Home = () => {
                         <div className="text-box">
                             <h3>CVG Airport</h3>
                             <p className="text-justify">
-                            The Cincinnati/Northern Kentucky International Airport has been serving commercial passengers since 1947.
-                            With more than 7,700 acres of land, four runways and 
-                            a diversified base of operations.
+                            The Cincinnati/Northern Kentucky International Airport has been serving commercial passengers since 1947. With more than 7,700 acres of land, four runways, a diversified base of operations on and near the campus, along with an economic impact of $6.8 Billion (2018) <a href=""> Visit website <i class="fas fa-long-arrow-alt-right"></i></a>
                             </p>
                            
                         </div>
@@ -140,21 +140,21 @@ const Home = () => {
                                 Shop, spend, treat yourself <br/>
                                 at the finest stores in all of Ohio 
                                 </p>
-                                <button className="btn">Shop</button>
+                                <Link to='/shop'><button className="btn">Shop</button></Link>
                             </div>
                             <div className="col-md-4 mb-4">
                                 <h3>Eat</h3>
                                 <p>
                                 There's plenty of wonderful places to eat and drink! If you have a taste for it, we have it here! 
                                 </p>
-                                <button className="btn">Eat</button>
+                                <Link to='/eat'><button className="btn">Eat</button></Link>
                             </div>
                             <div className="col-md-4 mb-4">
                                 <h3>Play</h3>
                                 <p>
                                 Play and enjoy the city life in the Queen City also known as Cincinnati.
                                 </p>
-                                <button className="btn">Play</button>
+                                <Link to='/play'><button className="btn">Play</button></Link>
                             </div>
                         </div>
                     </div>
