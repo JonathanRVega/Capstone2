@@ -82,7 +82,9 @@ export default class CreateAttraction extends Component {
       axios.post(BACKEND_URL + 'attractions/add', attraction)
       .then(res => console.log(res.data));
 
+      //bad bad line dont use
       // window.location = '/blog';
+      this.props.history.push('/blog')
       }
       catch (err) {
           console.log(err);
