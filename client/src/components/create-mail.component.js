@@ -4,10 +4,6 @@ import phone from '../assets/icons/phone.png'
 import email from '../assets/icons/mail.png'
 import location from '../assets/icons/location.png'
 import '../css/contact.css'
-<<<<<<< HEAD
-import '../config';
-=======
->>>>>>> d9cb05b0dffb060f3e4fbe1efa83f558ffcd2591
 import { BACKEND_URL } from '../config';
 
 class CreateMail extends Component {
