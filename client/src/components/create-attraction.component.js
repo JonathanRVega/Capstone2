@@ -29,7 +29,7 @@ export default class CreateAttraction extends Component {
       }
 
       componentDidMount() {
-            axios.get(BACKEND_URL + 'attractions/')
+            axios.get(BACKEND_URL + 'attractions')
             .then(response => {
                 if(response.data.length > 0){
                     this.setState({
@@ -82,7 +82,7 @@ export default class CreateAttraction extends Component {
       axios.post('http://localhost:5000/attractions/add', attraction)
       .then(res => console.log(res.data));
 
-      window.location = '/blog';
+      
       }
       catch (err) {
           console.log(err);
