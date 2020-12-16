@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import '../index.css';
+import { BACKEND_URL } from '../config';
 
 export default class CreateAttraction extends Component {
     constructor(props) {  
@@ -28,7 +29,7 @@ export default class CreateAttraction extends Component {
       }
 
       componentDidMount() {
-            axios.get('http://localhost:5000/attractions/')
+            axios.get(BACKEND_URL + 'attractions/')
             .then(response => {
                 if(response.data.length > 0){
                     this.setState({
