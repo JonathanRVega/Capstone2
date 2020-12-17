@@ -37,11 +37,11 @@ import jonathanhs from '../assets/about/jonathan-hs.jpg';
                      science and children's museums in the art deco Union Terminal.
                      Works spanning 6,000 years are on display at the Cincinnati Art Museum.
                      </p>
-                     <button className="btn">Explore</button>
+                     <a href="#about"><button className="btn">Explore</button></a>
                   </div>
                </header>
                {/* end of header section - cc */}
-               <div className="about container">
+               <div className="about container" id="about">
                   <div className="row">
                      <div data-aos="fade-right" className="col-sm-12 col-md-6 mt-5">
                         <div className="line"></div>
