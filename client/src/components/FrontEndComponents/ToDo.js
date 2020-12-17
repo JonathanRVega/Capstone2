@@ -1,7 +1,9 @@
-import React, { Component } from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import Navbar from "../navbar.component";
 import Footer from '../FrontEndComponents/Footer';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 import '../../things.css'
 import Waterview from '../../assets/downtown/waterview.jpg';
 import NadaOutside from '../../assets/nada/Nada_Exterior.jpg';
@@ -12,8 +14,13 @@ import Taste from '../../assets/nada/large.jpg';
 import Zoo from '../../assets/zoo/kangaroo.jpg';
 import Asm from '../../assets/places/asm.jpg';
 
- class ToDo extends Component {
-    render() {
+ const ToDo = () =>  {
+
+   // animate on scroll - cc 
+   useEffect(() => {
+      Aos.init({duration: 1500});
+   }, [])
+    
         return (
             <div>
               <header id="header-section">
@@ -33,7 +40,7 @@ import Asm from '../../assets/places/asm.jpg';
                 </header>
                
                 <section>
-                     <div className="containerRow containerBackgroundBig">
+                     <div data-aos="fade-up" className="containerRow containerBackgroundBig">
                         <div className="containerColumn facts-text-box">
                             <div className="line"></div>
                                <h1 className="factsHeader">Explore<br/>The City Life</h1>
@@ -68,7 +75,7 @@ import Asm from '../../assets/places/asm.jpg';
                 </section>
 
                 <section>                                        
-                  <div className="containerRow containerBackground">
+                  <div data-aos="fade-in" className="containerRow containerBackground">
                      <div className="containerColumn facts-text-box">
                         <div className="line"></div>
                         <h1 className="factsHeader">Shop<br/>The City Life</h1>
@@ -83,7 +90,7 @@ import Asm from '../../assets/places/asm.jpg';
                 </section>
 
                 <section>
-                  <div className="containerRow containerBackground">
+                  <div data-aos="fade-in" className="containerRow containerBackground">
                      <div className="containerColumn">
                      <img className="todo-img" src={ NadaOutside } alt="Great American Ball Park" />
                      </div>
@@ -99,7 +106,7 @@ import Asm from '../../assets/places/asm.jpg';
                 </section>
 
                 <section>                                        
-                  <div className="containerRow containerBackground">
+                  <div data-aos="fade-in" className="containerRow containerBackground">
                      <div className="containerColumn facts-text-box">
                         <div className="line"></div>
                         <h1 className="factsHeader">Play<br/>The City Life</h1>
@@ -116,7 +123,7 @@ import Asm from '../../assets/places/asm.jpg';
                <Footer/>
            </div> 
         )
-    }
+    
 } 
 
 export default ToDo;
