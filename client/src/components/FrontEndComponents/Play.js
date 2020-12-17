@@ -21,7 +21,7 @@ import IconReds from '../../assets/logo/redslogo-01.png';
       document.getElementById('myImage') 
       .src=Tokyo1; 
       document.getElementById('message') 
-      .innerHTML="Tokyo Kitty text here"; 
+      .innerHTML="Tokyo Kitty is a local karaoke hot spot in the heart of downtown Cincinnati. As you walk in there is a stocked bar in a large room featuring a stage, big screens with the lyrics and a host."; 
       document.getElementById('title') 
       .innerHTML="Tokyo Kitty"; 
   } 
@@ -30,7 +30,7 @@ import IconReds from '../../assets/logo/redslogo-01.png';
    document.getElementById('myImage') 
    .src=Reds1; 
    document.getElementById('message') 
-   .innerHTML="American Ball Park text here"; 
+   .innerHTML="Great American Ball Park is a baseball stadium in Cincinnati, Ohio, which is the home field of Major League Baseball's Cincinnati Reds. It opened in 2003, replacing Cinergy Field, their home field from 1970 to 2002."; 
    document.getElementById('title') 
    .innerHTML="Great American Ball Park"; 
 } 
@@ -39,7 +39,7 @@ after3(){
    document.getElementById('myImage') 
    .src=Taft1; 
    document.getElementById('message') 
-   .innerHTML="Taft Museum of art text here"; 
+   .innerHTML="Built in 1820 by Martin Baum, a merchant and Cincinnati's first millionaire, the house is a registered National Historic Landmark. The House was the home of Cincinnati's leading citizens for several generations."; 
    document.getElementById('title') 
    .innerHTML="Taft Museum of Art"; 
 } 
@@ -48,7 +48,7 @@ after4(){
    document.getElementById('myImage') 
    .src=Zoo1; 
    document.getElementById('message') 
-   .innerHTML="Cincinnati Zoo text here"; 
+   .innerHTML="The Cincinnati Zoo & Botanical Garden is the sixth-oldest zoo in the United States, opening in 1873, after the Roger Williams Park Zoo. It is located in the Avondale neighborhood of Cincinnati, Ohio."; 
    document.getElementById('title') 
    .innerHTML="Cincinnati Zoo"; 
 } 
@@ -168,9 +168,8 @@ after4(){
                      <div className="card-info">
                         <div className="text-box ">
                             <h3 id="title">Tokyo Kitty</h3>
-                            <p id="message">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                           quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <p id="message">Tokyo Kitty is a local karaoke hot spot in the heart of downtown Cincinnati.
+                               As you walk in there is a stocked bar in a large room featuring a stage, big screens with the lyrics and a host.</p>
                         </div>
                     </div>
                      </div>
