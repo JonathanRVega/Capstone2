@@ -69,9 +69,6 @@ class CreateMail extends Component {
 
         axios.post(BACKEND_URL + 'mail/add', mail)
             .then(res => console.log(res.data));
-            
-
-        // window.location = '/';
     }
 
     render() {
