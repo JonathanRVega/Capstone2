@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import '../index.css';
+import { BACKEND_URL } from '../config';
 
 export default class CreateAttraction extends Component {
     constructor(props) {  
@@ -28,7 +29,7 @@ export default class CreateAttraction extends Component {
       }
 
       componentDidMount() {
-            axios.get('http://localhost:5000/attractions/')
+            axios.get(BACKEND_URL + 'attractions/')
             .then(response => {
                 if(response.data.length > 0){
                     this.setState({
@@ -78,10 +79,12 @@ export default class CreateAttraction extends Component {
       console.log(attraction);
 
       try {
-      axios.post('http://localhost:5000/attractions/add', attraction)
+      axios.post(BACKEND_URL + 'attractions/add', attraction)
       .then(res => console.log(res.data));
 
-      window.location = '/blog';
+      //bad bad line dont use
+      // window.location = '/blog';
+      this.props.history.push('/blog')
       }
       catch (err) {
           console.log(err);
