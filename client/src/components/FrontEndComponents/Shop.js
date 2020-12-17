@@ -26,7 +26,8 @@ const Shop = () => {
                <div className="line"></div>
                <h1>Shop In<br/><span>Cincinnati</span></h1>
                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem illo doloribus vero hic adipisci suscipit itaque porro saepe iure culpa? utem illo doloribus vero hic adipisci suscipit itaque porro saepe iure culpa.
+                  Shop, spend, treat yourself
+                  at the finest stores in all of Ohio
                </p>   
             </div>
          </header>
