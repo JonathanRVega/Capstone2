@@ -47,7 +47,7 @@ import jonathanhs from '../assets/about/jonathan-hs.jpg';
                         <div className="line"></div>
                         <h2>Our</h2><br/>
                         <h1>Mission</h1> 
-                        <p>It is our goal to give you every reason to come visit Cincinnati!<br/>
+                        <p>It is our goal to give you every reason to come visit Cincinnati!
                         we aim to show you all the tourist hotspots and maybe some secret spots too!</p>
                      </div>
                      <div className="col-md-2 d-none d-sm-block"></div>
@@ -73,7 +73,7 @@ import jonathanhs from '../assets/about/jonathan-hs.jpg';
                         <h2>Meet</h2><br/>
                         <h1>The Team</h1> 
                         <p>The team who brought you this project is Courtney, Daniel, Derrick, and Jonathan
-                        a group of students from Kable Academy spread out internationally between Dayton, to Cincinnati <br/>
+                        a group of students from Kable Academy spread out internationally between Dayton, to Cincinnati
                         all the way to Chihuahua, Mexico!</p>
                      </div>
                   </div>
