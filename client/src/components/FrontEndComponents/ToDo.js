@@ -99,7 +99,7 @@ import Asm from '../../assets/places/asm.jpg';
                      <h1 className="factsHeader">Eat<br/>The City Life</h1>
                      <p className="todoJustify">Come and check out some of the finest restruants in Cincinnati.
                             There's plenty of wonderful places to eat and drink!
-                             If you have a taste for it, we have it here! 
+                             If you have a taste for it, we have it here 
                      </p>
                      </div>
                   </div>
